@@ -1883,7 +1883,11 @@ img {
         height: var(--nav-height-mobile);
         background-size: 235px auto;
     }
-
+.home-shop-btn {
+        top: 0px; /* adjust this value — try -20px to move it higher */
+        padding: 14px 36px;
+    }
+}
     .nav-container {
         grid-template-columns: 1fr;
         justify-items: center;
@@ -1966,7 +1970,7 @@ img {
     }
     .pd-image-wrap { position: static; }
     .pd-name { font-size: 1.4rem; }
-}
+
 
 
 /* ─── iPad portrait (768px) ─────────────────────────────────── */
@@ -2046,7 +2050,11 @@ img {
         width: 90%;
         max-width: 340px;
     }
-
+.home-shop-btn {
+        top: -30px; /* moves it up more on small phones */
+        padding: 12px 28px;
+        font-size: 0.78rem;
+    }
     /* Details grid → single column */
     .products-grid {
         grid-template-columns: 1fr;
