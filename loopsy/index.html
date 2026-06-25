@@ -30,6 +30,7 @@
                         <div class="dropdown-menu">
                             <a href="accessories.html">Accessories</a>
                             <a href="bags.html">Bags</a>
+                            <a href="clutches.html">Clutches</a>
                             <a href="sleeves.html">Sleeves</a>
                         </div>
                     </div>
@@ -122,9 +123,11 @@
                     <a href="bags.html" onclick="closeMenu()">
                         Bags
                     </a>
-
+                    <a href="clutches.html" onclick="closeMenu()">
+                        Clutches
+                    </a>
                     <a href="sleeves.html" onclick="closeMenu()">
-                        Sleeve
+                        Sleeves
                     </a>
 
                 </div>
@@ -243,7 +246,7 @@
                             </div>
 
                             <h3 class="product-name">
-                                Laptop \ Ipad Sleeves
+                                Laptop\Ipad Sleeves
                             </h3>
 
                         </article>
@@ -266,9 +269,11 @@
                     Some hobbies stay hobbies. Ours became Loopsy.
                 </p>
                 <p>
-                    What started as a creative duo, a crochet hook, and a simple idea grew into a brand built on bold style, artistry, and individuality.
+                    What started as a creative duo, a crochet hook, and a simple idea grew into a brand built on bold
+                    style, artistry, and individuality.
                 </p>
-                <p>Handcrafted from chunky t-shirt yarn in carefully selected, signature shades, each piece is made to stand out and built to last. Eco-friendly, bold, and designed to turn heads.</p>
+                <p>Handcrafted from chunky t-shirt yarn in carefully selected, signature shades, each piece is made to
+                    stand out and built to last. Eco-friendly, bold, and designed to turn heads.</p>
                 <p>We don’t make basics. We make statements.</p>
                 <p>Keep It Looped. ➰</p>
             </div>
@@ -339,6 +344,7 @@
                 <h3>Shop</h3>
                 <a href="accessories.html">Accessories</a>
                 <a href="bags.html">Bags</a>
+                <a href="clutches.html">Clutches</a>
                 <a href="sleeves.html">Sleeves</a>
             </div>
 
@@ -393,39 +399,39 @@
         });
     </script>
     <script>
-    document.getElementById('contactForm').addEventListener('submit', async function (e) {
-        e.preventDefault();
+        document.getElementById('contactForm').addEventListener('submit', async function (e) {
+            e.preventDefault();
 
-        const form    = e.target;
-        const btn     = form.querySelector('button');
-        const success = document.getElementById('contactSuccess');
-        const data    = new FormData(form);
+            const form = e.target;
+            const btn = form.querySelector('button');
+            const success = document.getElementById('contactSuccess');
+            const data = new FormData(form);
 
-        btn.textContent = '...';
-        btn.disabled    = true;
+            btn.textContent = '...';
+            btn.disabled = true;
 
-        try {
-            const res = await fetch('https://formspree.io/f/xlgygjvl', {
-                method:  'POST',
-                body:    data,
-                headers: { 'Accept': 'application/json' },
-            });
+            try {
+                const res = await fetch('https://formspree.io/f/xlgygjvl', {
+                    method: 'POST',
+                    body: data,
+                    headers: { 'Accept': 'application/json' },
+                });
 
-            if (res.ok) {
-                form.style.display    = 'none';
-                success.style.display = 'block';
-            } else {
+                if (res.ok) {
+                    form.style.display = 'none';
+                    success.style.display = 'block';
+                } else {
+                    btn.textContent = 'Send';
+                    btn.disabled = false;
+                    alert('Something went wrong, please try again.');
+                }
+            } catch {
                 btn.textContent = 'Send';
-                btn.disabled    = false;
+                btn.disabled = false;
                 alert('Something went wrong, please try again.');
             }
-        } catch {
-            btn.textContent = 'Send';
-            btn.disabled    = false;
-            alert('Something went wrong, please try again.');
-        }
-    });
-</script>
+        });
+    </script>
     <script>
         const slides = document.querySelectorAll('.home-slide');
         let current = 0;

@@ -143,6 +143,7 @@ img {
     left: 0;
 
     z-index: 3000;
+    overflow: visible !important;
 
     width: 100%;
 
@@ -4490,4 +4491,63 @@ img {
 
     .pd-qty-row { flex-direction: column; align-items: flex-start; gap: 14px; }
 
+}
+
+/* =======================================================
+   MOBILE FIXES FOR BANNER, LOGO, AND PHOTOS
+   ======================================================= */
+
+@media (max-width: 900px) {
+    /* 1. Make the top banner thinner */
+    :root {
+        --nav-height-mobile: 65px !important; 
+    }
+    
+    /* 2. Stop the logo from shrinking too much on small phones */
+    .logo-img {
+        max-height: 55px !important; 
+        width: auto !important;
+    }
+
+    /* 3. Make the banner photos shorter so they aren't so zoomed in */
+    .home-section {
+        min-height: 38vh !important; 
+        padding-bottom: 20px !important;
+    }
+
+    /* Adjust the Shop button position to cleanly fit the new shorter banner */
+    .home-shop-btn {
+        top: 0px !important; 
+        padding: 12px 28px !important;
+    }
+}
+/* =======================================================
+   HAMBURGER & NAVBAR ALIGNMENT FIX
+   ======================================================= */
+@media (max-width: 900px) {
+    /* 1. Give the navigation bar slightly more room so the logo isn't touching the edge */
+    :root {
+        --nav-height-mobile: 75px !important; 
+    }
+    
+    /* 2. Remove the invisible 60px desktop margin that is pushing the hamburger down */
+    .tagline-carousel {
+        margin-bottom: 5px !important;
+    }
+
+    /* 3. Force the hamburger to center properly within the visible orange bar */
+    .hamburger {
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+    }
+}
+
+/* =======================================================
+   PHONE SIZE SHOP NOW BUTTON ADJUSTMENT
+   ======================================================= */
+@media (max-width: 600px) {
+    .home-shop-btn {
+        padding: 10px 24px !important; /* Shrinks the top/bottom and left/right button size */
+        font-size: 0.75rem !important;  /* Makes the text inside slightly smaller */
+    }
 }

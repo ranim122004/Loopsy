@@ -3066,7 +3066,7 @@ const PRODUCTS = {
 
   'pattern-combo2': {
     id: 'pattern-combo2',
-    name: 'Pattern Sleeve – Combo 2',
+    name: 'Sleeve – Coastal Candy',
     price: 28,
     currency: '$',
     image: 'sleeves/combo1.png',
@@ -3119,7 +3119,7 @@ const PRODUCTS = {
 
   'pattern-combo3': {
     id: 'pattern-combo3',
-    name: 'Pattern Sleeve – Combo 3',
+    name: 'Sleeve – Bubblegum Candy',
     price: 28,
     currency: '$',
     image: 'sleeves/combo2.png',
@@ -3171,7 +3171,7 @@ const PRODUCTS = {
   },
   'greyish': {
     id: 'greyish',
-    name: 'Pattern Sleeve – Greyish',
+    name: 'Sleeve – Grey Cloud',
     price: 28,
     currency: '$',
     image: 'sleeves/greyish.png',
@@ -3224,7 +3224,7 @@ const PRODUCTS = {
 
   'bluish': {
     id: 'bluish',
-    name: 'Pattern Sleeve – Bluish',
+    name: 'Sleeve – Ocean Candy',
     price: 28,
     currency: '$',
     image: 'sleeves/ipad_bluish combo.png',
@@ -3277,7 +3277,7 @@ const PRODUCTS = {
 
   'purplish': {
     id: 'purplish',
-    name: 'Pattern Sleeve – Purplish',
+    name: 'Sleeve – Purple Cloud',
     price: 28,
     currency: '$',
     image: 'sleeves/laptop_purplish.png',
@@ -3330,7 +3330,7 @@ const PRODUCTS = {
 
   'pinkish': {
     id: 'pinkish',
-    name: 'Pattern Sleeve – Pinkish',
+    name: 'Sleeve – Pink Cloud',
     price: 28,
     currency: '$',
     image: 'sleeves/pinkish combo.png',
@@ -3686,7 +3686,23 @@ const PRODUCTS = {
       'Handmade, with unique stitch and shade variations.',
     ],
   },
-
+  'clutches-pink': {
+    id: 'clutches-pink',
+    name: 'Pink Sorbet',
+    price: 32,
+    currency: '$',
+    image: 'Clutch/Plush/Pink Sorbet.jpeg',
+    parentLabel: 'Clutch',
+    parentUrl: 'clutches.html',
+    categoryLabel: 'Sorbet Collection',
+    categoryUrl: 'plush.html',
+    description: [
+      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
+      'Size: 14 cm length × 27 cm width',
+      'Metal frame for a comfortable, structured hold.',
+      'Handmade, with unique stitch and shade variations.',
+    ],
+  },
   'clutches-matcha': {
     id: 'clutches-matcha',
     name: 'Clutch  – Strawberry Matcha',
