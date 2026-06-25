@@ -4163,7 +4163,7 @@ const PRODUCTS = {
       'Size: 18 cm length × 27 cm width',
       'Magnetic closure included',
       'Comfortable handle for easy carrying',
-      'Lightweight – add pop tp your outfit',
+      'Lightweight – add pop to your outfit',
     ],
   },
 
@@ -4182,7 +4182,7 @@ const PRODUCTS = {
       'Size: 18 cm length × 27 cm width',
       'Magnetic closure included',
       'Comfortable handle for easy carrying',
-      'Lightweight – add pop tp your outfit',
+      'Lightweight – add pop to your outfit',
     ],
   },
 
@@ -4201,7 +4201,7 @@ const PRODUCTS = {
       'Size: 18 cm length × 27 cm width',
       'Magnetic closure included',
       'Comfortable handle for easy carrying',
-      'Lightweight – add pop tp your outfit',
+      'Lightweight – add pop to your outfit',
     ],
   },
 
@@ -4220,7 +4220,7 @@ const PRODUCTS = {
       'Size: 18 cm length × 27 cm width',
       'Magnetic closure included',
       'Comfortable handle for easy carrying',
-      'Lightweight – add pop tp your outfit',
+      'Lightweight – add pop to your outfit',
     ],
   },
 

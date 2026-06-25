@@ -1743,8 +1743,8 @@ img {
 
     position: absolute;
 
-    right: 22px;
-
+    /* right: 22px; */
+    left: 22px;
     top: 50%;
 
     transform: translateY(-50%);
@@ -2275,9 +2275,16 @@ img {
 
 }
 
-
-
 .contact-container h2 {
+    margin-bottom: 24px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #17233b;
+}
+
+/* .contact-container h2 {
 
     margin-bottom: 28px;
 
@@ -2289,7 +2296,7 @@ img {
 
     color: var(--black);
 
-}
+} */
 
 
 
@@ -4498,27 +4505,41 @@ img {
    ======================================================= */
 
 @media (max-width: 900px) {
-    /* 1. Make the top banner thinner */
-    :root {
-        --nav-height-mobile: 65px !important; 
+    /* 1. Hide the messy desktop stuff */
+    .nav-links, .nav-socials {
+        display: none !important;
     }
-    
-    /* 2. Stop the logo from shrinking too much on small phones */
-    .logo-img {
-        max-height: 55px !important; 
-        width: auto !important;
-    }
-
-    /* 3. Make the banner photos shorter so they aren't so zoomed in */
-    .home-section {
-        min-height: 38vh !important; 
-        padding-bottom: 20px !important;
+/* 2. Position Hamburger (Left) - Pushed down */
+    .hamburger {
+        display: flex !important;
+        position: absolute !important;
+        left: 20px !important;
+        top: 5px !important; /* Increase this to push them lower (e.g., 8px) */
+        z-index: 100 !important;
     }
 
-    /* Adjust the Shop button position to cleanly fit the new shorter banner */
-    .home-shop-btn {
-        top: 0px !important; 
-        padding: 12px 28px !important;
+    /* 3. Position Cart (Right) - Pushed down */
+    .nav-right {
+        display: flex !important;
+        position: absolute !important;
+        right: 20px !important;
+        top: 5px !important; /* Increase this to match the hamburger */
+        z-index: 100 !important;
+    }
+/* Add this inside your @media (max-width: 900px) block */
+    .cart-btn {
+        width: 40px !important;  /* Reduced from 44px or 54px */
+        height: 40px !important; /* Reduced from 44px or 54px */
+        font-size: 0.9rem !important; /* Makes the icon inside smaller */
+    }
+
+    /* This ensures the red count badge stays correctly positioned if the button shrinks */
+    .cart-count {
+        width: 16px !important;
+        height: 16px !important;
+        font-size: 0.55rem !important;
+        top: -5px !important;
+        right: -5px !important;
     }
 }
 /* =======================================================
@@ -4541,6 +4562,7 @@ img {
         transform: translateY(-50%) !important;
     }
 }
+
 
 /* =======================================================
    PHONE SIZE SHOP NOW BUTTON ADJUSTMENT
