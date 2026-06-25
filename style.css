@@ -4573,3 +4573,23 @@ img {
         font-size: 0.75rem !important;  /* Makes the text inside slightly smaller */
     }
 }
+
+/* Center the page heading */
+h2, .accessories-container h2 {
+    text-align: center !important;
+    width: 100% !important;
+}
+
+/* Center the product card/image container */
+.accessory-card, .detail-card {
+    margin: 0 auto !important; /* Centers the card within its parent */
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important; /* Centers image inside the card */
+}
+
+/* Ensure the wrapper is centered */
+.accessories-grid, .products-grid {
+    justify-content: center !important;
+    text-align: center !important;
+}
