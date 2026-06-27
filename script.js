@@ -1687,7 +1687,7 @@ const PRODUCTS = {
 
   'sunglass-pinkyellow': {
     id: 'sunglass-pinkyellow',
-    name: 'Sunglasses Case – Hot Fuchsia & Orange',
+    name: 'Sunglasses Case – Hot Fuchsia & Yellow',
     price: 8,
     currency: '$',
     image: 'sunglasses/pinkyellow.jpeg',
@@ -3705,7 +3705,7 @@ const PRODUCTS = {
   },
   'clutches-matcha': {
     id: 'clutches-matcha',
-    name: 'Clutch  – Strawberry Matcha',
+    name: 'Clutch  – Dreamy Mint',
     price: 29,
     currency: '$',
     image: 'Clutch/Plush/Clutch  – Strawberry Matcha.jpeg',
