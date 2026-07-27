@@ -76,12 +76,15 @@
             </div>
 
 
-            <div class="nav-right">
-                <button class="cart-btn">
-                    <i class="fa-solid fa-bag-shopping"></i>
-                    <span class="cart-count">0</span>
-                </button>
-            </div>
+                <div class="nav-right">
+                            <button class="search-btn" id="searchBtn" aria-label="Search">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                            <button class="cart-btn">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <span class="cart-count">0</span>
+                            </button>
+                        </div>
 
 
             <button class="hamburger" id="hamburger">
@@ -92,6 +95,20 @@
 
         </div>
     </header>
+    <!-- SEARCH PANEL -->
+    <div class="search-overlay" id="searchOverlay"></div>
+    <div class="search-panel" id="searchPanel">
+        <div class="search-panel-inner">
+            <div class="search-input-row">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="searchInput" placeholder="Search products…" autocomplete="off">
+                <button class="search-close" id="searchClose" aria-label="Close search">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="search-results" id="searchResults"></div>
+        </div>
+    </div>
 
 
     <div class="mobile-menu" id="mobileMenu">
@@ -183,13 +200,13 @@
 
             <div class="accessories-container">
 
-               <a href="index.html" class="accesosries"> <h2>ACCESSORIES</h2> </a> 
+               <a href="index.html" class="accesosries"> <h2>Accessories</h2> </a> 
 
                 <div class="accessories-grid">
 
                     <a href="airpods.html" class="accessory-card">
 
-                        <img src="airpods/dark pink.png" alt="AirPods Case">
+                        <img src="airpods/retro orange.png" alt="AirPods Case">
 
                         <h3>AirPods Cases</h3>
 

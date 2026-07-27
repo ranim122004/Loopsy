@@ -11,13 +11,14 @@ const PRODUCTS = {
   // ── AIRPODS ──
   'airpod-black': {
     id: 'airpod-black',
+    swatchColor: '#222222',
     name: 'AirPods Case – Black',
     price: 5,
     currency: '$',
     image: 'airpods/black.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'AirPods',
+    categoryLabel: 'AirPods Single',
     categoryUrl: 'airpods.html',
     variantGroups: [
       {
@@ -40,13 +41,14 @@ const PRODUCTS = {
 
   'airpod-blush': {
     id: 'airpod-blush',
+    swatchColor: '#f2c4c4',
     name: 'AirPods Case – Blush',
     price: 5,
     currency: '$',
     image: 'airpods/blush.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'AirPods',
+    categoryLabel: 'AirPods Single',
     categoryUrl: 'airpods.html',
     variantGroups: [
       {
@@ -69,13 +71,14 @@ const PRODUCTS = {
 
   'airpod-cream-brown': {
     id: 'airpod-cream-brown',
+    swatchColors: ['#e8d5b0', '#6B4635'],
     name: 'AirPods Case – Cream & Brown',
     price: 7,
     currency: '$',
     image: 'airpods/cream&brown.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'AirPods',
+    categoryLabel: 'AirPods Dual',
     categoryUrl: 'airpods.html',
     variantGroups: [
       {
@@ -98,13 +101,14 @@ const PRODUCTS = {
 
   'airpod-blue': {
     id: 'airpod-blue',
+    swatchColors: ['#1a2d5a', '#a8d8f0'],
     name: 'AirPods Case – Blue Duo',
     price: 7,
     currency: '$',
     image: 'airpods/dark and light blue.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'AirPods',
+    categoryLabel: 'AirPods Dual',
     categoryUrl: 'airpods.html',
     variantGroups: [
       {
@@ -133,7 +137,7 @@ const PRODUCTS = {
     image: 'airpods/dark and light purple.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'AirPods',
+    categoryLabel: 'AirPods Dual',
     categoryUrl: 'airpods.html',
     variantGroups: [
       {
@@ -156,13 +160,14 @@ const PRODUCTS = {
 
   'airpod-darkblue': {
     id: 'airpod-darkblue',
+    swatchColor: '#1a2d5a',
     name: 'AirPods Case – Dark Blue',
     price: 5,
     currency: '$',
     image: 'airpods/dark blue.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'AirPods',
+    categoryLabel: 'AirPods Single',
     categoryUrl: 'airpods.html',
     variantGroups: [
       {
@@ -185,13 +190,14 @@ const PRODUCTS = {
 
   'airpod-darkgrey': {
     id: 'airpod-darkgrey',
+    swatchColor: '#555555',
     name: 'AirPods Case – Dark Grey',
     price: 5,
     currency: '$',
     image: 'airpods/dark grey.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'AirPods',
+    categoryLabel: 'AirPods Single',
     categoryUrl: 'airpods.html',
     variantGroups: [
       {
@@ -214,13 +220,14 @@ const PRODUCTS = {
 
   'airpod-darkolive': {
     id: 'airpod-darkolive',
+    swatchColor: '#4a5240',
     name: 'AirPods Case – Dark Olive',
     price: 5,
     currency: '$',
     image: 'airpods/dark olive.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'AirPods',
+    categoryLabel: 'AirPods Single',
     categoryUrl: 'airpods.html',
     variantGroups: [
       {
@@ -243,13 +250,14 @@ const PRODUCTS = {
 
   'airpod-darkpink': {
     id: 'airpod-darkpink',
+    swatchColor: '#c0456b',
     name: 'AirPods Case – Dark Pink',
     price: 5,
     currency: '$',
     image: 'airpods/dark pink.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'AirPods',
+    categoryLabel: 'AirPods Single',
     categoryUrl: 'airpods.html',
     variantGroups: [
       {
@@ -272,13 +280,14 @@ const PRODUCTS = {
 
   'airpod-darkrose': {
     id: 'airpod-darkrose',
+    swatchColor: '#8B3A52',
     name: 'AirPods Case – Dark Rose',
     price: 5,
     currency: '$',
     image: 'airpods/dark rose.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'AirPods',
+    categoryLabel: 'AirPods Single',
     categoryUrl: 'airpods.html',
     variantGroups: [
       {
@@ -301,13 +310,14 @@ const PRODUCTS = {
 
   'airpod-fushia': {
     id: 'airpod-fushia',
+    swatchColor: '#ED0087',
     name: 'AirPods Case – Fuchsia',
     price: 5,
     currency: '$',
     image: 'airpods/fushia.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'AirPods',
+    categoryLabel: 'AirPods Single',
     categoryUrl: 'airpods.html',
     variantGroups: [
       {
@@ -330,13 +340,14 @@ const PRODUCTS = {
 
   'airpod-lightblue': {
     id: 'airpod-lightblue',
+    swatchColor: '#a8d8f0',
     name: 'AirPods Case – Light Blue',
     price: 5,
     currency: '$',
     image: 'airpods/light blue.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'AirPods',
+    categoryLabel: 'AirPods Single',
     categoryUrl: 'airpods.html',
     variantGroups: [
       {
@@ -359,13 +370,14 @@ const PRODUCTS = {
 
   'airpod-lightpink': {
     id: 'airpod-lightpink',
+    swatchColor: '#f8aab0',
     name: 'AirPods Case – Light Pink',
     price: 5,
     currency: '$',
     image: 'airpods/light pink.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'AirPods',
+    categoryLabel: 'AirPods Single',
     categoryUrl: 'airpods.html',
     variantGroups: [
       {
@@ -388,13 +400,14 @@ const PRODUCTS = {
 
   'airpod-lightrose': {
     id: 'airpod-lightrose',
+    swatchColor: '#d73e55',
     name: 'AirPods Case – Light Rose',
     price: 5,
     currency: '$',
     image: 'airpods/light rose.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'AirPods',
+    categoryLabel: 'AirPods Single',
     categoryUrl: 'airpods.html',
     variantGroups: [
       {
@@ -417,13 +430,14 @@ const PRODUCTS = {
 
   'airpod-lightyellow': {
     id: 'airpod-lightyellow',
+    swatchColor: '#f5f0a0',
     name: 'AirPods Case – Light Yellow',
     price: 5,
     currency: '$',
     image: 'airpods/light yellow.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'AirPods',
+    categoryLabel: 'AirPods Single',
     categoryUrl: 'airpods.html',
     variantGroups: [
       {
@@ -446,13 +460,14 @@ const PRODUCTS = {
 
   'airpod-mellonorange': {
     id: 'airpod-mellonorange',
+    swatchColor: '#f5a05a',
     name: 'AirPods Case – Melon Orange',
     price: 5,
     currency: '$',
     image: 'airpods/melon orange.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'AirPods',
+    categoryLabel: 'AirPods Single',
     categoryUrl: 'airpods.html',
     variantGroups: [
       {
@@ -475,13 +490,14 @@ const PRODUCTS = {
 
   'airpod-neonyellow': {
     id: 'airpod-neonyellow',
+    swatchColor: '#e2f020',
     name: 'AirPods Case – Neon Yellow',
     price: 5,
     currency: '$',
     image: 'airpods/neon yellow.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'AirPods',
+    categoryLabel: 'AirPods Single',
     categoryUrl: 'airpods.html',
     variantGroups: [
       {
@@ -504,13 +520,14 @@ const PRODUCTS = {
 
   'airpod-pinkwhite': {
     id: 'airpod-pinkwhite',
+    swatchColors: ['#f8aab0', '#ffffff'],
     name: 'AirPods Case – Pink & White',
     price: 7,
     currency: '$',
     image: 'airpods/pink&white.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'AirPods',
+    categoryLabel: 'AirPods Dual',
     categoryUrl: 'airpods.html',
     variantGroups: [
       {
@@ -533,13 +550,14 @@ const PRODUCTS = {
 
   'airpod-poolblue': {
     id: 'airpod-poolblue',
+    swatchColor: '#3dccc7',
     name: 'AirPods Case – Turquoise',
     price: 5,
     currency: '$',
     image: 'airpods/pool blue.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'AirPods',
+    categoryLabel: 'AirPods Single',
     categoryUrl: 'airpods.html',
     variantGroups: [
       {
@@ -562,13 +580,14 @@ const PRODUCTS = {
 
   'airpod-purplewhite': {
     id: 'airpod-purplewhite',
+    swatchColors: ['#4B2E5A', '#ffffff'],
     name: 'AirPods Case – Purple & White',
     price: 7,
     currency: '$',
     image: 'airpods/purple&white.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'AirPods',
+    categoryLabel: 'AirPods Dual',
     categoryUrl: 'airpods.html',
     variantGroups: [
       {
@@ -591,13 +610,14 @@ const PRODUCTS = {
 
   'airpod-red': {
     id: 'airpod-red',
+    swatchColor: '#c0392b',
     name: 'AirPods Case – Red',
     price: 5,
     currency: '$',
     image: 'airpods/red.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'AirPods',
+    categoryLabel: 'AirPods Single',
     categoryUrl: 'airpods.html',
     variantGroups: [
       {
@@ -620,13 +640,14 @@ const PRODUCTS = {
 
   'airpod-redpink': {
     id: 'airpod-redpink',
+    swatchColors: ['#c0392b', '#f8aab0'],
     name: 'AirPods Case – Red & Pink',
     price: 7,
     currency: '$',
     image: 'airpods/red&pink.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'AirPods',
+    categoryLabel: 'AirPods Dual',
     categoryUrl: 'airpods.html',
     variantGroups: [
       {
@@ -649,13 +670,14 @@ const PRODUCTS = {
 
   'airpod-retroorange': {
     id: 'airpod-retroorange',
+    swatchColor: '#f2871d',
     name: 'AirPods Case – Retro Orange',
     price: 5,
     currency: '$',
     image: 'airpods/retro orange.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'AirPods',
+    categoryLabel: 'AirPods Single',
     categoryUrl: 'airpods.html',
     variantGroups: [
       {
@@ -678,13 +700,14 @@ const PRODUCTS = {
 
   'airpod-white': {
     id: 'airpod-white',
+    swatchColor: '#f5f5f5',
     name: 'AirPods Case – White',
     price: 5,
     currency: '$',
     image: 'airpods/white.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'AirPods',
+    categoryLabel: 'AirPods Single',
     categoryUrl: 'airpods.html',
     variantGroups: [
       {
@@ -707,13 +730,14 @@ const PRODUCTS = {
 
   'airpod-yellow': {
     id: 'airpod-yellow',
+    swatchColor: '#f5e642',
     name: 'AirPods Case – Yellow',
     price: 5,
     currency: '$',
     image: 'airpods/yellow.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'AirPods',
+    categoryLabel: 'AirPods Single',
     categoryUrl: 'airpods.html',
     variantGroups: [
       {
@@ -736,13 +760,14 @@ const PRODUCTS = {
 
   'airpod-yellowpink': {
     id: 'airpod-yellowpink',
+    swatchColors: ['#f87129', '#f8aab0'],
     name: 'AirPods Case – Orange & Pink',
     price: 7,
     currency: '$',
     image: 'airpods/yellow&pink.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'AirPods',
+    categoryLabel: 'AirPods Dual',
     categoryUrl: 'airpods.html',
     variantGroups: [
       {
@@ -843,13 +868,14 @@ const PRODUCTS = {
   // -- Bandana--
   'bandana-beige': {
     id: 'bandana-beige',
+    swatchColor: '#e8d5b0',
     name: 'Dantella Bandana - Beige',
     price: 27,
     currency: '$',
     image: 'banadana/Dantella Bandana - Beige.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Bandana / Hair Net',
+    categoryLabel: 'Dantella Bandana',
     categoryUrl: 'bandana.html',
     description: [
       'Made from 100% cotton yarn – soft, breathable, and comfortable to wear',
@@ -862,13 +888,14 @@ const PRODUCTS = {
   },
   'bandana-blue': {
     id: 'bandana-blue',
+    swatchColor: '#5a7bf2',
     name: 'Dantella Bandana - Blue',
     price: 27,
     currency: '$',
     image: 'banadana/Dantella Bandana - Blue.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Bandana / Hair Net',
+    categoryLabel: 'Dantella Bandana',
     categoryUrl: 'bandana.html',
     description: [
       'Made from 100% cotton yarn – soft, breathable, and comfortable to wear',
@@ -880,13 +907,14 @@ const PRODUCTS = {
   },
   'bandana-hairbeige': {
     id: 'bandana-hairbeige',
+    swatchColor: '#e8d5b0',
     name: 'Hair Net - Beige',
     price: 14,
     currency: '$',
     image: 'banadana/Hair Net - Beige.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Bandana / Hair Net',
+    categoryLabel: 'Hair Net',
     categoryUrl: 'bandana.html',
     description: [
       'Made from 100% cotton yarn – soft, breathable, and comfortable to wear',
@@ -898,13 +926,14 @@ const PRODUCTS = {
 
   'bandana-hairbrown': {
     id: 'bandana-hairbrown',
+    swatchColor: '#6B4635',
     name: 'Hair Net - Brown',
     price: 14,
     currency: '$',
     image: 'banadana/Hair Net - Brown.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Bandana / Hair Net',
+    categoryLabel: 'Hair Net',
     categoryUrl: 'bandana.html',
     description: [
       'Made from 100% cotton yarn – soft, breathable, and comfortable to wear',
@@ -916,13 +945,14 @@ const PRODUCTS = {
 
   'bandana-hairdarkblue': {
     id: 'bandana-hairdarkblue',
+    swatchColor: '#1a2d5a',
     name: 'Hair Net - Dark Blue',
     price: 14,
     currency: '$',
     image: 'banadana/Hair Net - Dark Blue.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Bandana / Hair Net',
+    categoryLabel: 'Hair Net',
     categoryUrl: 'bandana.html',
     description: [
       'Made from 100% cotton yarn – soft, breathable, and comfortable to wear',
@@ -934,13 +964,14 @@ const PRODUCTS = {
 
   'bandana-hairwhite': {
     id: 'bandana-hairwhite',
+    swatchColor: '#f5f5f5',
     name: 'Hair Net - White',
     price: 14,
     currency: '$',
     image: 'banadana/Hair Net - White.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Bandana / Hair Net',
+    categoryLabel: 'Hair Net',
     categoryUrl: 'bandana.html',
     description: [
       'Made from 100% cotton yarn – soft, breathable, and comfortable to wear',
@@ -952,13 +983,14 @@ const PRODUCTS = {
 
   'bandana-brown': {
     id: 'bandana-brown',
+    swatchColor: '#6B4635',
     name: 'Dantella Bandana - Brown',
     price: 27,
     currency: '$',
     image: 'banadana/Dantella Bandana - Brown.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Bandana / Hair Net',
+    categoryLabel: 'Dantella Bandana',
     categoryUrl: 'bandana.html',
     description: [
       'Made from 100% cotton yarn – soft, breathable, and comfortable to wear',
@@ -971,13 +1003,14 @@ const PRODUCTS = {
 
   'bandana-darkblue': {
     id: 'bandana-darkblue',
+    swatchColor: '#1a2d5a',
     name: 'Dantella Bandana - Dark Blue',
     price: 27,
     currency: '$',
     image: 'banadana/Dantella Bandana - Dark Blue.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Bandana / Hair Net',
+    categoryLabel: 'Dantella Bandana',
     categoryUrl: 'bandana.html',
     description: [
       'Made from 100% cotton yarn – soft, breathable, and comfortable to wear',
@@ -990,13 +1023,14 @@ const PRODUCTS = {
 
   'bandana-fushia': {
     id: 'bandana-fushia',
+    swatchColor: '#ED0087',
     name: 'Dantella Bandana - Fuchsia',
     price: 27,
     currency: '$',
     image: 'banadana/Dantella Bandana - Fuchsia.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Bandana / Hair Net',
+    categoryLabel: 'Dantella Bandana',
     categoryUrl: 'bandana.html',
     description: [
       'Made from 100% cotton yarn – soft, breathable, and comfortable to wear',
@@ -1009,13 +1043,14 @@ const PRODUCTS = {
 
   'bandana-pink': {
     id: 'bandana-pink',
+    swatchColor: '#f8aab0',
     name: 'Dantella Bandana - Pink',
     price: 27,
     currency: '$',
     image: 'banadana/Dantella Bandana - Pink.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Bandana / Hair Net',
+    categoryLabel: 'Dantella Bandana',
     categoryUrl: 'bandana.html',
     description: [
       'Made from 100% cotton yarn – soft, breathable, and comfortable to wear',
@@ -1028,13 +1063,14 @@ const PRODUCTS = {
 
   'bandana-purple': {
     id: 'bandana-purple',
+    swatchColor: '#4B2E5A',
     name: 'Dantella Bandana - Purple',
     price: 27,
     currency: '$',
     image: 'banadana/Dantella Bandana - Purple.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Bandana / Hair Net',
+    categoryLabel: 'Dantella Bandana',
     categoryUrl: 'bandana.html',
     description: [
       'Made from 100% cotton yarn – soft, breathable, and comfortable to wear',
@@ -1047,13 +1083,14 @@ const PRODUCTS = {
 
   'bandana-red': {
     id: 'bandana-red',
+    swatchColor: '#c0392b',
     name: 'Dantella Bandana - Red',
     price: 27,
     currency: '$',
     image: 'banadana/Dantella Bandana - Red.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Bandana / Hair Net',
+    categoryLabel: 'Dantella Bandana',
     categoryUrl: 'bandana.html',
     description: [
       'Made from 100% cotton yarn – soft, breathable, and comfortable to wear',
@@ -1066,13 +1103,14 @@ const PRODUCTS = {
 
   'bandana-white': {
     id: 'bandana-white',
+    swatchColor: '#f5f5f5',
     name: 'Dantella Bandana - White',
     price: 27,
     currency: '$',
     image: 'banadana/Dantella Bandana - White.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Bandana / Hair Net',
+    categoryLabel: 'Dantella Bandana',
     categoryUrl: 'bandana.html',
     description: [
       'Made from 100% cotton yarn – soft, breathable, and comfortable to wear',
@@ -1085,13 +1123,14 @@ const PRODUCTS = {
 
   'bandana-shellbrown': {
     id: 'bandana-shellbrown',
+    swatchColor: '#6B4635',
     name: 'Shell Bandana - Brown',
     price: 27,
     currency: '$',
     image: 'banadana/Shell Bandana -  Brown.jpeg',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Bandana / Hair Net',
+    categoryLabel: 'Shell Bandana',
     categoryUrl: 'bandana.html',
     description: [
       'Made from 100% cotton yarn – soft, breathable, and comfortable to wear',
@@ -1104,13 +1143,14 @@ const PRODUCTS = {
 
   'bandana-shellbeige': {
     id: 'bandana-shellbeige',
+    swatchColor: '#e8d5b0',
     name: 'Shell Bandana - Beige',
     price: 27,
     currency: '$',
     image: 'banadana/Shell Bandana - Beige.jpeg',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Bandana / Hair Net',
+    categoryLabel: 'Shell Bandana',
     categoryUrl: 'bandana.html',
     description: [
       'Made from 100% cotton yarn – soft, breathable, and comfortable to wear',
@@ -1123,13 +1163,14 @@ const PRODUCTS = {
 
   'bandana-shelldark': {
     id: 'bandana-shelldark',
+    swatchColor: '#1a2d5a',
     name: 'Shell Bandana - Dark Blue',
     price: 27,
     currency: '$',
     image: 'banadana/Shell Bandana - Dark Blue.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Bandana / Hair Net',
+    categoryLabel: 'Shell Bandana',
     categoryUrl: 'bandana.html',
     description: [
       'Made from 100% cotton yarn – soft, breathable, and comfortable to wear',
@@ -1142,13 +1183,14 @@ const PRODUCTS = {
 
   'bandana-shelloffwhite': {
     id: 'bandana-shelloffwhite',
+    swatchColor: '#f5f0e8',
     name: 'Shell Bandana - Off White',
     price: 27,
     currency: '$',
     image: 'banadana/Shell Bandana - Off white.jpeg',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Bandana / Hair Net',
+    categoryLabel: 'Shell Bandana',
     categoryUrl: 'bandana.html',
     description: [
       'Made from 100% cotton yarn – soft, breathable, and comfortable to wear',
@@ -1162,6 +1204,7 @@ const PRODUCTS = {
   //phone strap
   'phonestraps-blushpink': {
     id: 'phonestraps-blushpink',
+    swatchColor: '#f2c4c4',
     name: 'Phone Wristlet – Blush Pink',
     price: 7,
     currency: '$',
@@ -1180,6 +1223,7 @@ const PRODUCTS = {
   },
   'phonestraps-buttercreame': {
     id: 'phonestraps-buttercreame',
+    swatchColor: '#f5f0a0',
     name: 'Phone Wristlet – Buttercream Yellow',
     price: 7,
     currency: '$',
@@ -1199,6 +1243,7 @@ const PRODUCTS = {
 
   'phonestraps-denim': {
     id: 'phonestraps-denim',
+    swatchColor: '#5a7bf2',
     name: 'Phone Wristlet – Denim Blue',
     price: 7,
     currency: '$',
@@ -1218,6 +1263,7 @@ const PRODUCTS = {
 
   'phonestraps-raspberry': {
     id: 'phonestraps-raspberry',
+    swatchColor: '#c0392b',
     name: 'Phone Wristlet – Raspberry Crush',
     price: 7,
     currency: '$',
@@ -1237,6 +1283,7 @@ const PRODUCTS = {
 
   'phonestraps-ruby': {
     id: 'phonestraps-ruby',
+    swatchColor: '#8B0000',
     name: 'Phone Wristlet – Ruby Red',
     price: 7,
     currency: '$',
@@ -1256,6 +1303,7 @@ const PRODUCTS = {
 
   'phonestraps-sky': {
     id: 'phonestraps-sky',
+    swatchColor: '#a8d8f0',
     name: 'Phone Wristlet – Sky Blue',
     price: 7,
     currency: '$',
@@ -1275,6 +1323,7 @@ const PRODUCTS = {
 
   'phonestraps-tangerine': {
     id: 'phonestraps-tangerine',
+    swatchColor: '#F25823',
     name: 'Phone Wristlet – Tangerine Orange',
     price: 7,
     currency: '$',
@@ -1294,6 +1343,7 @@ const PRODUCTS = {
 
   'phonestraps-ocean': {
     id: 'phonestraps-ocean',
+    swatchColor: '#1a6e8e',
     name: 'Phone Wristlet – Ocean Blue',
     price: 7,
     currency: '$',
@@ -1313,6 +1363,7 @@ const PRODUCTS = {
 
   'phonestraps-oliveleaf': {
     id: 'phonestraps-oliveleaf',
+    swatchColor: '#4a5240',
     name: 'Phone Wristlet – Olive Leaf',
     price: 7,
     currency: '$',
@@ -1332,6 +1383,7 @@ const PRODUCTS = {
 
   'phonestraps-pebble': {
     id: 'phonestraps-pebble',
+    swatchColor: '#888888',
     name: 'Phone Wristlet – Pebble Grey',
     price: 7,
     currency: '$',
@@ -1351,6 +1403,7 @@ const PRODUCTS = {
 
   'phonestraps-vanilla': {
     id: 'phonestraps-vanilla',
+    swatchColor: '#f5f0e8',
     name: 'Phone Wristlet – Vanilla Cream',
     price: 7,
     currency: '$',
@@ -1370,6 +1423,7 @@ const PRODUCTS = {
 
   'phonestraps-wild': {
     id: 'phonestraps-wild',
+    swatchColor: '#D6D0F8',
     name: 'Phone Wristlet – Wild Lavender',
     price: 7,
     currency: '$',
@@ -1388,13 +1442,14 @@ const PRODUCTS = {
   },
   'phonestraps-blues': {
     id: 'phonestraps-blues',
+    swatchColors: ['#1a2d5a', '#a8d8f0'],
     name: 'Phone Wristlet – Blues',
     price: 7,
     currency: '$',
     image: 'Phone Straps/Phone Wristlet/Phone Wristlet – Blues.jpeg',
     parentLabel: 'Phone Straps',
     parentUrl: 'phonestraps.html',
-    categoryLabel: 'Phone Wristlet',
+    categoryLabel: 'Phone Wristlet Two-Tone',
     categoryUrl: 'wristle.html',
     description: [
       'Made from 100% cotton yarn – soft, durable, and eco-friendly',
@@ -1407,13 +1462,14 @@ const PRODUCTS = {
 
   'phonestraps-retro': {
     id: 'phonestraps-retro',
+    swatchColors: ['#F25823', '#f5e642'],
     name: 'Phone Wristlet – Retro',
     price: 7,
     currency: '$',
     image: 'Phone Straps/Phone Wristlet/Phone Wristlet – Retro.jpeg',
     parentLabel: 'Phone Straps',
     parentUrl: 'phonestraps.html',
-    categoryLabel: 'Phone Wristlet',
+    categoryLabel: 'Phone Wristlet Two-Tone',
     categoryUrl: 'wristle.html',
     description: [
       'Made from 100% cotton yarn – soft, durable, and eco-friendly',
@@ -1426,13 +1482,14 @@ const PRODUCTS = {
 
   'phonestraps-orangeblue': {
     id: 'phonestraps-orangeblue',
+    swatchColors: ['#F25823', '#5a7bf2'],
     name: 'Phone Wristlet – Orange & Blue',
     price: 7,
     currency: '$',
     image: 'Phone Straps/Phone Wristlet/Phone Wristlet – Orange & Blue.jpeg',
     parentLabel: 'Phone Straps',
     parentUrl: 'phonestraps.html',
-    categoryLabel: 'Phone Wristlet',
+    categoryLabel: 'Phone Wristlet Two-Tone',
     categoryUrl: 'wristle.html',
     description: [
       'Made from 100% cotton yarn – soft, durable, and eco-friendly',
@@ -1445,13 +1502,14 @@ const PRODUCTS = {
 
   'phonestraps-orangepink': {
     id: 'phonestraps-orangepink',
+    swatchColors: ['#F25823', '#f8aab0'],
     name: 'Phone Wristlet – Orange & Pink',
     price: 7,
     currency: '$',
     image: 'Phone Straps/Phone Wristlet/Phone Wristlet – Orange & Pink.jpeg',
     parentLabel: 'Phone Straps',
     parentUrl: 'phonestraps.html',
-    categoryLabel: 'Phone Wristlet',
+    categoryLabel: 'Phone Wristlet Two-Tone',
     categoryUrl: 'wristle.html',
     description: [
       'Made from 100% cotton yarn – soft, durable, and eco-friendly',
@@ -1464,13 +1522,14 @@ const PRODUCTS = {
 
   'phonestraps-orangewhite': {
     id: 'phonestraps-orangewhite',
+    swatchColors: ['#F25823', '#ffffff'],
     name: 'Phone Wristlet – Orange & White',
     price: 7,
     currency: '$',
     image: 'Phone Straps/Phone Wristlet/Phone Wristlet – Orange & White.jpeg',
     parentLabel: 'Phone Straps',
     parentUrl: 'phonestraps.html',
-    categoryLabel: 'Phone Wristlet',
+    categoryLabel: 'Phone Wristlet Two-Tone',
     categoryUrl: 'wristle.html',
     description: [
       'Made from 100% cotton yarn – soft, durable, and eco-friendly',
@@ -1483,13 +1542,14 @@ const PRODUCTS = {
 
   'phonestraps-yellowpink': {
     id: 'phonestraps-yellowpink',
+    swatchColors: ['#f5e642', '#f8aab0'],
     name: 'Phone Wristlet – Yellow & Pink',
     price: 7,
     currency: '$',
     image: 'Phone Straps/Phone Wristlet/Phone Wristlet – Yellow & Pink.jpeg',
     parentLabel: 'Phone Straps',
     parentUrl: 'phonestraps.html',
-    categoryLabel: 'Phone Wristlet',
+    categoryLabel: 'Phone Wristlet Two-Tone',
     categoryUrl: 'wristle.html',
     description: [
       'Made from 100% cotton yarn – soft, durable, and eco-friendly',
@@ -1502,6 +1562,7 @@ const PRODUCTS = {
   //crossbody
   'crossbody-blues': {
     id: 'crossbody-blues',
+    swatchColors: ['#1a2d5a', '#a8d8f0'],
     name: 'Phone Crossbody – Blues',
     price: 11,
     currency: '$',
@@ -1520,6 +1581,7 @@ const PRODUCTS = {
   },
   'crossbody-pinkred': {
     id: 'crossbody-pinkred',
+    swatchColors: ['#f8aab0', '#c0392b'],
     name: 'Phone Crossbody – Pink & Red',
     price: 11,
     currency: '$',
@@ -1539,6 +1601,7 @@ const PRODUCTS = {
 
   'crossbody-pinkwhite': {
     id: 'crossbody-pinkwhite',
+    swatchColors: ['#f8aab0', '#ffffff'],
     name: 'Phone Crossbody – Pink & White',
     price: 11,
     currency: '$',
@@ -1558,6 +1621,7 @@ const PRODUCTS = {
 
   'crossbody-purplewhite': {
     id: 'crossbody-purplewhite',
+    swatchColors: ['#4B2E5A', '#ffffff'],
     name: 'Phone Crossbody – Purple & White',
     price: 11,
     currency: '$',
@@ -1577,6 +1641,7 @@ const PRODUCTS = {
 
   'crossbody-yellow': {
     id: 'crossbody-yellow',
+    swatchColor: '#f5e642',
     name: 'Phone Crossbody – Yellow',
     price: 11,
     currency: '$',
@@ -1597,6 +1662,7 @@ const PRODUCTS = {
   //   // ── SUNGLASSES ──
   'sunglass-blueorange': {
     id: 'sunglass-blueorange',
+    swatchColors: ['#5a7bf2', '#F25823'],
     name: 'Sunglasses Case – Blue & Orange',
     price: 8,
     currency: '$',
@@ -1615,6 +1681,7 @@ const PRODUCTS = {
 
   'sunglass-blueyellow': {
     id: 'sunglass-blueyellow',
+    swatchColors: ['#5a7bf2', '#f5e642'],
     name: 'Sunglasses Case – Blue & Yellow',
     price: 8,
     currency: '$',
@@ -1633,6 +1700,7 @@ const PRODUCTS = {
 
   'sunglass-brownyellow': {
     id: 'sunglass-brownyellow',
+    swatchColors: ['#6B4635', '#f5e642'],
     name: 'Sunglasses Case – Brown & Yellow',
     price: 8,
     currency: '$',
@@ -1651,6 +1719,7 @@ const PRODUCTS = {
 
   'sunglass-lightpink': {
     id: 'sunglass-lightpink',
+    swatchColors: ['#f8aab0', '#f5e642'],
     name: 'Sunglasses Case – Light Pink & Yellow',
     price: 8,
     currency: '$',
@@ -1669,10 +1738,11 @@ const PRODUCTS = {
 
   'sunglass-pinkorange': {
     id: 'sunglass-pinkorange',
+    swatchColors: ['#ED0087', '#F25823'],
     name: 'Sunglasses Case – Hot Fuchsia & Orange',
     price: 8,
     currency: '$',
-    image: 'sunglasses/pinkorange.jpeg',
+    image: 'sunglasses/pinkorange1.jpeg',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
     categoryLabel: 'Sunglasses',
@@ -1687,6 +1757,7 @@ const PRODUCTS = {
 
   'sunglass-pinkyellow': {
     id: 'sunglass-pinkyellow',
+    swatchColors: ['#ED0087', '#f5e642'],
     name: 'Sunglasses Case – Hot Fuchsia & Yellow',
     price: 8,
     currency: '$',
@@ -1705,6 +1776,7 @@ const PRODUCTS = {
 
   'sunglass-purpleyellow': {
     id: 'sunglass-purpleyellow',
+    swatchColors: ['#4B2E5A', '#f5e642'],
     name: 'Sunglasses Case – Purple & Yellow',
     price: 8,
     currency: '$',
@@ -1724,13 +1796,14 @@ const PRODUCTS = {
   // ── CHARMS ──
   'charm-beig': {
     id: 'charm-beig',
+    swatchColors: ['#e8d5b0', '#6B4635'],
     name: 'Flower Charm – Beige & Brown',
     price: 5,
     currency: '$',
     image: 'charms/flower/beige and brown.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Flower Charm',
     categoryUrl: 'charms.html',
     description: [
       'Handmade crochet flower charm in beige and brown tones',
@@ -1743,13 +1816,14 @@ const PRODUCTS = {
 
   'charm-lightblue': {
     id: 'charm-lightblue',
+    swatchColors: ['#1a2d5a', '#a8d8f0'],
     name: 'Flower Charm – Dark & Light Blue',
     price: 5,
     currency: '$',
     image: 'charms/flower/blue and light blue.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Flower Charm',
     categoryUrl: 'charms.html',
     description: [
       'Crochet flower charm in blue and light blue shades',
@@ -1762,13 +1836,14 @@ const PRODUCTS = {
 
   'charm-bluepink': {
     id: 'charm-bluepink',
+    swatchColors: ['#5a7bf2', '#f8aab0'],
     name: 'Flower Charm – Blue & Pink',
     price: 5,
     currency: '$',
     image: 'charms/flower/blue and pink.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Flower Charm',
     categoryUrl: 'charms.html',
     description: [
       'Colourful blue and pink crochet flower charm',
@@ -1781,13 +1856,14 @@ const PRODUCTS = {
 
   'charm-fushiayellow': {
     id: 'charm-fushiayellow',
+    swatchColors: ['#ED0087', '#f5e642'],
     name: 'Flower Charm – Fushia & Yellow',
     price: 5,
     currency: '$',
     image: 'charms/flower/fushia and yellow.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Flower Charm',
     categoryUrl: 'charms.html',
     description: [
       'Flower charm in fushia',
@@ -1800,13 +1876,14 @@ const PRODUCTS = {
 
   'charm-lightpinkf': {
     id: 'charm-lightpinkf',
+    swatchColors: ['#f8aab0', '#ED0087'],
     name: 'Flower Charm – Light & Dark Pink',
     price: 5,
     currency: '$',
     image: 'charms/flower/light pink and dark pink.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Flower Charm',
     categoryUrl: 'charms.html',
     description: [
       'Crochet Flower charm in pink shades',
@@ -1819,13 +1896,14 @@ const PRODUCTS = {
 
   'charm-lightpurple': {
     id: 'charm-lightpurple',
+    swatchColors: ['#D6D0F8', '#4B2E5A'],
     name: 'Flower Charm – Light & Dark Purple',
     price: 5,
     currency: '$',
     image: 'charms/flower/light purple and dark purple.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Flower Charm',
     categoryUrl: 'charms.html',
     description: [
       'Crochet flower charm in purple tones',
@@ -1838,13 +1916,14 @@ const PRODUCTS = {
 
   'charm-neonyellow': {
     id: 'charm-neonyellow',
+    swatchColors: ['#e2f020', '#a8d8f0'],
     name: 'Flower Charm – Neon Yellow & Baby Blue',
     price: 5,
     currency: '$',
     image: 'charms/flower/neon yellow + baby blue.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Flower Charm',
     categoryUrl: 'charms.html',
     description: [
       'Bright crochet flower charm in neon yellow and baby blue',
@@ -1857,13 +1936,14 @@ const PRODUCTS = {
 
   'charm-orangeblue': {
     id: 'charm-orangeblue',
+    swatchColors: ['#F25823', '#5a7bf2'],
     name: 'Flower Charm – Orange & Blue',
     price: 5,
     currency: '$',
     image: 'charms/flower/orange and blue.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Flower Charm',
     categoryUrl: 'charms.html',
     description: [
       'Orange and blue crochet flower charm',
@@ -1875,13 +1955,14 @@ const PRODUCTS = {
   },
   'charm-orangepink': {
     id: 'charm-orangepink',
+    swatchColors: ['#F25823', '#f8aab0'],
     name: 'Flower Charm – Orange & Pink',
     price: 5,
     currency: '$',
     image: 'charms/flower/orange and pink.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Flower Charm',
     categoryUrl: 'charms.html',
     description: [
       'Handmade crochet flower charm in orange and pink',
@@ -1894,13 +1975,14 @@ const PRODUCTS = {
 
   'charm-pinkred': {
     id: 'charm-pinkred',
+    swatchColors: ['#f8aab0', '#c0392b'],
     name: 'Flower Charm – Pink & Red',
     price: 5,
     currency: '$',
     image: 'charms/flower/pink and red.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Flower Charm',
     categoryUrl: 'charms.html',
     description: [
       'Crochet flower charm in pink and red tones',
@@ -1913,13 +1995,14 @@ const PRODUCTS = {
 
   'charm-pinkwhite': {
     id: 'charm-pinkwhite',
+    swatchColors: ['#f8aab0', '#ffffff'],
     name: 'Flower Charm – Pink & White',
     price: 5,
     currency: '$',
     image: 'charms/flower/pink and white.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Flower Charm',
     categoryUrl: 'charms.html',
     description: [
       'Handmade flower charm in pink and white',
@@ -1932,13 +2015,14 @@ const PRODUCTS = {
 
   'charm-poolblue': {
     id: 'charm-poolblue',
+    swatchColors: ['#3dccc7', '#ffffff'],
     name: 'Flower Charm – Turquoise & White',
     price: 5,
     currency: '$',
     image: 'charms/flower/pool blue and white.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Flower Charm',
     categoryUrl: 'charms.html',
     description: [
       'Crochet flower charm in turquoise and white',
@@ -1951,13 +2035,14 @@ const PRODUCTS = {
 
   'charm-redpink': {
     id: 'charm-redpink',
+    swatchColors: ['#c0392b', '#f8aab0'],
     name: 'Flower Charm – Red & Pink',
     price: 5,
     currency: '$',
     image: 'charms/flower/red and pink.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Flower Charm',
     categoryUrl: 'charms.html',
     description: [
       'Red and pink crochet flower charm',
@@ -1970,13 +2055,14 @@ const PRODUCTS = {
 
   'charm-whiteblue': {
     id: 'charm-whiteblue',
+    swatchColors: ['#ffffff', '#5a7bf2'],
     name: 'Flower Charm – White & Blue',
     price: 5,
     currency: '$',
     image: 'charms/flower/white and blue.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Flower Charm',
     categoryUrl: 'charms.html',
     description: [
       'White and blue crochet flower charm',
@@ -1989,13 +2075,14 @@ const PRODUCTS = {
 
   'charm-yellowpink': {
     id: 'charm-yellowpink',
+    swatchColors: ['#f5e642', '#f8aab0'],
     name: 'Flower Charm – Yellow & Pink',
     price: 5,
     currency: '$',
     image: 'charms/flower/yellow and pink.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Flower Charm',
     categoryUrl: 'charms.html',
     description: [
       'Bright yellow and pink flower charm',
@@ -2008,13 +2095,14 @@ const PRODUCTS = {
 
   'charm-yellowpurple': {
     id: 'charm-yellowpurple',
+    swatchColors: ['#f5e642', '#4B2E5A'],
     name: 'Flower Charm – Yellow & Purple',
     price: 5,
     currency: '$',
     image: 'charms/flower/yellow and purple.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Flower Charm',
     categoryUrl: 'charms.html',
     description: [
       'Crochet flower charm in yellow and purple',
@@ -2027,13 +2115,14 @@ const PRODUCTS = {
 
   'charm-yellowwhite': {
     id: 'charm-yellowwhite',
+    swatchColors: ['#f5e642', '#ffffff'],
     name: 'Flower Charm – Yellow & White',
     price: 5,
     currency: '$',
     image: 'charms/flower/yellow and white.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Flower Charm',
     categoryUrl: 'charms.html',
     description: [
       'Yellow and white crochet flower charm',
@@ -2046,13 +2135,14 @@ const PRODUCTS = {
 
   'charm-black': {
     id: 'charm-black',
+    swatchColor: '#222222',
     name: 'Heart Charm – Black',
     price: 5,
     currency: '$',
     image: 'charms/heart/black.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Heart Charm',
     categoryUrl: 'charms.html',
     description: [
       'Handmade black crochet heart charm',
@@ -2065,13 +2155,14 @@ const PRODUCTS = {
 
   'charm-brown': {
     id: 'charm-brown',
+    swatchColor: '#6B4635',
     name: 'Heart Charm – Brown',
     price: 5,
     currency: '$',
     image: 'charms/heart/brown.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Heart Charm',
     categoryUrl: 'charms.html',
     description: [
       'Brown crochet heart charm',
@@ -2084,13 +2175,14 @@ const PRODUCTS = {
 
   'charm-darkblue': {
     id: 'charm-darkblue',
+    swatchColor: '#1a2d5a',
     name: 'Heart Charm – Dark Blue',
     price: 5,
     currency: '$',
     image: 'charms/heart/dark blue.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Heart Charm',
     categoryUrl: 'charms.html',
     description: [
       'Dark blue crochet heart charm',
@@ -2103,13 +2195,14 @@ const PRODUCTS = {
 
   'charm-fushia': {
     id: 'charm-fushia',
+    swatchColor: '#ED0087',
     name: 'Heart Charm – Fushia',
     price: 5,
     currency: '$',
     image: 'charms/heart/fushia.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Heart Charm',
     categoryUrl: 'charms.html',
     description: [
       'Bright fushia crochet heart charm',
@@ -2122,13 +2215,14 @@ const PRODUCTS = {
 
   'charm-grape': {
     id: 'charm-grape',
+    swatchColor: '#84283C',
     name: 'Heart Charm – Berry',
     price: 5,
     currency: '$',
     image: 'charms/heart/GRAPE.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Heart Charm',
     categoryUrl: 'charms.html',
     description: [
       'Grape-coloured crochet heart charm',
@@ -2141,13 +2235,14 @@ const PRODUCTS = {
 
   'charm-lightpink': {
     id: 'charm-lightpink',
+    swatchColor: '#f8aab0',
     name: 'Heart Charm – Light Pink',
     price: 5,
     currency: '$',
     image: 'charms/heart/light pink.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Heart Charm',
     categoryUrl: 'charms.html',
     description: [
       'Light pink crochet heart charm',
@@ -2160,13 +2255,14 @@ const PRODUCTS = {
 
   'charm-orange': {
     id: 'charm-orange',
+    swatchColor: '#F25823',
     name: 'Heart Charm – Orange',
     price: 5,
     currency: '$',
     image: 'charms/heart/orange.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Heart Charm',
     categoryUrl: 'charms.html',
     description: [
       'Orange crochet heart charm',
@@ -2179,13 +2275,14 @@ const PRODUCTS = {
 
   'charm-purple': {
     id: 'charm-purple',
+    swatchColor: '#4B2E5A',
     name: 'Heart Charm – Purple',
     price: 5,
     currency: '$',
     image: 'charms/heart/purple.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Heart Charm',
     categoryUrl: 'charms.html',
     description: [
       'Purple crochet heart charm',
@@ -2198,13 +2295,14 @@ const PRODUCTS = {
 
   'charm-red': {
     id: 'charm-red',
+    swatchColor: '#c0392b',
     name: 'Heart Charm – Red',
     price: 5,
     currency: '$',
     image: 'charms/heart/red heart.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Heart Charm',
     categoryUrl: 'charms.html',
     description: [
       'Classic red crochet heart charm',
@@ -2217,13 +2315,14 @@ const PRODUCTS = {
 
   'charm-white': {
     id: 'charm-white',
+    swatchColor: '#f5f5f5',
     name: 'Heart Charm – White',
     price: 5,
     currency: '$',
     image: 'charms/heart/white.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Heart Charm',
     categoryUrl: 'charms.html',
     description: [
       'White crochet heart charm',
@@ -2236,13 +2335,14 @@ const PRODUCTS = {
 
   'charm-yellow': {
     id: 'charm-yellow',
+    swatchColor: '#f5e642',
     name: 'Heart Charm – Yellow',
     price: 5,
     currency: '$',
     image: 'charms/heart/yellow.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Heart Charm',
     categoryUrl: 'charms.html',
     description: [
       'Bright yellow crochet heart charm',
@@ -2255,13 +2355,14 @@ const PRODUCTS = {
 
   'charm-zayti': {
     id: 'charm-zayti',
+    swatchColor: '#4a5240',
     name: 'Heart Charm – Dark Olive',
     price: 5,
     currency: '$',
     image: 'charms/heart/zayti.png',
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
-    categoryLabel: 'Charms',
+    categoryLabel: 'Heart Charm',
     categoryUrl: 'charms.html',
     description: [
       'Zayti green crochet heart charm',
@@ -2277,14 +2378,16 @@ const PRODUCTS = {
 
   'sleeves-dark olive': {
     id: 'sleeves-dark olive',
+    swatchColor: '#6B7A3A',
     name: 'Sleeve – Dark Olive',
     price: 24,
     currency: '$',
-    image: 'sleeves/dark olive.png',
+    image: 'sleeves/dark olive.jpeg',
     parentLabel: 'Sleeves',
     parentUrl: 'sleeves.html',
     categoryLabel: 'Mono Sleeves',
     categoryUrl: 'solidcombo.html',
+    
     variantGroups: [
       {
         label: 'Device',
@@ -2331,14 +2434,16 @@ const PRODUCTS = {
 
   'sleeves-dark purple': {
     id: 'sleeves-dark purple',
+    swatchColor: '#4B2E5A',
     name: 'Sleeve – Dark Purple',
     price: 24,
     currency: '$',
-    image: 'sleeves/dark purple.png',
+    image: 'sleeves/dark purple.jpeg',
     parentLabel: 'Sleeves',
     parentUrl: 'sleeves.html',
     categoryLabel: 'Mono Sleeves',
     categoryUrl: 'solidcombo.html',
+   
     variantGroups: [
       {
         label: 'Device',
@@ -2383,14 +2488,16 @@ const PRODUCTS = {
   },
   'sleeves-dark light blue': {
     id: 'sleeves-dark light blue',
+    swatchColors: ['#1F3A66', '#AED4F0'],
     name: 'Sleeve – Dark & Light Blue',
     price: 24,
     currency: '$',
-    image: 'sleeves/dark+light blue.png',
+    image: 'sleeves/Sleeve – Dark & Light Blue.jpeg',
     parentLabel: 'Sleeves',
     parentUrl: 'sleeves.html',
     categoryLabel: 'Duo Sleeves',
     categoryUrl: 'duo.html',
+    
 
     variantGroups: [
       {
@@ -2440,14 +2547,16 @@ const PRODUCTS = {
 
   'sleeves-grey': {
     id: 'sleeves-grey',
+    swatchColor: '#8A8A8A',
     name: 'Sleeve – Grey',
     price: 24,
     currency: '$',
-    image: 'sleeves/grey.png',
+    image: 'sleeves/grey.jpeg',
     parentLabel: 'Sleeves',
     parentUrl: 'sleeves.html',
     categoryLabel: 'Mono Sleeves',
     categoryUrl: 'solidcombo.html',
+   
 
     variantGroups: [
       {
@@ -2497,14 +2606,16 @@ const PRODUCTS = {
 
   'sleeves-orange': {
     id: 'sleeves-orange',
+    swatchColor: '#E07A2F',
     name: 'Sleeve – Orange',
     price: 24,
     currency: '$',
-    image: 'sleeves/orange.png',
+    image: 'sleeves/orange.jpeg',
     parentLabel: 'Sleeves',
     parentUrl: 'sleeves.html',
     categoryLabel: 'Mono Sleeves',
     categoryUrl: 'solidcombo.html',
+ 
 
     variantGroups: [
       {
@@ -2554,14 +2665,16 @@ const PRODUCTS = {
 
   'sleeves-orangelightpink': {
     id: 'sleeves-orangelightpink',
+    swatchColors: ['#E07A2F', '#F3A6B4'],
     name: 'Sleeve – Orange & Pink',
     price: 24,
     currency: '$',
-    image: 'sleeves/orange+ light pink.png',
+    image: 'sleeves/Sleeve – Orange & Pink.jpeg',
     parentLabel: 'Sleeves',
     parentUrl: 'sleeves.html',
     categoryLabel: 'Duo Sleeves',
     categoryUrl: 'duo.html',
+    
 
     variantGroups: [
       {
@@ -2610,14 +2723,16 @@ const PRODUCTS = {
   },
   'sleeves-orangelightblue': {
     id: 'sleeves-orangelightblue',
+    swatchColors: ['#E07A2F', '#AED4F0'],
     name: 'Sleeve – Orange & Light Blue',
     price: 24,
     currency: '$',
-    image: 'sleeves/orange+light blue.png',
+    image: 'sleeves/Sleeve – Orange & Light Blue.jpeg',
     parentLabel: 'Sleeves',
     parentUrl: 'sleeves.html',
     categoryLabel: 'Duo Sleeves',
     categoryUrl: 'duo.html',
+ 
 
     variantGroups: [
       {
@@ -2667,14 +2782,16 @@ const PRODUCTS = {
 
   'sleeves-pinkneonyellow': {
     id: 'sleeves-pinkneonyellow',
+    swatchColors: ['#F3A6B4', '#DFF24D'],
     name: 'Sleeve – Pink & Neon Yellow',
     price: 24,
     currency: '$',
-    image: 'sleeves/pink+neon yellow.png',
+    image: 'sleeves/Sleeve – Pink & Neon Yellow.jpeg',
     parentLabel: 'Sleeves',
     parentUrl: 'sleeves.html',
     categoryLabel: 'Duo Sleeves',
     categoryUrl: 'duo.html',
+
 
     variantGroups: [
       {
@@ -2724,10 +2841,11 @@ const PRODUCTS = {
 
   'sleeves-redpink': {
     id: 'sleeves-redpink',
+    swatchColors: ['#B5232F', '#F3A6B4'],
     name: 'Sleeve – Red & Pink',
     price: 24,
     currency: '$',
-    image: 'sleeves/red+pink.png',
+    image: 'sleeves/Sleeve – Red & Pink.jpeg',
     parentLabel: 'Sleeves',
     parentUrl: 'sleeves.html',
     categoryLabel: 'Duo Sleeves',
@@ -2781,14 +2899,16 @@ const PRODUCTS = {
 
   'sleeves-darkblue': {
     id: 'sleeves-darkblue',
+    swatchColor: '#1F3A66',
     name: 'Sleeve – Dark Blue',
     price: 24,
     currency: '$',
-    image: 'sleeves/solid dark blue.png',
+    image: 'sleeves/solid dark blue.jpeg',
     parentLabel: 'Sleeves',
     parentUrl: 'sleeves.html',
     categoryLabel: 'Mono Sleeves',
     categoryUrl: 'solidcombo.html',
+  
 
     variantGroups: [
       {
@@ -2837,10 +2957,11 @@ const PRODUCTS = {
   },
   'sleeves-pink': {
     id: 'sleeves-pink',
+    swatchColor: '#F3A6B4',
     name: 'Sleeve – Pink',
     price: 24,
     currency: '$',
-    image: 'sleeves/solid pink.png',
+    image: 'sleeves/solid pink.jpeg',
     parentLabel: 'Sleeves',
     parentUrl: 'sleeves.html',
     categoryLabel: 'Mono Sleeves',
@@ -2894,14 +3015,16 @@ const PRODUCTS = {
 
   'sleeves-red': {
     id: 'sleeves-red',
+    swatchColor: '#B5232F',
     name: 'Sleeve – Red',
     price: 24,
     currency: '$',
-    image: 'sleeves/solid_red.png',
+    image: 'sleeves/solid_red.jpeg',
     parentLabel: 'Sleeves',
     parentUrl: 'sleeves.html',
     categoryLabel: 'Mono Sleeves',
     categoryUrl: 'solidcombo.html',
+  
 
     variantGroups: [
       {
@@ -2951,14 +3074,16 @@ const PRODUCTS = {
 
   'sleeves-whitepink': {
     id: 'sleeves-whitepink',
+    swatchColors: ['#FFFFFF', '#F3A6B4'],
     name: 'Sleeve – White & Pink',
     price: 24,
     currency: '$',
-    image: 'sleeves/white+pink.png',
+    image: 'sleeves/Sleeve – White & Pink.jpeg',
     parentLabel: 'Sleeves',
     parentUrl: 'sleeves.html',
     categoryLabel: 'Duo Sleeves',
     categoryUrl: 'duo.html',
+  
 
     variantGroups: [
       {
@@ -3008,14 +3133,16 @@ const PRODUCTS = {
 
   'sleeves-yellow': {
     id: 'sleeves-yellow',
+    swatchColor: '#F0C93B',
     name: 'Sleeve – Yellow',
     price: 24,
     currency: '$',
-    image: 'sleeves/yellow.png',
+    image: 'sleeves/yellow.jpeg',
     parentLabel: 'Sleeves',
     parentUrl: 'sleeves.html',
     categoryLabel: 'Mono Sleeves',
     categoryUrl: 'solidcombo.html',
+ 
 
     variantGroups: [
       {
@@ -3066,14 +3193,16 @@ const PRODUCTS = {
 
   'pattern-combo2': {
     id: 'pattern-combo2',
+    swatchColors: ['#3E6FD9', '#F4EEE0', '#F3A6B4'],
     name: 'Sleeve – Coastal Candy',
     price: 28,
     currency: '$',
-    image: 'sleeves/combo1.png',
+    image: 'sleeves/combo1.jpeg',
     parentLabel: 'Sleeves',
     parentUrl: 'sleeves.html',
-    categoryLabel: 'Patterned Sleeves',
-    categoryUrl: 'pattern.html',
+    categoryLabel: 'Pop Sleeves',
+    categoryUrl: 'Pattern.html',
+
     variantGroups: [
       {
         label: 'Device',
@@ -3119,14 +3248,16 @@ const PRODUCTS = {
 
   'pattern-combo3': {
     id: 'pattern-combo3',
+    swatchColors: ['#FE019A', '#F3A6B4', '#FFFFFF'],
     name: 'Sleeve – Bubblegum Candy',
     price: 28,
     currency: '$',
-    image: 'sleeves/combo2.png',
+    image: 'sleeves/combo2.jpeg',
     parentLabel: 'Sleeves',
     parentUrl: 'sleeves.html',
-    categoryLabel: 'Patterned Sleeves',
-    categoryUrl: 'pattern.html',
+    categoryLabel: 'Pop Sleeves',
+    categoryUrl: 'Pattern.html',
+ 
     variantGroups: [
       {
         label: 'Device',
@@ -3171,14 +3302,16 @@ const PRODUCTS = {
   },
   'greyish': {
     id: 'greyish',
+    swatchColors: ['#4A4A4A', '#9E9E9E', '#E0E0E0'],
     name: 'Sleeve – Grey Cloud',
     price: 28,
     currency: '$',
-    image: 'sleeves/greyish.png',
+    image: 'sleeves/greyish.jpeg',
     parentLabel: 'Sleeves',
     parentUrl: 'sleeves.html',
-    categoryLabel: 'Patterned Sleeves',
-    categoryUrl: 'pattern.html',
+    categoryLabel: 'Pop Sleeves',
+    categoryUrl: 'Pattern.html',
+
     variantGroups: [
       {
         label: 'Device',
@@ -3224,14 +3357,16 @@ const PRODUCTS = {
 
   'bluish': {
     id: 'bluish',
+    swatchColors: ['#1F3A66', '#5A7BF2', '#AED4F0'],
     name: 'Sleeve – Ocean Candy',
     price: 28,
     currency: '$',
-    image: 'sleeves/ipad_bluish combo.png',
+    image: 'sleeves/ipad_bluish combo.jpeg',
     parentLabel: 'Sleeves',
     parentUrl: 'sleeves.html',
-    categoryLabel: 'Patterned Sleeves',
-    categoryUrl: 'pattern.html',
+    categoryLabel: 'Pop Sleeves',
+    categoryUrl: 'Pattern.html',
+
     variantGroups: [
       {
         label: 'Device',
@@ -3277,14 +3412,16 @@ const PRODUCTS = {
 
   'purplish': {
     id: 'purplish',
+    swatchColors: ['#4B0082', '#9370DB', '#D8BFD8'],
     name: 'Sleeve – Purple Cloud',
     price: 28,
     currency: '$',
-    image: 'sleeves/laptop_purplish.png',
+    image: 'sleeves/laptop_purplish.jpeg',
     parentLabel: 'Sleeves',
     parentUrl: 'sleeves.html',
-    categoryLabel: 'Patterned Sleeves',
-    categoryUrl: 'pattern.html',
+    categoryLabel: 'Pop Sleeves',
+    categoryUrl: 'Pattern.html',
+
     variantGroups: [
       {
         label: 'Device',
@@ -3330,14 +3467,16 @@ const PRODUCTS = {
 
   'pinkish': {
     id: 'pinkish',
+    swatchColors: ['#C2185B', '#F48FB1', '#FCE4EC'],
     name: 'Sleeve – Pink Cloud',
     price: 28,
     currency: '$',
-    image: 'sleeves/pinkish combo.png',
+    image: 'sleeves/pinkish combo.jpeg',
     parentLabel: 'Sleeves',
     parentUrl: 'sleeves.html',
-    categoryLabel: 'Patterned Sleeves',
-    categoryUrl: 'pattern.html',
+    categoryLabel: 'Pop Sleeves',
+    categoryUrl: 'Pattern.html',
+
     variantGroups: [
       {
         label: 'Device',
@@ -3381,13 +3520,535 @@ const PRODUCTS = {
     ],
   },
 
+      // ── Shellie ──
+
+'shellie-beige': {
+    id: 'shellie-beige',
+    swatchColor: '#e8d5b0',
+    name: 'Shellie – Beige',
+    price: 32,
+    currency: '$',
+    image: 'Clutch/shellie/shellie1.jpeg',
+                images: [
+      'Clutch/shellie/shellie1.jpeg',
+      'Clutch/shellie/shellie-beige.jpeg'
+    ],
+    parentLabel: 'Clutches',
+    parentUrl: 'clutches.html',
+    categoryLabel: 'Shellie Collection',
+    categoryUrl: 'clutches.html',
+    description: [
+      'Made from 100% cotton yarn — soft, durable, and beautifully handcrafted.',
+      'Size: 16 cm length × 26 cm width.',
+      'Structured metal frame for a polished, comfortable clutch hold.',
+      'Finished with a signature charm detail, adding a personal touch to every Shellie.',
+    ],
+  },
+
+  'shellie-brown': {
+    id: 'shellie-brown',
+    swatchColor: '#6B4635',
+    name: 'Shellie – Brown',
+    price: 32,
+    currency: '$',
+    image: 'Clutch/shellie/shellie-brown.jpeg',
+    parentLabel: 'Clutches',
+    parentUrl: 'clutches.html',
+    categoryLabel: 'Shellie Collection',
+    categoryUrl: 'clutches.html',
+    description: [
+      'Made from 100% cotton yarn — soft, durable, and beautifully handcrafted.',
+      'Size: 16 cm length × 26 cm width.',
+      'Structured metal frame for a polished, comfortable clutch hold.',
+      'Finished with a signature charm detail, adding a personal touch to every Shellie.',
+    ],
+  },
+
+  'shellie-white': {
+    id: 'shellie-white',
+    swatchColor: '#f5f5f5',
+    name: 'Shellie – White',
+    price: 32,
+    currency: '$',
+    image: 'Clutch/shellie/shellie-white.jpeg',
+    parentLabel: 'Clutches',
+    parentUrl: 'clutches.html',
+    categoryLabel: 'Shellie Collection',
+    categoryUrl: 'clutches.html',
+    description: [
+      'Made from 100% cotton yarn — soft, durable, and beautifully handcrafted.',
+      'Size: 16 cm length × 26 cm width.',
+      'Structured metal frame for a polished, comfortable clutch hold.',
+      'Finished with a signature charm detail, adding a personal touch to every Shellie.',
+    ],
+  },
+
+  'shellie-olive': {
+    id: 'shellie-olive',
+    swatchColor: '#4a5240',
+    name: 'Shellie – Olive',
+    price: 32,
+    currency: '$',
+    image: 'Clutch/shellie/shellie-olive.jpeg',
+    parentLabel: 'Clutches',
+    parentUrl: 'clutches.html',
+    categoryLabel: 'Shellie Collection',
+    categoryUrl: 'clutches.html',
+    description: [
+      'Made from 100% cotton yarn — soft, durable, and beautifully handcrafted.',
+      'Size: 16 cm length × 26 cm width.',
+      'Structured metal frame for a polished, comfortable clutch hold.',
+      'Finished with a signature charm detail, adding a personal touch to every Shellie.',
+    ],
+  },
+    // ── MOON ──
+
+  'moon-beige': {
+    id: 'moon-beige',
+    swatchColor: '#e8d5b0',
+    name: 'Moon – Beige',
+    price: 39,
+    currency: '$',
+    image: 'bags/moon/moon1.jpeg',
+                images: [
+      'bags/moon/moon1.jpeg',
+      'bags/moon/moon-beige.jpeg'
+    ],
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Moon Collection',
+    categoryUrl: 'bags.html',
+    variantGroups: [
+      {
+        label: 'Size',
+        required: true,
+        options: [
+          { label: 'M — 26 × 30 cm', value: 'M' },
+          { label: 'L — 33 × 35 cm', value: 'L' },
+        ],
+      },
+    ],
+    variantPricing: {
+      'M': 39,
+      'L': 43,
+    },
+    description: [
+      'Made from 100% cotton yarn — soft, durable, and handmade.',
+      'Available in two sizes: M — 26 × 30 cm | L — 33 × 35 cm.',
+      'Inspired by the soft, curved shape of a moon shell.',
+      'Handmade with unique stitch and shade variations.',
+    ],
+  },
+
+  'moon-brown': {
+    id: 'moon-brown',
+    swatchColor: '#6B4635',
+    name: 'Moon – Brown',
+    price: 39,
+    currency: '$',
+    image: 'bags/moon/moon-brown.jpeg',
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Moon Collection',
+    categoryUrl: 'bags.html',
+    variantGroups: [
+      {
+        label: 'Size',
+        required: true,
+        options: [
+          { label: 'M — 26 × 30 cm', value: 'M' },
+          { label: 'L — 33 × 35 cm', value: 'L' },
+        ],
+      },
+    ],
+    variantPricing: {
+      'M': 39,
+      'L': 43,
+    },
+    description: [
+      'Made from 100% cotton yarn — soft, durable, and handmade.',
+      'Available in two sizes: M — 26 × 30 cm | L — 33 × 35 cm.',
+      'Inspired by the soft, curved shape of a moon shell.',
+      'Handmade with unique stitch and shade variations.',
+    ],
+  },
+
+  'moon-white': {
+    id: 'moon-white',
+    swatchColor: '#f5f5f5',
+    name: 'Moon – White',
+    price: 39,
+    currency: '$',
+    image: 'bags/moon/moon-white.jpeg',
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Moon Collection',
+    categoryUrl: 'bags.html',
+    variantGroups: [
+      {
+        label: 'Size',
+        required: true,
+        options: [
+          { label: 'M — 26 × 30 cm', value: 'M' },
+          { label: 'L — 33 × 35 cm', value: 'L' },
+        ],
+      },
+    ],
+    variantPricing: {
+      'M': 39,
+      'L': 43,
+    },
+    description: [
+      'Made from 100% cotton yarn — soft, durable, and handmade.',
+      'Available in two sizes: M — 26 × 30 cm | L — 33 × 35 cm.',
+      'Inspired by the soft, curved shape of a moon shell.',
+      'Handmade with unique stitch and shade variations.',
+    ],
+  },
+
+  'moon-black': {
+    id: 'moon-black',
+    swatchColor: '#222222',
+    name: 'Moon – Black',
+    price: 39,
+    currency: '$',
+    image: 'bags/moon/moon-black.jpeg',
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Moon Collection',
+    categoryUrl: 'bags.html',
+    variantGroups: [
+      {
+        label: 'Size',
+        required: true,
+        options: [
+          { label: 'M — 26 × 30 cm', value: 'M' },
+          { label: 'L — 33 × 35 cm', value: 'L' },
+        ],
+      },
+    ],
+    variantPricing: {
+      'M': 39,
+      'L': 43,
+    },
+    description: [
+      'Made from 100% cotton yarn — soft, durable, and handmade.',
+      'Available in two sizes: M — 26 × 30 cm | L — 33 × 35 cm.',
+      'Inspired by the soft, curved shape of a moon shell.',
+      'Handmade with unique stitch and shade variations.',
+    ],
+  },
+  // ── Spiro ──
+
+  'spiro-beige': {
+    id: 'spiro-beige',
+    swatchColor: '#e8d5b0',
+    name: 'Spiro – Beige',
+    price: 37,
+    currency: '$',
+    image: 'bags/spiro/spiro1.jpeg',
+            images: [
+      'bags/spiro/spiro1.jpeg',
+      'bags/spiro/spiro-beige.jpeg'
+    ],
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Spiro Collection',
+    categoryUrl: 'bags.html',
+    description: [
+      'Made from 100% cotton yarn — soft, durable, and handmade.',
+      'Size: 37 cm height × 17 cm width.',
+      'Inspired by the natural shape of a spiral shell.',
+      'Handmade with unique stitch and shade variations.',
+    ],
+  },
+  'spiro-brown': {
+    id: 'spiro-brown',
+    swatchColor: '#6B4635',
+    name: 'Spiro – Brown',
+    price: 37,
+    currency: '$',
+    image: 'bags/spiro/spiro-brown.jpeg',
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Spiro Collection',
+    categoryUrl: 'bags.html',
+    description: [
+      'Made from 100% cotton yarn — soft, durable, and handmade.',
+      'Size: 37 cm height × 17 cm width.',
+      'Inspired by the natural shape of a spiral shell.',
+      'Handmade with unique stitch and shade variations.',
+    ],
+  },
+
+  'spiro-white': {
+    id: 'spiro-white',
+    swatchColor: '#f5f5f5',
+    name: 'Spiro – White',
+    price: 37,
+    currency: '$',
+    image: 'bags/spiro/spiro-white.jpeg',
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Spiro Collection',
+    categoryUrl: 'bags.html',
+    description: [
+      'Made from 100% cotton yarn — soft, durable, and handmade.',
+      'Size: 37 cm height × 17 cm width.',
+      'Inspired by the natural shape of a spiral shell.',
+      'Handmade with unique stitch and shade variations.',
+    ],
+  },
+
+  'spiro-black': {
+    id: 'spiro-black',
+    swatchColor: '#222222',
+    name: 'Spiro – Black',
+    price: 37,
+    currency: '$',
+    image: 'bags/spiro/spiro-black.jpeg',
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Spiro Collection',
+    categoryUrl: 'bags.html',
+    description: [
+      'Made from 100% cotton yarn — soft, durable, and handmade.',
+      'Size: 37 cm height × 17 cm width.',
+      'Inspired by the natural shape of a spiral shell.',
+      'Handmade with unique stitch and shade variations.',
+    ],
+  },
+
+  // ── KAI ──
+    'kai-brown': {
+    id: 'kai-brown',
+    swatchColor: '#6B4635',
+    name: 'Kai – Brown',
+    price: 32,
+    currency: '$',
+    image: 'bags/kai/kai1.jpeg',
+        images: [
+      'bags/kai/kai1.jpeg',
+      'bags/kai/kai-brown.jpeg'
+    ],
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Kai Collection',
+    categoryUrl: 'bags.html',
+    description: [
+      'Made from 100% cotton yarn — soft, durable, and handmade.',
+      'Size: 20 cm length × 40 cm width.',
+      'Fan-inspired shape for a playful, statement look.',
+      'Handmade with unique stitch and shade variations.',
+    ],
+  },
+
+  'kai-beige': {
+    id: 'kai-beige',
+    swatchColor: '#e8d5b0',
+    name: 'Kai – Beige',
+    price: 32,
+    currency: '$',
+    image: 'bags/kai/kai-beige.jpeg',
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Kai Collection',
+    categoryUrl: 'bags.html',
+    description: [
+      'Made from 100% cotton yarn — soft, durable, and handmade.',
+      'Size: 20 cm length × 40 cm width.',
+      'Fan-inspired shape for a playful, statement look.',
+      'Handmade with unique stitch and shade variations.',
+    ],
+  },
+
+
+
+  'kai-white': {
+    id: 'kai-white',
+    swatchColor: '#f5f5f5',
+    name: 'Kai – White',
+    price: 32,
+    currency: '$',
+    image: 'bags/kai/kai-white.jpeg',
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Kai Collection',
+    categoryUrl: 'bags.html',
+    description: [
+      'Made from 100% cotton yarn — soft, durable, and handmade.',
+      'Size: 20 cm length × 40 cm width.',
+      'Fan-inspired shape for a playful, statement look.',
+      'Handmade with unique stitch and shade variations.',
+    ],
+  },
+
+  'kai-black': {
+    id: 'kai-black',
+    swatchColor: '#222222',
+    name: 'Kai – Black',
+    price: 32,
+    currency: '$',
+    image: 'bags/kai/kai-black.jpeg',
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Kai Collection',
+    categoryUrl: 'bags.html',
+    description: [
+      'Made from 100% cotton yarn — soft, durable, and handmade.',
+      'Size: 20 cm length × 40 cm width.',
+      'Fan-inspired shape for a playful, statement look.',
+      'Handmade with unique stitch and shade variations.',
+    ],
+  },
+  
+  'kai-olive': {
+    id: 'kai-olive',
+    swatchColor: '#4a5240',
+    name: 'Kai – Olive',
+    price: 32,
+    currency: '$',
+    image: 'bags/kai/kai-olive.jpeg',
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Kai Collection',
+    categoryUrl: 'bags.html',
+    description: [
+      'Made from 100% cotton yarn — soft, durable, and handmade.',
+      'Size: 20 cm length × 40 cm width.',
+      'Fan-inspired shape for a playful, statement look.',
+      'Handmade with unique stitch and shade variations.',
+    ],
+  },
+
+  'kai-navy': {
+    id: 'kai-navy',
+    swatchColor: '#1a2d5a',
+    name: 'Kai – Navy Blue',
+    price: 32,
+    currency: '$',
+    image: 'bags/kai/kai-navy blue.jpeg',
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Kai Collection',
+    categoryUrl: 'bags.html',
+    description: [
+      'Made from 100% cotton yarn — soft, durable, and handmade.',
+      'Size: 20 cm length × 40 cm width.',
+      'Fan-inspired shape for a playful, statement look.',
+      'Handmade with unique stitch and shade variations.',
+    ],
+  },
+    // ── COCOÉ ──
+  'cocoe-beige': {
+    id: 'cocoe-beige',
+    swatchColor: '#e8d5b0',
+    name: 'Cocoé – Beige',
+    price: 48,
+    currency: '$',
+    image: 'bags/cocoe/cocoe1.jpeg',
+    images: [
+      'bags/cocoe/cocoe1.jpeg',
+      'bags/cocoe/cocoe-beige.jpeg'
+    ],
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Cocoé Collection',
+    categoryUrl: 'bags.html',
+    description: [
+      'Made from 100% cotton yarn — soft, durable, and handmade.',
+      'Size: 37 cm length × 40 cm width.',
+      'Finished with a natural bamboo handle for a unique touch.',
+      'Handmade with unique stitch and shade variations.',
+    ],
+  },
+
+  'cocoe-brown': {
+    id: 'cocoe-brown',
+    swatchColor: '#6B4635',
+    name: 'Cocoé – Brown',
+    price: 48,
+    currency: '$',
+    image: 'bags/cocoe/cocoe-brown.jpeg',
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Cocoé Collection',
+    categoryUrl: 'bags.html',
+    description: [
+      'Made from 100% cotton yarn — soft, durable, and handmade.',
+      'Size: 37 cm length × 40 cm width.',
+      'Finished with a natural bamboo handle for a unique touch.',
+      'Handmade with unique stitch and shade variations.',
+    ],
+  },
+
+  'cocoe-white': {
+    id: 'cocoe-white',
+    swatchColor: '#f5f5f5',
+    name: 'Cocoé – White',
+    price: 48,
+    currency: '$',
+    image: 'bags/cocoe/cocoe-white.jpeg',
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Cocoé Collection',
+    categoryUrl: 'bags.html',
+    description: [
+      'Made from 100% cotton yarn — soft, durable, and handmade.',
+      'Size: 37 cm length × 40 cm width.',
+      'Finished with a natural bamboo handle for a unique touch.',
+      'Handmade with unique stitch and shade variations.',
+    ],
+  },
+
+  'cocoe-black': {
+    id: 'cocoe-black',
+    swatchColor: '#222222',
+    name: 'Cocoé – Black',
+    price: 48,
+    currency: '$',
+    image: 'bags/cocoe/cocoe-black.jpeg',
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Cocoé Collection',
+    categoryUrl: 'bags.html',
+    description: [
+      'Made from 100% cotton yarn — soft, durable, and handmade.',
+      'Size: 37 cm length × 40 cm width.',
+      'Finished with a natural bamboo handle for a unique touch.',
+      'Handmade with unique stitch and shade variations.',
+    ],
+  },
   // ── MINI BAGS ──
+    'minibags-redpink': {
+    id: 'minibags-redpink',
+    swatchColors: ['#c0392b', '#f8aab0'],
+    name: 'Mini – Red & Pink',
+    price: 19,
+    currency: '$',
+    image: 'bags/mini bag/Mini – Red & Pink - Angle 2.jpeg',
+    images: [
+      'bags/mini bag/Mini – Red & Pink - Angle 2.jpeg',
+      'bags/mini bag/Mini – Red & Pink.jpeg'
+    ],
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Mini Collection',
+    categoryUrl: 'minibags.html',
+    description: [
+      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
+      'Size: 15 cm length × 22 cm width ',
+      'Comfortable handle for easy carrying',
+      'Handmade, with unique stitch and shade variations.',
+    ],
+  },
   'minibags-darkblue': {
     id: 'minibags-darkblue',
+    swatchColors: ['#1a2d5a', '#a8d8f0'],
     name: 'Mini – Blues',
     price: 19,
     currency: '$',
-    image: 'bags/mini bag/dark and light blue.png',
+    image: 'bags/mini bag/Mini – Blues.jpeg',
     parentLabel: 'Bags',
     parentUrl: 'bags.html',
     categoryLabel: 'Mini Collection',
@@ -3403,10 +4064,11 @@ const PRODUCTS = {
 
   'minibags-fushiaorange': {
     id: 'minibags-fushiaorange',
+    swatchColors: ['#ED0087', '#F25823'],
     name: 'Mini – Fushia & Orange',
     price: 19,
     currency: '$',
-    image: 'bags/mini bag/fushia and orange.png',
+    image: 'bags/mini bag/Mini – Fushia & Orange.jpeg',
     parentLabel: 'Bags',
     parentUrl: 'bags.html',
     categoryLabel: 'Mini Collection',
@@ -3420,27 +4082,11 @@ const PRODUCTS = {
   },
   'minibags-pinkyellow': {
     id: 'minibags-pinkyellow',
+    swatchColors: ['#f8aab0', '#ebf9ad'],
     name: 'Mini – Pink & Yellow',
     price: 19,
     currency: '$',
-    image: 'bags/mini bag/pink and yellow.png',
-    parentLabel: 'Bags',
-    parentUrl: 'bags.html',
-    categoryLabel: 'Mini Collection',
-    categoryUrl: 'minibags.html',
-    description: [
-      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
-      'Size: 15 cm length × 22 cm width ',
-      'Comfortable handle for easy carrying',
-      'Handmade, with unique stitch and shade variations.',
-    ],
-  },
-  'minibags-redpink': {
-    id: 'minibags-redpink',
-    name: 'Mini – Red & Pink',
-    price: 19,
-    currency: '$',
-    image: 'bags/mini bag/red and pink.png',
+    image: 'bags/mini bag/Mini – Pink & Yellow.jpeg',
     parentLabel: 'Bags',
     parentUrl: 'bags.html',
     categoryLabel: 'Mini Collection',
@@ -3453,17 +4099,45 @@ const PRODUCTS = {
     ],
   },
 
+
   // ── DUSK BAGS ──
+
+    'duskbags-olive': {
+    id: 'duskbags-olive',
+    swatchColor: '#4a5240',
+    name: 'Duska - Olive',
+    price: 32,
+    currency: '$',
+    image: 'bags/DUSK/olive2.jpeg',
+                images: [
+      'bags/DUSK/olive2.jpeg',
+      'bags/DUSK/olive.jpeg'
+    ],
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Duska Solid',
+    categoryUrl: 'bags.html',
+    description: [
+      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
+      'Size: 22 cm length × 26 cm width with a 50 cm sholder strap',
+      'Features a comfortable handle and statement fringe details',
+      'Handmade, with unique stitch and shade variations.',
+    ],
+  },
+
+
+
   'duskbags-brown': {
     id: 'duskbags-brown',
+    swatchColor: '#6B4635',
     name: 'Duska - Brown',
     price: 32,
     currency: '$',
-    image: 'bags/DUSK/brown.png',
+    image: 'bags/DUSK/brown.jpeg',
     parentLabel: 'Bags',
     parentUrl: 'bags.html',
-    categoryLabel: 'Duska Collection',
-    categoryUrl: 'duskbags.html',
+    categoryLabel: 'Duska Solid',
+    categoryUrl: 'bags.html',
     description: [
       'Made from 100% cotton yarn – soft, durable, and eco-friendly',
       'Size: 22 cm length × 26 cm width with a 50 cm sholder strap',
@@ -3475,14 +4149,15 @@ const PRODUCTS = {
 
   'duskbags-nele': {
     id: 'duskbags-nele',
+    swatchColor: '#1a2d5a',
     name: 'Duska - Dark Blue',
     price: 32,
     currency: '$',
-    image: 'bags/DUSK/nele.png',
+    image: 'bags/DUSK/nele.jpeg',
     parentLabel: 'Bags',
     parentUrl: 'bags.html',
-    categoryLabel: 'Duska Collection',
-    categoryUrl: 'duskbags.html',
+    categoryLabel: 'Duska Solid',
+    categoryUrl: 'bags.html',
     description: [
       'Made from 100% cotton yarn – soft, durable, and eco-friendly',
       'Size: 22 cm length × 26 cm width with a 50 cm sholder strap',
@@ -3490,33 +4165,18 @@ const PRODUCTS = {
       'Handmade, with unique stitch and shade variations.',
     ],
   },
-  'duskbags-olive': {
-    id: 'duskbags-olive',
-    name: 'Duska - Olive',
-    price: 32,
-    currency: '$',
-    image: 'bags/DUSK/olive.png',
-    parentLabel: 'Bags',
-    parentUrl: 'bags.html',
-    categoryLabel: 'Duska Collection',
-    categoryUrl: 'duskbags.html',
-    description: [
-      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
-      'Size: 22 cm length × 26 cm width with a 50 cm sholder strap',
-      'Features a comfortable handle and statement fringe details',
-      'Handmade, with unique stitch and shade variations.',
-    ],
-  },
+
   'duskbags-red': {
     id: 'duskbags-red',
+    swatchColor: '#c0392b',
     name: 'Duska - Red',
     price: 32,
     currency: '$',
-    image: 'bags/DUSK/red.png',
+    image: 'bags/DUSK/red.jpeg',
     parentLabel: 'Bags',
     parentUrl: 'bags.html',
-    categoryLabel: 'Duska Collection',
-    categoryUrl: 'duskbags.html',
+    categoryLabel: 'Duska Solid',
+    categoryUrl: 'bags.html',
     description: [
       'Made from 100% cotton yarn – soft, durable, and eco-friendly',
       'Size: 22 cm length × 26 cm width with a 50 cm sholder strap',
@@ -3526,14 +4186,15 @@ const PRODUCTS = {
   },
   'duskbags-yellow': {
     id: 'duskbags-yellow',
+    swatchColor: '#f5e642',
     name: 'Duska - Yellow',
     price: 32,
     currency: '$',
-    image: 'bags/DUSK/yellow 2.png',
+    image: 'bags/DUSK/yellow 2.jpeg',
     parentLabel: 'Bags',
     parentUrl: 'bags.html',
-    categoryLabel: 'Duska Collection',
-    categoryUrl: 'duskbags.html',
+    categoryLabel: 'Duska Solid',
+    categoryUrl: 'bags.html',
     description: [
       'Made from 100% cotton yarn – soft, durable, and eco-friendly',
       'Size: 22 cm length × 26 cm width with a 50 cm sholder strap',
@@ -3541,16 +4202,42 @@ const PRODUCTS = {
       'Handmade, with unique stitch and shade variations.',
     ],
   },
+
+  'duskbags-deepblue': {
+  id: 'duskbags-deepblue',
+  swatchColors: ['#16094a', '#f8f9f8'],
+  name: 'Duska – Deep Blue Fringe',
+  price: 32,
+  currency: '$',
+  image: 'bags/DUSK/Deep Blue Fringe2.jpeg',
+              images: [
+    'bags/DUSK/Deep Blue Fringe2.jpeg',
+    'bags/DUSK/Duska – Deep Blue Fringe.jpeg'
+  ],
+  parentLabel: 'Bags',
+  parentUrl: 'bags.html',
+  categoryLabel: 'Duska Fringe',
+  categoryUrl: 'bags.html',
+  description: [
+    'Made from 100% cotton yarn – soft, durable, and eco-friendly',
+    'Size: 20 cm length × 30 cm width with a 60 cm sholder strap',
+    'Magnetic closure included',
+    'Features a comfortable handle and statement fringe details',
+    'Handmade, with unique stitch and shade variations.',
+  ],
+},
+
   'duskbags-burgundy': {
     id: 'duskbags-burgundy',
+    swatchColors: ['#720d0d', '#f8f9f8'],
     name: 'Duska – Burgundy Fringe',
     price: 32,
     currency: '$',
     image: 'bags/DUSK/Duska – Burgundy Fringe.jpeg',
     parentLabel: 'Bags',
     parentUrl: 'bags.html',
-    categoryLabel: 'Duska Collection',
-    categoryUrl: 'duskbags.html',
+    categoryLabel: 'Duska Fringe',
+    categoryUrl: 'bags.html',
     description: [
       'Made from 100% cotton yarn – soft, durable, and eco-friendly',
       'Size: 20 cm length × 30 cm width with a 60 cm sholder strap',
@@ -3561,14 +4248,15 @@ const PRODUCTS = {
   },
   'duskbags-cocao': {
     id: 'duskbags-cocao',
+    swatchColors: ['#5e372a', '#f8f9f8'],
     name: 'Duska – Cocoa Brown Fringe',
     price: 32,
     currency: '$',
     image: 'bags/DUSK/Duska – Cocoa Brown Fringe.jpeg',
     parentLabel: 'Bags',
     parentUrl: 'bags.html',
-    categoryLabel: 'Duska Collection',
-    categoryUrl: 'duskbags.html',
+    categoryLabel: 'Duska Fringe',
+    categoryUrl: 'bags.html',
     description: [
       'Made from 100% cotton yarn – soft, durable, and eco-friendly',
       'Size: 20 cm length × 30 cm width with a 60 cm sholder strap',
@@ -3578,35 +4266,18 @@ const PRODUCTS = {
     ],
   },
 
-  'duskbags-deepblue': {
-    id: 'duskbags-deepblue',
-    name: 'Duska – Deep Blue Fringe',
-    price: 32,
-    currency: '$',
-    image: 'bags/DUSK/Duska – Deep Blue Fringe.jpeg',
-    parentLabel: 'Bags',
-    parentUrl: 'bags.html',
-    categoryLabel: 'Duska Collection',
-    categoryUrl: 'duskbags.html',
-    description: [
-      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
-      'Size: 20 cm length × 30 cm width with a 60 cm sholder strap',
-      'Magnetic closure included',
-      'Features a comfortable handle and statement fringe details',
-      'Handmade, with unique stitch and shade variations.',
-    ],
-  },
 
-  'duskbags-olivegreen': {
+    'duskbags-olivegreen': {
     id: 'duskbags-olivegreen',
+    swatchColors: ['#366b47', '#f8f9f8'],
     name: 'Duska – Olive Green Fringe',
     price: 32,
     currency: '$',
     image: 'bags/DUSK/Duska – Olive Green Fringe.jpeg',
     parentLabel: 'Bags',
     parentUrl: 'bags.html',
-    categoryLabel: 'Duska Collection',
-    categoryUrl: 'duskbags.html',
+    categoryLabel: 'Duska Fringe',
+    categoryUrl: 'bags.html',
     description: [
       'Made from 100% cotton yarn – soft, durable, and eco-friendly',
       'Size: 20 cm length × 30 cm width with a 60 cm sholder strap',
@@ -3615,121 +4286,157 @@ const PRODUCTS = {
       'Handmade, with unique stitch and shade variations.',
     ],
   },
-  // Clutches
-  'clutches-berry': {
-    id: 'clutches-berry',
-    name: 'Berry Cream Sorbet',
-    price: 32,
-    currency: '$',
-    image: 'Clutch/Plush/Berry Cream Sorbet.jpeg',
-    parentLabel: 'Clutch',
-    parentUrl: 'clutches.html',
-    categoryLabel: 'Sorbet Collection',
-    categoryUrl: 'plush.html',
-    description: [
-      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
-      'Size: 14 cm length × 27 cm width',
-      'Metal frame for a comfortable, structured hold.',
-      'Handmade, with unique stitch and shade variations.',
-    ],
-  },
-  'clutches-blue': {
-    id: 'clutches-blue',
-    name: 'Blue Sorbet',
-    price: 32,
-    currency: '$',
-    image: 'Clutch/Plush/Blue Sorbet.jpeg',
-    parentLabel: 'Clutch',
-    parentUrl: 'clutches.html',
-    categoryLabel: 'Sorbet Collection',
-    categoryUrl: 'plush.html',
-    description: [
-      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
-      'Size: 14 cm length × 27 cm width',
-      'Metal frame for a comfortable, structured hold.',
-      'Handmade, with unique stitch and shade variations.',
-    ],
-  },
 
-  'clutches-lemon': {
-    id: 'clutches-lemon',
-    name: 'Lemon Sorbet',
-    price: 32,
+  // Clutches
+
+    'clutches-blue': {
+    id: 'clutches-blue',
+    name: 'Clutch – Blue Sorbet',
+    price: 29,
     currency: '$',
-    image: 'Clutch/Plush/Lemon Sorbet.jpeg',
-    parentLabel: 'Clutch',
-    parentUrl: 'clutches.html',
-    categoryLabel: 'Sorbet Collection',
-    categoryUrl: 'plush.html',
-    description: [
-      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
-      'Size: 14 cm length × 27 cm width',
-      'Metal frame for a comfortable, structured hold.',
-      'Handmade, with unique stitch and shade variations.',
+    image: 'Clutch/Plush/Blue Sorbet2.jpeg',
+        images: [
+      'Clutch/Plush/Blue Sorbet2.jpeg',
+      'Clutch/Plush/Blue Sorbet.jpeg'
     ],
+    parentLabel: 'Clutches',
+    parentUrl: 'clutches.html',
+    swatchColor: '#5a7bf2',
+    description: [
+      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
+      'Size: 14 cm length × 27 cm width',
+      'Metal frame for a comfortable, structured hold.',
+      'Handmade, with unique stitch and shade variations.',
+    ],
   },
 
   'clutches-peach': {
     id: 'clutches-peach',
-    name: 'Peach Sorbet',
-    price: 32,
-    currency: '$',
-    image: 'Clutch/Plush/Peach Sorbet.jpeg',
-    parentLabel: 'Clutch',
-    parentUrl: 'clutches.html',
-    categoryLabel: 'Sorbet Collection',
-    categoryUrl: 'plush.html',
-    description: [
-      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
-      'Size: 14 cm length × 27 cm width',
-      'Metal frame for a comfortable, structured hold.',
-      'Handmade, with unique stitch and shade variations.',
-    ],
-  },
-  'clutches-pink': {
-    id: 'clutches-pink',
-    name: 'Pink Sorbet',
-    price: 32,
-    currency: '$',
-    image: 'Clutch/Plush/Pink Sorbet.jpeg',
-    parentLabel: 'Clutch',
-    parentUrl: 'clutches.html',
-    categoryLabel: 'Sorbet Collection',
-    categoryUrl: 'plush.html',
-    description: [
-      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
-      'Size: 14 cm length × 27 cm width',
-      'Metal frame for a comfortable, structured hold.',
-      'Handmade, with unique stitch and shade variations.',
-    ],
-  },
-  'clutches-matcha': {
-    id: 'clutches-matcha',
-    name: 'Clutch  – Dreamy Mint',
+    name: 'Clutch – Peach Sorbet',
     price: 29,
     currency: '$',
-    image: 'Clutch/Plush/Clutch  – Strawberry Matcha.jpeg',
-    parentLabel: 'Clutch',
+    image: 'Clutch/Plush/Peach Sorbet.jpeg',
+    parentLabel: 'Clutches',
     parentUrl: 'clutches.html',
+    swatchColor: '#e38c69',
     description: [
-      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
-      'Size: 12 cm length × 20 cm width',
-      'Metal frame for a comfortable, structured hold.',
+      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
+      'Size: 14 cm length × 27 cm width',
+      'Metal frame for a comfortable, structured hold.',
+      'Handmade, with unique stitch and shade variations.',
+    ],
+  },
+
+  'clutches-berry': {
+    id: 'clutches-berry',
+    name: 'Clutch – Berry Cream Sorbet',
+    price: 29,
+    currency: '$',
+    image: 'Clutch/Plush/Berry Cream Sorbet.jpeg',
+    parentLabel: 'Clutches',
+    parentUrl: 'clutches.html',
+    swatchColor: '#C06C84',
+    description: [
+      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
+      'Size: 14 cm length × 27 cm width',
+      'Metal frame for a comfortable, structured hold.',
+      'Handmade, with unique stitch and shade variations.',
+    ],
+  },
+
+  'clutches-pink': {
+    id: 'clutches-pink',
+    name: 'Clutch – Pink Sorbet',
+    price: 29,
+    currency: '$',
+    image: 'Clutch/Plush/Pink Sorbet.jpeg',
+    parentLabel: 'Clutches',
+    parentUrl: 'clutches.html',
+    swatchColor: '#f8aab0',
+    description: [
+      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
+      'Size: 14 cm length × 27 cm width',
+      'Metal frame for a comfortable, structured hold.',
+      'Handmade, with unique stitch and shade variations.',
+    ],
+  },
+
+  'clutches-lemon': {
+    id: 'clutches-lemon',
+    name: 'Clutch – Lemon Sorbet',
+    price: 29,
+    currency: '$',
+    image: 'Clutch/Plush/Lemon Sorbet.jpeg',
+    parentLabel: 'Clutches',
+    parentUrl: 'clutches.html',
+    swatchColor: '#ebf9ad',
+    description: [
+      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
+      'Size: 14 cm length × 27 cm width',
+      'Metal frame for a comfortable, structured hold.',
+      'Handmade, with unique stitch and shade variations.',
+    ],
+  },
+
+  'clutches-matcha': {
+    id: 'clutches-matcha',
+    name: 'Clutch – Dreamy Mint',
+    price: 27,
+    currency: '$',
+    image: 'Clutch/Plush/strwmatcha2.jpeg',
+            images: [
+      'Clutch/Plush/strwmatcha2.jpeg',
+      'Clutch/Plush/Clutch  – Strawberry Matcha.jpeg'
+    ],
+    parentLabel: 'Clutches',
+    parentUrl: 'clutches.html',
+    categoryLabel: 'Clutch Dreamy Mint',
+    categoryUrl: 'clutches.html',
+    alwaysShowSwatch: true,
+    swatchColors: ['#fe019a', '#A8E6CF'],
+    description: [
+      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
+      'Size: 14 cm length × 27 cm width',
+      'Metal frame for a comfortable, structured hold.',
+      'Handmade, with unique stitch and shade variations.',
+    ],
+  },
+
+    'sholderbags-nele': {
+    id: 'sholderbags-nele',
+    name: 'Braidé – Dark Blue',
+    price: 29,
+    currency: '$',
+    image: 'bags/sholder bag/nele-2.jpeg',
+    images: [
+      'bags/sholder bag/nele-2.jpeg',
+      'bags/sholder bag/nele.jpeg'
+    ],
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Braidé Collection',
+    categoryUrl: 'sholderbags.html',
+    swatchColor: '#1a2d5a',
+    description: [
+      '  Made from 100% cotton yarn – soft, durable, and eco-friendly',
+      'Size: 15 cm length × 25 cm width with a 44 cm sholder strap',
+      'Magnetic closure included',
+      'Features a comfortable handle and statement fringe details',
       'Handmade, with unique stitch and shade variations.',
     ],
   },
-
   // ── SHOULDER BAGS ──
   'sholderbags-beige': {
     id: 'sholderbags-beige',
     name: 'Braidé – Beige',
     price: 29,
     currency: '$',
-    image: 'bags/sholder bag/beige.png',
+    image: 'bags/sholder bag/beige.jpeg',
     parentLabel: 'Bags',
     parentUrl: 'bags.html',
     categoryLabel: 'Braidé Collection',
     categoryUrl: 'sholderbags.html',
+    swatchColor: '#e8d5b0',
     description: [
       '  Made from 100% cotton yarn – soft, durable, and eco-friendly',
       'Size: 15 cm length × 25 cm width with a 44 cm sholder strap',
@@ -3744,11 +4451,12 @@ const PRODUCTS = {
     name: 'Braidé – Black',
     price: 29,
     currency: '$',
-    image: 'bags/sholder bag/black.png',
+    image: 'bags/sholder bag/black.jpeg',
     parentLabel: 'Bags',
     parentUrl: 'bags.html',
     categoryLabel: 'Braidé Collection',
     categoryUrl: 'sholderbags.html',
+    swatchColor: '#222222',
     description: [
       '  Made from 100% cotton yarn – soft, durable, and eco-friendly',
       'Size: 15 cm length × 25 cm width with a 44 cm sholder strap',
@@ -3762,11 +4470,12 @@ const PRODUCTS = {
     name: 'Braidé – Cherry Red',
     price: 29,
     currency: '$',
-    image: 'bags/sholder bag/cherry.png',
+    image: 'bags/sholder bag/cherry.jpeg',
     parentLabel: 'Bags',
     parentUrl: 'bags.html',
     categoryLabel: 'Braidé Collection',
     categoryUrl: 'sholderbags.html',
+    swatchColor: '#9B1B30',
     description: [
       '  Made from 100% cotton yarn – soft, durable, and eco-friendly',
       'Size: 15 cm length × 25 cm width with a 44 cm sholder strap',
@@ -3775,30 +4484,18 @@ const PRODUCTS = {
       'Handmade, with unique stitch and shade variations.',
     ],
   },
-  'sholderbags-nele': {
-    id: 'sholderbags-nele',
-    name: 'Braidé – Dark Blue',
-    price: 29,
-    currency: '$',
-    image: 'bags/sholder bag/nele.png',
-    parentLabel: 'Bags',
-    parentUrl: 'bags.html',
-    categoryLabel: 'Braidé Collection',
-    categoryUrl: 'sholderbags.html',
-    description: [
-      '  Made from 100% cotton yarn – soft, durable, and eco-friendly',
-      'Size: 15 cm length × 25 cm width with a 44 cm sholder strap',
-      'Magnetic closure included',
-      'Features a comfortable handle and statement fringe details',
-      'Handmade, with unique stitch and shade variations.',
-    ],
-  },
-  'special-red': {
+
+'special-red': {
     id: 'special-red',
-    name: 'Special - Fire',
+    swatchColor: '#c0392b',
+    name: 'Fire - Red',
     price: 34,
     currency: '$',
-    image: 'bags/Loopsy - Fire.jpeg',
+    image: 'bags/Loopsy - Fire - Angle 2.jpeg',
+    images: [
+      'bags/Loopsy - Fire - Angle 2.jpeg',
+      'bags/Loopsy - Fire.jpeg'
+    ],
     parentLabel: 'Bags',
     parentUrl: 'bags.html',
     categoryLabel: 'Special Collection',
@@ -3810,18 +4507,61 @@ const PRODUCTS = {
       'Features a comfortable handle and statement fringe details',
     ],
   },
-
+  'special-navy': {
+      id: 'special-navy',
+      swatchColor: '#1a2d5a',
+      name: 'Fire - Navy Blue',
+      price: 34,
+      currency: '$',
+      image: 'bags/Fire - Navy Blue.jpeg',
+      parentLabel: 'Bags',
+      parentUrl: 'bags.html',
+      categoryLabel: 'Special Collection',
+      categoryUrl: 'fire.html',
+      description: [
+        'Made from 100% cotton yarn – soft, durable, and eco-friendly',
+        'Size: 30 cm length × 18 cm height',
+        'Magnetic closure included',
+        'Features a comfortable handle and statement fringe details',
+      ],
+    },
   // ── PHONE BAGS ──
+
+    'phonebags-yellow': {
+    id: 'phonebags-yellow',
+    name: 'Pocket – Yellow',
+    price: 17,
+    currency: '$',
+    image: 'bags/phone bag/yellow2.jpeg',
+                images: [
+     'bags/phone bag/yellow2.jpeg',
+     'bags/phone bag/Pocket – Light Yellow.jpeg'
+    ],
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Pocket Collection',
+    categoryUrl: 'phonebag.html',
+    swatchColor: '#f5f0a0',
+    description: [
+      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
+      'Size: 19 cm length × 14 cm width with a 100cm crossbody strap',
+      'Lightweight and compact – perfect for carrying your phone, keys, and small essentials',
+      'Comfortable crossbody design for everyday wear',
+      'Handmade, with unique stitch and shade variations.',
+    ],
+  },
+
   'phonebags-babyblue': {
     id: 'phonebags-babyblue',
     name: 'Pocket – Light Blue',
     price: 17,
     currency: '$',
-    image: 'bags/phone bag/baby blue.png',
+    image: 'bags/phone bag/baby blue.jpeg',
     parentLabel: 'Bags',
     parentUrl: 'bags.html',
     categoryLabel: 'Pocket Collection',
     categoryUrl: 'phonebag.html',
+    swatchColor: '#a8d8f0',
     description: [
       'Made from 100% cotton yarn – soft, durable, and eco-friendly',
       'Size: 19 cm length × 14 cm width with a 100cm crossbody strap',
@@ -3837,11 +4577,12 @@ const PRODUCTS = {
     name: 'Pocket – Light Pink',
     price: 17,
     currency: '$',
-    image: 'bags/phone bag/baby pink.png',
+    image: 'bags/phone bag/baby pink.jpeg',
     parentLabel: 'Bags',
     parentUrl: 'bags.html',
     categoryLabel: 'Pocket Collection',
     categoryUrl: 'phonebag.html',
+    swatchColor: '#f8aab0',
     description: [
       'Made from 100% cotton yarn – soft, durable, and eco-friendly',
       'Size: 19 cm length × 14 cm width with a 100cm crossbody strap',
@@ -3855,11 +4596,12 @@ const PRODUCTS = {
     name: 'Pocket – Light Purple',
     price: 17,
     currency: '$',
-    image: 'bags/phone bag/bbay purple.png',
+    image: 'bags/phone bag/bbay purple.jpeg',
     parentLabel: 'Bags',
     parentUrl: 'bags.html',
     categoryLabel: 'Pocket Collection',
     categoryUrl: 'phonebag.html',
+    swatchColor: '#D6D0F8',
     description: [
       'Made from 100% cotton yarn – soft, durable, and eco-friendly',
       'Size: 19 cm length × 14 cm width with a 100cm crossbody strap',
@@ -3872,11 +4614,12 @@ const PRODUCTS = {
     name: 'Pocket – Beige',
     price: 17,
     currency: '$',
-    image: 'bags/phone bag/beige_model 1.png',
+    image: 'bags/phone bag/beige_model 1.jpeg',
     parentLabel: 'Bags',
     parentUrl: 'bags.html',
     categoryLabel: 'Pocket Collection',
     categoryUrl: 'phonebag.html',
+    swatchColor: '#e8d5b0',
     description: [
       'Made from 100% cotton yarn – soft, durable, and eco-friendly',
       'Size: 19 cm length × 14 cm width with a 100cm crossbody strap',
@@ -3890,11 +4633,12 @@ const PRODUCTS = {
     name: 'Pocket – Beige & Brown',
     price: 19,
     currency: '$',
-    image: 'bags/phone bag/beige+brown_model 2.png',
+    image: 'bags/phone bag/beige+brown_model 2.jpeg',
     parentLabel: 'Bags',
     parentUrl: 'bags.html',
-    categoryLabel: 'Pocket Collection',
+    categoryLabel: 'Pocket Collection Two-Tone',
     categoryUrl: 'phonebag.html',
+    swatchColors: ['#e8d5b0', '#6B4635'],
     description: [
       'Made from 100% cotton yarn – soft, durable, and eco-friendly',
       'Size: 19 cm length × 14 cm width with a 100cm crossbody strap',
@@ -3908,11 +4652,12 @@ const PRODUCTS = {
     name: 'Pocket – Blues',
     price: 19,
     currency: '$',
-    image: 'bags/phone bag/bluish_model 2.png',
+    image: 'bags/phone bag/bluish_model 2.jpeg',
     parentLabel: 'Bags',
     parentUrl: 'bags.html',
-    categoryLabel: 'Pocket Collection',
+    categoryLabel: 'Pocket Collection Two-Tone',
     categoryUrl: 'phonebag.html',
+    swatchColors: ['#1a2d5a', '#a8d8f0'],
     description: [
       'Made from 100% cotton yarn – soft, durable, and eco-friendly',
       'Size: 19 cm length × 14 cm width with a 100cm crossbody strap',
@@ -3926,11 +4671,12 @@ const PRODUCTS = {
     name: 'Pocket – Neon Yellow & Pink',
     price: 19,
     currency: '$',
-    image: 'bags/phone bag/neon yellow+pink_model 2.png',
+    image: 'bags/phone bag/Pocket – Neon Yellow & Pink.jpeg',
     parentLabel: 'Bags',
     parentUrl: 'bags.html',
-    categoryLabel: 'Pocket Collection',
+    categoryLabel: 'Pocket Collection Two-Tone',
     categoryUrl: 'phonebag.html',
+    swatchColors: ['#e2f020', '#f8aab0'],
     description: [
       'Made from 100% cotton yarn – soft, durable, and eco-friendly',
       'Size: 19 cm length × 14 cm width with a 100cm crossbody strap',
@@ -3947,8 +4693,9 @@ const PRODUCTS = {
     image: 'bags/phone bag/orange+blue_model 2.png',
     parentLabel: 'Bags',
     parentUrl: 'bags.html',
-    categoryLabel: 'Pocket Collection',
+    categoryLabel: 'Pocket Collection Two-Tone',
     categoryUrl: 'phonebag.html',
+    swatchColors: ['#F25823', '#5a7bf2'],
     description: [
       'Made from 100% cotton yarn – soft, durable, and eco-friendly',
       'Size: 19 cm length × 14 cm width with a 100cm crossbody strap',
@@ -3965,8 +4712,9 @@ const PRODUCTS = {
     image: 'bags/phone bag/red+pink_model 2.png',
     parentLabel: 'Bags',
     parentUrl: 'bags.html',
-    categoryLabel: 'Pocket Collection',
+    categoryLabel: 'Pocket Collection Two-Tone',
     categoryUrl: 'phonebag.html',
+    swatchColors: ['#c0392b', '#f8aab0'],
     description: [
       'Made from 100% cotton yarn – soft, durable, and eco-friendly',
       'Size: 19 cm length × 14 cm width with a 100cm crossbody strap',
@@ -3975,27 +4723,35 @@ const PRODUCTS = {
       'Handmade, with unique stitch and shade variations.',
     ],
   },
-  'phonebags-yellow': {
-    id: 'phonebags-yellow',
-    name: 'Pocket – Light Yellow',
-    price: 17,
+
+  // ── Donuts BAGS ──
+
+    'donutbags-rasp': {
+    id: 'donutbags-rasp',
+    swatchColor: '#801349',
+    name: 'Donut – Raspberry',
+    price: 34,
     currency: '$',
-    image: 'bags/phone bag/yellow_model1.png',
+    image: 'bags/donut/donut2.jpeg',
+            images: [
+     'bags/donut/donut2.jpeg',
+     'bags/donut/Donut – Raspberry.jpeg'
+    ],
     parentLabel: 'Bags',
     parentUrl: 'bags.html',
-    categoryLabel: 'Pocket Collection',
-    categoryUrl: 'phonebag.html',
+    categoryLabel: 'Donut Collection',
+    categoryUrl: 'Donut.html',
     description: [
       'Made from 100% cotton yarn – soft, durable, and eco-friendly',
-      'Size: 19 cm length × 14 cm width with a 100cm crossbody strap',
-      'Lightweight and compact – perfect for carrying your phone, keys, and small essentials',
-      'Comfortable crossbody design for everyday wear',
-      'Handmade, with unique stitch and shade variations.',
+      'Size: 26 cm length × 26 cm height, with handle and 100 cm cross-body strap',
+      'Comfortable handles for easy carrying',
+      'Handmade, with unique stitch and shade variations',
     ],
   },
-  // ── Donuts BAGS ──
+
   'donutbags-beige': {
     id: 'donutbags-beige',
+    swatchColor: '#e8d5b0',
     name: 'Donut – Beige',
     price: 34,
     currency: '$',
@@ -4013,6 +4769,7 @@ const PRODUCTS = {
   },
   'donutbags-blue': {
     id: 'donutbags-blue',
+    swatchColor: '#5a7bf2',
     name: 'Donut – Blue',
     price: 34,
     currency: '$',
@@ -4030,6 +4787,7 @@ const PRODUCTS = {
   },
   'donutbags-brown': {
     id: 'donutbags-brown',
+    swatchColor: '#6B4635',
     name: 'Donut – Brown',
     price: 34,
     currency: '$',
@@ -4047,6 +4805,7 @@ const PRODUCTS = {
   },
   'donutbags-navy': {
     id: 'donutbags-navy',
+    swatchColor: '#1a2d5a',
     name: 'Donut – Navy Blue',
     price: 34,
     currency: '$',
@@ -4062,25 +4821,10 @@ const PRODUCTS = {
       'Handmade, with unique stitch and shade variations',
     ],
   },
-  'donutbags-rasp': {
-    id: 'donutbags-rasp',
-    name: 'Donut – Raspberry',
-    price: 34,
-    currency: '$',
-    image: 'bags/donut/Donut – Raspberry.jpeg',
-    parentLabel: 'Bags',
-    parentUrl: 'bags.html',
-    categoryLabel: 'Donut Collection',
-    categoryUrl: 'Donut.html',
-    description: [
-      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
-      'Size: 26 cm length × 26 cm height, with handle and 100 cm cross-body strap',
-      'Comfortable handles for easy carrying',
-      'Handmade, with unique stitch and shade variations',
-    ],
-  },
+
   'donutbags-yellow': {
     id: 'donutbags-yellow',
+    swatchColor: '#f5e642',
     name: 'Donut –  Yellow',
     price: 34,
     currency: '$',
@@ -4115,6 +4859,7 @@ const PRODUCTS = {
   },
   'donutbags-offwhite': {
     id: 'donutbags-offwhite',
+    swatchColor: '#f5f0e8',
     name: 'Donut – Off White',
     price: 34,
     currency: '$',
@@ -4132,6 +4877,7 @@ const PRODUCTS = {
   },
   'donutbags-pink': {
     id: 'donutbags-pink',
+    swatchColor: '#f8aab0',
     name: 'Donut – Pink',
     price: 34,
     currency: '$',
@@ -4150,10 +4896,15 @@ const PRODUCTS = {
 
   'dopamine-beige': {
     id: 'dopamine-beige',
+    swatchColors: ['#b01c66', '#ecec35'],
     name: 'Dopamine – Berry Pop',
     price: 32,
     currency: '$',
-    image: 'rect bag/Dopamine – Berry Pop.jpeg',
+    image: 'rect bag/Dopamine – Berry Mango-Angle 2.jpeg',
+        images: [
+     'rect bag/Dopamine – Berry Mango-Angle 2.jpeg',
+     'rect bag/Dopamine – Berry Pop.jpeg'
+    ],
     parentLabel: 'Dopamine Bags',
     parentUrl: 'bags.html',
     categoryLabel: 'Dopamine Bag',
@@ -4169,6 +4920,7 @@ const PRODUCTS = {
 
   'dopamine-blue': {
     id: 'dopamine-blue',
+    swatchColors: ['#0b2170', '#f8fb4b'],
     name: 'Dopamine – Blue Pop',
     price: 32,
     currency: '$',
@@ -4188,8 +4940,10 @@ const PRODUCTS = {
 
   'dopamine-brown': {
     id: 'dopamine-brown',
+    swatchColors: ['#b01c66 ', '#f5c842'],
     name: 'Dopamine – Berry Mango',
-    price: 32,
+        price: 32,
+    currency: '$',
     currency: '$',
     image: 'rect bag/Dopamine – Berry Mango.jpeg',
     parentLabel: 'Dopamine Bags',
@@ -4207,6 +4961,7 @@ const PRODUCTS = {
 
   'dopamine-darkblue1': {
     id: 'dopamine-darkblue1',
+    swatchColors: ['#f8aab0', '#f5c842'],
     name: 'Dopamine – Pink Mango',
     price: 32,
     currency: '$',
@@ -4369,8 +5124,6 @@ function closeCart() {
 
 function initProductPage() {
   const params = new URLSearchParams(window.location.search);
-  const productId = params.get('id');
-  const product = PRODUCTS[productId];
 
   const nameEl = document.getElementById('pdName');
   const priceEl = document.getElementById('pdPrice');
@@ -4382,81 +5135,77 @@ function initProductPage() {
   const qtyNum = document.getElementById('qtyNum');
   const addBtn = document.getElementById('pdAddBtn');
   const qtySelector = document.getElementById('pdQtySelector');
+  const variantsEl = document.getElementById('pdVariants');
+  const variantGroupsEl = document.getElementById('pdVariantGroups');
+  const otherInput = document.getElementById('pdVariantOther');
 
-  if (!product) {
-    if (nameEl) nameEl.textContent = 'Product not found';
-    return;
-  }
+  // ── Mutable "currently shown product" state ──
+  // Re-assigned every time loadProduct() runs (initial load AND color swaps),
+  // so every closure below always sees the up-to-date product/id/qty.
+  let product = null;
+  let productId = null;
+  let qty = 1;
+  let selectedVariants = {};
 
-  document.title = `${product.name} – Loopsy`;
-  imageEl.src = product.image;
-  imageEl.alt = product.name;
-  nameEl.textContent = product.name;
-  priceEl.textContent = `${product.currency}${product.price}`;
+  function renderVariantGroups() {
+    if (!product.variantGroups) return;
+    variantGroupsEl.innerHTML = product.variantGroups.map((group, gi) => {
+      let options = group.options;
+      if (group.label === 'Size' && product.sizeOptions) {
+        const deviceVal = selectedVariants[0]?.value;
+        options = deviceVal ? (product.sizeOptions[deviceVal] || []) : [];
+      }
 
-  breadParent.textContent = product.parentLabel;
-  breadParent.href = product.parentUrl;
-  breadCat.textContent = product.categoryLabel;
-  breadCat.href = product.categoryUrl;
-  breadName.textContent = product.name;
+      return `
+        <div class="pd-variant-group">
+          <p class="pd-variants-title">${group.label}</p>
+          <div class="pd-variant-btns" id="pdVariantBtns-${gi}">
+            ${options.map(opt => {
+        const isSelected = selectedVariants[gi]?.value === opt.value;
+        return `
+                <button
+                  class="pd-variant-btn${isSelected ? ' selected' : ''}"
+                  data-value="${opt.value}"
+                  data-label="${opt.label}"
+                  data-group="${gi}"
+                >${opt.label}</button>`;
+      }).join('')}
+          </div>
+        </div>`;
+    }).join('');
 
-  bulletsEl.innerHTML = product.description
-    .map(point => `<li>${point}</li>`)
-    .join('');
+    // Re-attach click listeners after re-render
+    variantGroupsEl.querySelectorAll('.pd-variant-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const gi = parseInt(btn.dataset.group);
+        selectedVariants[gi] = { label: btn.dataset.label, value: btn.dataset.value };
 
-  // ── VARIANT GROUPS ──
-  const selectedVariants = {};
+        // clicking a button clears the "other" text input (mutually exclusive)
+        if (otherInput) otherInput.value = '';
 
-  if (product.variantGroups && product.variantGroups.length > 0) {
-    const variantsEl = document.getElementById('pdVariants');
-    const variantGroupsEl = document.getElementById('pdVariantGroups');
-    variantsEl.style.display = 'block';
-    if (product.categoryLabel === 'AirPods') {
-      const otherInput = document.getElementById('pdVariantOther');
-      if (otherInput) otherInput.style.display = 'block';
-    }
-
-    function renderVariantGroups() {
-      variantGroupsEl.innerHTML = product.variantGroups.map((group, gi) => {
-        let options = group.options;
-        if (group.label === 'Size' && product.sizeOptions) {
-          const deviceVal = selectedVariants[0]?.value;
-          options = deviceVal ? (product.sizeOptions[deviceVal] || []) : [];
+        if (gi === 0 && product.sizeOptions) {
+          delete selectedVariants[1];
         }
 
-        return `
-          <div class="pd-variant-group">
-            <p class="pd-variants-title">${group.label}</p>
-            <div class="pd-variant-btns" id="pdVariantBtns-${gi}">
-              ${options.map(opt => {
-          const isSelected = selectedVariants[gi]?.value === opt.value;
-          return `
-                  <button
-                    class="pd-variant-btn${isSelected ? ' selected' : ''}"
-                    data-value="${opt.value}"
-                    data-label="${opt.label}"
-                    data-group="${gi}"
-                  >${opt.label}</button>`;
-        }).join('')}
-            </div>
-          </div>`;
-      }).join('');
-
-      // Re-attach click listeners after re-render
-      variantGroupsEl.querySelectorAll('.pd-variant-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-          const gi = parseInt(btn.dataset.group);
-          selectedVariants[gi] = { label: btn.dataset.label, value: btn.dataset.value };
-
-          // ✅ FIX: clicking a button clears the "other" text input (mutually exclusive)
-          const otherInput = document.getElementById('pdVariantOther');
-          if (otherInput) otherInput.value = '';
-
-          if (gi === 0 && product.sizeOptions) {
-            delete selectedVariants[1];
-          }
-
-          if (product.variantPricing) {
+        // if (product.variantPricing) {
+        //   const deviceVal = selectedVariants[0]?.value;
+        //   const sizeVal = selectedVariants[1]?.value;
+        //   if (deviceVal && sizeVal) {
+        //     const key = `${deviceVal},${sizeVal}`;
+        //     const price = product.variantPricing[key];
+        //     if (price !== undefined) {
+        //       priceEl.textContent = `${product.currency}${price.toFixed(2)}`;
+        //     }
+        //   }
+        // }
+        if (product.variantPricing) {
+          if (product.variantGroups.length === 1) {
+            const val = selectedVariants[0]?.value;
+            const price = val !== undefined ? product.variantPricing[val] : undefined;
+            if (price !== undefined) {
+              priceEl.textContent = `${product.currency}${price.toFixed(2)}`;
+            }
+          } else {
             const deviceVal = selectedVariants[0]?.value;
             const sizeVal = selectedVariants[1]?.value;
             if (deviceVal && sizeVal) {
@@ -4467,32 +5216,216 @@ function initProductPage() {
               }
             }
           }
+        }
 
-          renderVariantGroups();
-        });
+        renderVariantGroups();
       });
+    });
+  }
+
+  // ── Renders the given product into the page WITHOUT navigating/reloading ──
+  function loadProduct(id, { pushHistory = true, fade = true } = {}) {
+    const newProduct = PRODUCTS[id];
+    if (!newProduct) {
+      if (nameEl) nameEl.textContent = 'Product not found';
+      return;
     }
 
-    renderVariantGroups();
+    product = newProduct;
+    productId = id;
+    qty = 1;
+    selectedVariants = {};
 
-    // ✅ FIX: typing in "other" input clears the button selection (mutually exclusive)
-    // This only applies to single-group products like AirPods (Model group).
-    // For multi-group products (sleeves: Device + Size), the text input stays as a note.
-    const otherInput = document.getElementById('pdVariantOther');
+    document.title = `${product.name} – Loopsy`;
+
+    // Smooth fade on the main image when swapping colors in place
+    if (fade && imageEl) {
+      imageEl.style.opacity = '0';
+      setTimeout(() => {
+        imageEl.src = product.image;
+        imageEl.alt = product.name;
+        imageEl.onload = () => { imageEl.style.opacity = '1'; };
+        setTimeout(() => { imageEl.style.opacity = '1'; }, 400); // fallback
+      }, 180);
+    } else if (imageEl) {
+      imageEl.src = product.image;
+      imageEl.alt = product.name;
+    }
+    const thumbsEl = document.getElementById('pdThumbs');
+    if (thumbsEl) {
+      if (product.images && product.images.length > 1) {
+        thumbsEl.style.display = 'flex';
+        thumbsEl.innerHTML = product.images.map((src, i) => `
+          <button type="button" class="pd-thumb${i === 0 ? ' active' : ''}" data-src="${src}">
+            <img src="${src}" alt="${product.name} view ${i + 1}">
+          </button>
+        `).join('');
+        thumbsEl.querySelectorAll('.pd-thumb').forEach(btn => {
+          btn.addEventListener('click', () => {
+            thumbsEl.querySelectorAll('.pd-thumb').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            imageEl.style.opacity = '0';
+            setTimeout(() => {
+              imageEl.src = btn.dataset.src;
+              imageEl.onload = () => { imageEl.style.opacity = '1'; };
+              setTimeout(() => { imageEl.style.opacity = '1'; }, 400);
+            }, 180);
+          });
+        });
+      } else {
+        thumbsEl.style.display = 'none';
+        thumbsEl.innerHTML = '';
+      }
+    }
+
+    nameEl.textContent = product.name;
+    priceEl.textContent = `${product.currency}${product.price}`;
+
+    renderProductColors(product, productId);
+
+    breadParent.textContent = product.parentLabel;
+    breadParent.href = product.parentUrl;
+
+    // Show middle breadcrumb only for AirPods / Sunglasses / Charms / Bandana / Phone Straps
+    if (breadCat) {
+      const isAirPods = product.categoryLabel === 'AirPods Single' || product.categoryLabel === 'AirPods Dual';
+      const isSunglasses = product.categoryLabel === 'Sunglasses';
+      const sepCat = document.querySelector('.bread-sep-cat');
+      if (isAirPods) {
+        breadCat.textContent = 'AirPods';
+        breadCat.href = 'airpods.html';
+        breadCat.style.display = '';
+        if (sepCat) sepCat.style.display = '';
+      } else if (isSunglasses) {
+        breadCat.textContent = 'Sunglasses';
+        breadCat.href = 'sunglass.html';
+        breadCat.style.display = '';
+        if (sepCat) sepCat.style.display = '';
+      } else if (product.categoryLabel === 'Flower Charm') {
+        breadCat.textContent = 'Charms';
+        breadCat.href = 'charms.html';
+        breadCat.style.display = '';
+        if (sepCat) sepCat.style.display = '';
+      } else if (product.categoryLabel === 'Heart Charm') {
+        breadCat.textContent = 'Charms';
+        breadCat.href = 'charms.html';
+        breadCat.style.display = '';
+        if (sepCat) sepCat.style.display = '';
+      } else if (['Dantella Bandana','Hair Net','Shell Bandana'].includes(product.categoryLabel)) {
+        breadCat.textContent = 'Bandana / Hair Net';
+        breadCat.href = 'bandana.html';
+        breadCat.style.display = '';
+        if (sepCat) sepCat.style.display = '';
+      } else if (['Phone Wristlet', 'Phone Wristlet Two-Tone', 'Phone Crossbody'].includes(product.categoryLabel)) {
+        breadCat.textContent = 'Phone Straps';
+        breadCat.href = 'phonestraps.html';
+        breadCat.style.display = '';
+        if (sepCat) sepCat.style.display = '';
+      } else {
+        breadCat.style.display = 'none';
+        if (sepCat) sepCat.style.display = 'none';
+      }
+    }
+    breadName.textContent = product.name;
+
+    bulletsEl.innerHTML = product.description
+      .map(point => `<li>${point}</li>`)
+      .join('');
+
+    // ── VARIANT GROUPS ──
     if (otherInput) {
-      otherInput.addEventListener('input', function () {
-        if (this.value.trim() && product.variantGroups.length === 1) {
-          // Deselect the first (and only) variant group so only ONE option is active
-          delete selectedVariants[0];
-          renderVariantGroups(); // re-render clears the "selected" highlight on buttons
-        }
-      });
+      otherInput.value = '';
+      otherInput.style.display = 'none';
+      otherInput.style.borderColor = '';
+    }
+
+    if (product.variantGroups && product.variantGroups.length > 0) {
+      variantsEl.style.display = 'block';
+      if (product.categoryLabel === 'AirPods' && otherInput) {
+        otherInput.style.display = 'block';
+      }
+      renderVariantGroups();
+    } else {
+      variantsEl.style.display = 'none';
+      variantGroupsEl.innerHTML = '';
+    }
+
+    // ── Reset quantity & Add-to-Cart button UI ──
+    qtyNum.textContent = qty;
+    addBtn.innerHTML = '<i class="fa-solid fa-bag-shopping"></i> Add to Cart';
+    addBtn.classList.remove('added');
+    addBtn.disabled = false;
+
+    if (pushHistory) {
+      const url = 'product.html?id=' + encodeURIComponent(id);
+      history.replaceState({ productId: id }, '', url);
     }
   }
 
-  // ── QUANTITY ──
-  let qty = 1;
+  // ── IMAGE SWIPE / SCROLL (browse colors directly on the picture) ──
+  // Lets the customer drag/swipe (touch or mouse) or trackpad-scroll
+  // horizontally on the main image to move to the next/previous color,
+  // instead of only being able to click a swatch circle.
+  const imageWrap = document.querySelector('.pd-image-wrap');
+  if (imageWrap) {
+    let dragStartX = 0;
+    let dragStartY = 0;
+    let dragging = false;
+    let wheelCooldown = false;
 
+    function stepColor(direction) {
+      const siblings = getColorSiblings(product);
+      if (siblings.length < 2) return;
+      const idx = siblings.findIndex(p => p.id === productId);
+      if (idx === -1) return;
+      const nextIdx = (idx + direction + siblings.length) % siblings.length;
+      loadProduct(siblings[nextIdx].id, { pushHistory: true });
+    }
+
+    imageWrap.addEventListener('pointerdown', (e) => {
+      dragging = true;
+      dragStartX = e.clientX;
+      dragStartY = e.clientY;
+      imageWrap.classList.add('dragging');
+    });
+
+    imageWrap.addEventListener('pointerup', (e) => {
+      if (!dragging) return;
+      dragging = false;
+      imageWrap.classList.remove('dragging');
+
+      const deltaX = e.clientX - dragStartX;
+      const deltaY = e.clientY - dragStartY;
+
+      // Only treat it as a swipe if the motion is mostly horizontal
+      // and clears a small threshold (avoids accidental taps/clicks).
+      if (Math.abs(deltaX) > 40 && Math.abs(deltaX) > Math.abs(deltaY)) {
+        stepColor(deltaX < 0 ? 1 : -1); // swipe left → next, swipe right → previous
+      }
+    });
+
+    imageWrap.addEventListener('pointercancel', () => {
+      dragging = false;
+      imageWrap.classList.remove('dragging');
+    });
+
+    imageWrap.addEventListener('pointerleave', () => {
+      dragging = false;
+      imageWrap.classList.remove('dragging');
+    });
+
+    // Trackpad / shift+mouse-wheel horizontal scroll
+    imageWrap.addEventListener('wheel', (e) => {
+      if (Math.abs(e.deltaX) <= Math.abs(e.deltaY)) return; // vertical scroll → let the page scroll normally
+      e.preventDefault();
+      if (wheelCooldown) return;
+      wheelCooldown = true;
+      stepColor(e.deltaX > 0 ? 1 : -1);
+      setTimeout(() => { wheelCooldown = false; }, 350);
+    }, { passive: false });
+  }
+
+  // ── QUANTITY (listeners attached once — read/write the shared `qty`) ──
   document.getElementById('qtyMinus').addEventListener('click', () => {
     if (qty > 1) { qty--; qtyNum.textContent = qty; }
   });
@@ -4502,32 +5435,34 @@ function initProductPage() {
     qtyNum.textContent = qty;
   });
 
-  // ── ADD TO CART ──
+  // typing in "other" clears the button selection (mutually exclusive)
+  if (otherInput) {
+    otherInput.addEventListener('input', function () {
+      if (this.value.trim() && product.variantGroups && product.variantGroups.length === 1) {
+        delete selectedVariants[0];
+        renderVariantGroups();
+      }
+    });
+  }
+
+  // ── ADD TO CART (listener attached once — reads the shared state) ──
   addBtn.addEventListener('click', () => {
 
-    // ✅ FIX: validate variants — for single-group products, the "other" text input
-    // counts as a valid selection (e.g. Galaxy Buds 3 in the AirPods Model field).
     if (product.variantGroups && product.variantGroups.length > 0) {
-      const _otherVal = document.getElementById('pdVariantOther')?.value.trim() || '';
+      const _otherVal = otherInput?.value.trim() || '';
       const _singleGroup = product.variantGroups.length === 1;
 
       for (let i = 0; i < product.variantGroups.length; i++) {
-        // Group 0 of a single-group product can be satisfied by typing in "other"
         const _satisfiedByOther = (i === 0 && _singleGroup && _otherVal.length > 0);
 
         if (product.variantGroups[i].required && !selectedVariants[i] && !_satisfiedByOther) {
-          // Shake the buttons row
           const groupBtns = document.getElementById(`pdVariantBtns-${i}`);
           groupBtns?.classList.add('shake');
           setTimeout(() => groupBtns?.classList.remove('shake'), 450);
 
-          // Also highlight the "other" input to hint the user needs to fill one or the other
-          if (i === 0 && _singleGroup) {
-            const oi = document.getElementById('pdVariantOther');
-            if (oi) {
-              oi.style.borderColor = 'var(--pink)';
-              setTimeout(() => { oi.style.borderColor = ''; }, 1800);
-            }
+          if (i === 0 && _singleGroup && otherInput) {
+            otherInput.style.borderColor = 'var(--pink)';
+            setTimeout(() => { otherInput.style.borderColor = ''; }, 1800);
           }
           return;
         }
@@ -4540,24 +5475,33 @@ function initProductPage() {
       return;
     }
 
+    // const livePrice = product.variantPricing
+    //   ? (() => {
+    //     const key = `${selectedVariants[0]?.value},${selectedVariants[1]?.value}`;
+    //     return product.variantPricing[key] ?? product.price;
+    //   })()
+    //   : product.price;
     const livePrice = product.variantPricing
       ? (() => {
+        if (product.variantGroups && product.variantGroups.length === 1) {
+          const val = selectedVariants[0]?.value;
+          return (val !== undefined && product.variantPricing[val] !== undefined)
+            ? product.variantPricing[val]
+            : product.price;
+        }
         const key = `${selectedVariants[0]?.value},${selectedVariants[1]?.value}`;
         return product.variantPricing[key] ?? product.price;
       })()
       : product.price;
 
-    // ✅ FIX: build variantLabel — for single-group products, if no button was clicked
-    // but the user typed in "other", use that text as the variant label (model name).
-    // For multi-group products (sleeves), the "other" text stays as a supplementary note.
-    const _otherFinal = document.getElementById('pdVariantOther')?.value.trim() || '';
+    const _otherFinal = otherInput?.value.trim() || '';
     const _isSingleGroup = (product.variantGroups?.length ?? 0) === 1;
     const _useOtherAsVariant = _isSingleGroup && !selectedVariants[0] && _otherFinal.length > 0;
 
     const variantParts = Object.values(selectedVariants).map(v => v.label).filter(Boolean);
-    if (_useOtherAsVariant) variantParts.push(_otherFinal);  // e.g. "Galaxy Buds 3"
+    if (_useOtherAsVariant) variantParts.push(_otherFinal);
     const variantLabel = variantParts.join(', ');
-    const note = _useOtherAsVariant ? '' : _otherFinal;      // note only for multi-group
+    const note = _useOtherAsVariant ? '' : _otherFinal;
 
     const originalPrice = product.price;
     product.price = livePrice;
@@ -4578,6 +5522,19 @@ function initProductPage() {
     qtyNum.textContent = 1;
     setTimeout(openCart, 400);
   });
+
+  // Let browser back/forward move between products visited via swatch clicks
+  window.addEventListener('popstate', () => {
+    const p = new URLSearchParams(window.location.search);
+    const id = p.get('id');
+    if (id) loadProduct(id, { pushHistory: false });
+  });
+
+  // Expose an in-place loader for color swatches to call (no page reload)
+  window.__loadProductInPlace = (id) => loadProduct(id, { pushHistory: true });
+
+  // Initial render for whatever product the URL points to
+  loadProduct(params.get('id'), { pushHistory: false, fade: false });
 }
 
 // ===========================
@@ -4654,10 +5611,279 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-// ===========================
-//  HELPERS
-// ===========================
+// ==========================================
+//  SWATCH — SAFE IMAGE SWAP
+//  Fades out → swaps src → fades in
+//  Image stays inside fixed img-wrap box, ZERO layout shift
+// ==========================================
+function swapColor(cardId, name, imgSrc, price, productId, swatchEl) {
+  const img     = document.getElementById(cardId + '-img');
+  const titleEl = document.getElementById(cardId + '-title');
+  const priceEl = document.getElementById(cardId + '-price');
+  const linkEl  = document.getElementById(cardId + '-link');
 
+  // Mark active swatch immediately
+  const allSwatches = swatchEl.closest('.swatch-container').querySelectorAll('.color-swatch');
+  allSwatches.forEach(s => s.classList.remove('active'));
+  swatchEl.classList.add('active');
+
+  // Fade out → swap src → fade in
+  if (img) {
+    img.style.opacity = '0';
+    setTimeout(() => {
+      img.src = imgSrc;
+      img.alt = name;
+      img.onload  = () => { img.style.opacity = '1'; };
+      setTimeout(() => { img.style.opacity = '1'; }, 400); // fallback
+    }, 220);
+  }
+
+  // Update text & link — no layout change
+  if (titleEl) titleEl.textContent = 'Clutch – ' + name;
+  if (priceEl) priceEl.textContent = price;
+  if (linkEl)  linkEl.href = 'product.html?id=' + productId;
+}
+
+// ==========================================
+//  GENERIC SWATCH SWAP (Sleeves, and anything
+//  else that isn't a "Clutch – X" name)
+//  Same behavior as swapColor() but takes the
+//  FULL product name instead of prefixing it.
+// ==========================================
+function swapSleeveColor(cardId, fullName, imgSrc, price, productId, swatchEl) {
+  const img     = document.getElementById(cardId + '-img');
+  const titleEl = document.getElementById(cardId + '-title');
+  const priceEl = document.getElementById(cardId + '-price');
+  const linkEl  = document.getElementById(cardId + '-link');
+
+  // Mark active swatch immediately
+  const allSwatches = swatchEl.closest('.swatch-container').querySelectorAll('.color-swatch');
+  allSwatches.forEach(s => s.classList.remove('active'));
+  swatchEl.classList.add('active');
+
+  // Fade out → swap src → fade in
+  if (img) {
+    img.style.opacity = '0';
+    setTimeout(() => {
+      img.src = imgSrc;
+      img.alt = fullName;
+      img.onload  = () => { img.style.opacity = '1'; };
+      setTimeout(() => { img.style.opacity = '1'; }, 400); // fallback
+    }, 220);
+  }
+
+  // Update text & link — no layout change
+  if (titleEl) titleEl.textContent = fullName;
+  if (priceEl) priceEl.textContent = price;
+  if (linkEl)  linkEl.href = 'product.html?id=' + productId;
+}
+
+// ==========================================
+//  SWATCH SCROLL
+//  Shows exactly 4, arrows appear when > 4
+// ==========================================
+function scrollSwatches(containerId, direction) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+
+  const isMobile  = window.innerWidth <= 600;
+  const step      = isMobile ? 28 : 44; // swatch + gap
+
+  const current   = parseInt(container.dataset.offset || '0');
+  const total     = container.children.length;
+  const maxOffset = Math.max(0, total - 4);
+  const newOffset = Math.max(0, Math.min(current + direction, maxOffset));
+
+  container.dataset.offset = newOffset;
+  container.style.transform = `translateX(-${newOffset * step}px)`;
+
+  const carousel = container.closest('.swatch-carousel');
+  if (carousel) {
+    const prev = carousel.querySelector('.prev-swatch');
+    const next = carousel.querySelector('.next-swatch');
+    if (prev) prev.classList.toggle('hidden', newOffset <= 0);
+    if (next) next.classList.toggle('hidden', newOffset >= maxOffset);
+  }
+}
+
+// ==========================================
+//  INIT ARROWS ON PAGE LOAD
+//  Hide both if ≤ 4 swatches
+//  Hide prev, show next if > 4 swatches
+// ==========================================
+function initSwatchArrows() {
+  document.querySelectorAll('.swatch-carousel').forEach(carousel => {
+    const container = carousel.querySelector('.swatch-container');
+    if (!container) return;
+
+    const total = container.children.length;
+    const prev  = carousel.querySelector('.prev-swatch');
+    const next  = carousel.querySelector('.next-swatch');
+
+    if (total <= 4) {
+      if (prev) prev.classList.add('hidden');
+      if (next) next.classList.add('hidden');
+    } else {
+      if (prev) prev.classList.add('hidden');    // hide prev at start
+      if (next) next.classList.remove('hidden'); // show next
+    }
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initSwatchArrows);
+// ==========================================
+//  SITE SEARCH
+//  Live-filters PRODUCTS by name as the user
+//  types, shows a dropdown of matching items
+//  linking straight to their product page.
+// ==========================================
+function initSearch() {
+  const searchBtn     = document.getElementById('searchBtn');
+  const searchPanel   = document.getElementById('searchPanel');
+  const searchOverlay = document.getElementById('searchOverlay');
+  const searchInput   = document.getElementById('searchInput');
+  const searchClose   = document.getElementById('searchClose');
+  const searchResults = document.getElementById('searchResults');
+
+  if (!searchBtn || !searchPanel) return; // this page doesn't have the search markup
+
+  function openSearch() {
+    searchPanel.classList.add('open');
+    searchOverlay.classList.add('open');
+    document.body.style.overflow = 'hidden';
+    setTimeout(() => searchInput.focus(), 60);
+  }
+
+  function closeSearch() {
+    searchPanel.classList.remove('open');
+    searchOverlay.classList.remove('open');
+    document.body.style.overflow = '';
+    searchInput.value = '';
+    searchResults.innerHTML = '';
+  }
+
+  function normalize(str) {
+    return str
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '') // strip accents (é → e, etc.)
+      .toLowerCase();
+  }
+
+  function runSearch() {
+    const q = normalize(searchInput.value.trim());
+
+    if (!q) {
+      searchResults.innerHTML = '';
+      return;
+    }
+
+    const matches = Object.values(PRODUCTS).filter(p =>
+      normalize(p.name).includes(q)
+    );
+
+    if (matches.length === 0) {
+      searchResults.innerHTML = '<p class="search-empty">No products found.</p>';
+      return;
+    }
+
+    searchResults.innerHTML = matches.slice(0, 24).map(p => `
+      <a href="product.html?id=${encodeURIComponent(p.id)}" class="search-result-item">
+        <img src="${p.image}" alt="${p.name}">
+        <div class="search-result-info">
+          <p class="search-result-name">${p.name}</p>
+          <p class="search-result-price">${p.currency}${p.price}</p>
+        </div>
+      </a>
+    `).join('');
+  }
+
+  searchBtn.addEventListener('click', openSearch);
+  searchClose.addEventListener('click', closeSearch);
+  searchOverlay.addEventListener('click', closeSearch);
+  searchInput.addEventListener('input', runSearch);
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && searchPanel.classList.contains('open')) closeSearch();
+  });
+}
+
+document.addEventListener('DOMContentLoaded', initSearch);
+// ==========================================
+//  Shared helper: find the other color variants
+//  in a product's collection (same group used by
+//  the swatch picker AND the image swipe/scroll).
+// ==========================================
+function getColorSiblings(prod) {
+  const groupKey = prod.categoryLabel || prod.parentLabel;
+  if (!groupKey) return [];
+  return Object.values(PRODUCTS).filter(p =>
+    (p.categoryLabel || p.parentLabel) === groupKey &&
+    (p.swatchColor || p.swatchColors)
+  );
+}
+
+// ==========================================
+//  PRODUCT-PAGE COLOR SWATCHES (under price)
+//  Shows the other colors in this product's
+//  collection so the customer can jump straight
+//  to that color's product page — WITHOUT a full
+//  page reload (see initProductPage/loadProduct).
+// ==========================================
+function goToProductColor(id) {
+  if (window.__loadProductInPlace) {
+    window.__loadProductInPlace(id);
+  } else {
+    // Fallback for safety if the in-place loader isn't ready yet
+    window.location.href = 'product.html?id=' + encodeURIComponent(id);
+  }
+}
+
+function renderProductColors(prod, currentId) {
+  const wrap      = document.getElementById('pdColors');
+  const container = document.getElementById('pdColorSwatches');
+  if (!wrap || !container) return;
+
+  const siblings = getColorSiblings(prod);
+
+  if (siblings.length < 2 && !prod.alwaysShowSwatch) {
+    wrap.style.display = 'none';
+    container.innerHTML = '';
+    return;
+  }
+
+  wrap.style.display = 'block';
+  container.innerHTML = siblings.map(p => {
+    let bg;
+    if (p.swatchColors && p.swatchColors.length === 3) {
+      const [c1, c2, c3] = p.swatchColors;
+      bg = `linear-gradient(115deg,${c1} 0%,${c1} 33.33%,${c2} 33.33%,${c2} 66.66%,${c3} 66.66%,${c3} 100%)`;
+    } else if (p.swatchColors && p.swatchColors.length === 2) {
+      const [c1, c2] = p.swatchColors;
+      bg = `linear-gradient(115deg,${c1} 50%,${c2} 50%)`;
+    } else {
+      bg = p.swatchColor;
+    }
+    const activeClass = p.id === currentId ? ' active' : '';
+    return `<button type="button" class="color-swatch${activeClass}" style="background:${bg};" title="${p.name}" onclick="goToProductColor('${p.id}')"></button>`;
+  }).join('');
+
+  // Show/hide arrows the same way initSwatchArrows() does for other carousels
+  const carousel = wrap.querySelector('.swatch-carousel');
+  if (carousel) {
+    const total = container.children.length;
+    const prev  = carousel.querySelector('.prev-swatch');
+    const next  = carousel.querySelector('.next-swatch');
+    if (total <= 4) {
+      prev?.classList.add('hidden');
+      next?.classList.add('hidden');
+    } else {
+      prev?.classList.add('hidden');
+      next?.classList.remove('hidden');
+    }
+  }
+}
+//  HELPERS
+// ==========================================
 function closeMenu() {
   document.getElementById('mobileMenu')?.classList.remove('open');
   document.getElementById('hamburger')?.classList.remove('open');
