@@ -872,7 +872,11 @@ const PRODUCTS = {
     name: 'Dantella Bandana - Beige',
     price: 27,
     currency: '$',
-    image: 'banadana/Dantella Bandana - Beige.png',
+    image: 'banadana/dant-beige.jpg',
+                images: [
+      'banadana/dant-beige.jpg',
+       'banadana/Dantella Bandana - Beige.png'
+    ],
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
     categoryLabel: 'Dantella Bandana',
@@ -892,7 +896,11 @@ const PRODUCTS = {
     name: 'Dantella Bandana - Blue',
     price: 27,
     currency: '$',
-    image: 'banadana/Dantella Bandana - Blue.png',
+    image: 'banadana/dant-blue.jpg',
+                    images: [
+      'banadana/dant-blue.jpg',
+       'banadana/Dantella Bandana - Blue.png'
+    ],
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
     categoryLabel: 'Dantella Bandana',
@@ -912,6 +920,7 @@ const PRODUCTS = {
     price: 14,
     currency: '$',
     image: 'banadana/Hair Net - Beige.png',
+    
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
     categoryLabel: 'Hair Net',
@@ -987,7 +996,11 @@ const PRODUCTS = {
     name: 'Dantella Bandana - Brown',
     price: 27,
     currency: '$',
-    image: 'banadana/Dantella Bandana - Brown.png',
+    image: 'banadana/dant-brown.jpg',
+                    images: [
+      'banadana/dant-brown.jpg',
+       'banadana/Dantella Bandana - Brown.png'
+    ],
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
     categoryLabel: 'Dantella Bandana',
@@ -1007,7 +1020,11 @@ const PRODUCTS = {
     name: 'Dantella Bandana - Dark Blue',
     price: 27,
     currency: '$',
-    image: 'banadana/Dantella Bandana - Dark Blue.png',
+    image: 'banadana/dant-dark.jpg',
+                    images: [
+      'banadana/dant-dark.jpg',
+       'banadana/Dantella Bandana - Dark Blue.png'
+    ],
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
     categoryLabel: 'Dantella Bandana',
@@ -1027,7 +1044,11 @@ const PRODUCTS = {
     name: 'Dantella Bandana - Fuchsia',
     price: 27,
     currency: '$',
-    image: 'banadana/Dantella Bandana - Fuchsia.png',
+    image: 'banadana/dant-pink.jpg',
+                    images: [
+      'banadana/dant-pink.jpg',
+       'banadana/Dantella Bandana - Fuchsia.png'
+    ],
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
     categoryLabel: 'Dantella Bandana',
@@ -1068,6 +1089,12 @@ const PRODUCTS = {
     price: 27,
     currency: '$',
     image: 'banadana/Dantella Bandana - Purple.png',
+                        images: [
+    
+       'banadana/dant-purple.jpg',
+       'banadana/Dantella Bandana - Purple.png'
+    ],
+    
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
     categoryLabel: 'Dantella Bandana',
@@ -1087,7 +1114,11 @@ const PRODUCTS = {
     name: 'Dantella Bandana - Red',
     price: 27,
     currency: '$',
-    image: 'banadana/Dantella Bandana - Red.png',
+    image: 'banadana/dant-red.jpg',
+                            images: [
+      'banadana/dant-red.jpg',
+       'banadana/Dantella Bandana - Red.png'
+    ],
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
     categoryLabel: 'Dantella Bandana',
@@ -1108,6 +1139,10 @@ const PRODUCTS = {
     price: 27,
     currency: '$',
     image: 'banadana/Dantella Bandana - White.png',
+                                images: [
+      'banadana/dant-white.jpg',
+       'banadana/Dantella Bandana - White.png'
+    ],
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
     categoryLabel: 'Dantella Bandana',
@@ -1127,7 +1162,11 @@ const PRODUCTS = {
     name: 'Shell Bandana - Brown',
     price: 27,
     currency: '$',
-    image: 'banadana/Shell Bandana -  Brown.jpeg',
+    image: 'banadana/shell-brown.jpg',
+            images: [
+      'banadana/shell-brown.jpg',
+      'banadana/Shell Bandana -  Brown.jpeg'
+    ],
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
     categoryLabel: 'Shell Bandana',
@@ -1147,7 +1186,12 @@ const PRODUCTS = {
     name: 'Shell Bandana - Beige',
     price: 27,
     currency: '$',
-    image: 'banadana/Shell Bandana - Beige.jpeg',
+    image: 'banadana/shell-beige.jpg',
+        images: [
+      'banadana/shell-beige.jpg',
+      'banadana/Shell Bandana - Beige.jpeg'
+    ],
+    
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
     categoryLabel: 'Shell Bandana',
@@ -1167,7 +1211,11 @@ const PRODUCTS = {
     name: 'Shell Bandana - Dark Blue',
     price: 27,
     currency: '$',
-    image: 'banadana/Shell Bandana - Dark Blue.png',
+    image: 'banadana/shell-navy.jpg',
+        images: [
+          'banadana/shell-navy.jpg',
+      'banadana/Shell Bandana - Dark Blue.png'
+    ],
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
     categoryLabel: 'Shell Bandana',
@@ -1187,7 +1235,12 @@ const PRODUCTS = {
     name: 'Shell Bandana - Off White',
     price: 27,
     currency: '$',
-    image: 'banadana/Shell Bandana - Off white.jpeg',
+    image: 'banadana/Shell-white.jpg',
+        images: [
+          'banadana/shell-white.jpg',
+      'banadana/Shell Bandana - Off white.jpeg'
+      
+    ],
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
     categoryLabel: 'Shell Bandana',
@@ -1641,7 +1694,7 @@ const PRODUCTS = {
 
   'crossbody-yellow': {
     id: 'crossbody-yellow',
-    swatchColor: '#f5e642',
+    swatchColors: ['#f5e642','rgb(255, 247, 131)'],
     name: 'Phone Crossbody – Yellow',
     price: 11,
     currency: '$',
@@ -4894,17 +4947,39 @@ const PRODUCTS = {
     ],
   },
 
+    'dopamine-brown': {
+      id: 'dopamine-brown',
+      swatchColors: ['#b01c66 ', '#f5c842'],
+      name: 'Dopamine – Berry Mango',
+          price: 32,
+      currency: '$',
+      currency: '$',
+      image: 'rect bag/Dopamine – Berry Mango-Angle 2.jpeg',
+              images: [
+      'rect bag/Dopamine – Berry Mango-Angle 2.jpeg',
+      'rect bag/Dopamine – Berry Mango.jpeg'
+      ],
+      parentLabel: 'Dopamine Bags',
+      parentUrl: 'bags.html',
+      categoryLabel: 'Dopamine Bag',
+      categoryUrl: 'bags.html',
+      description: [
+        'Made from 100% cotton – soft, durable, and eco-friendly',
+        'Size: 18 cm length × 27 cm width',
+        'Magnetic closure included',
+        'Comfortable handle for easy carrying',
+        'Lightweight – add pop to your outfit',
+      ],
+    },
+
   'dopamine-beige': {
     id: 'dopamine-beige',
     swatchColors: ['#b01c66', '#ecec35'],
     name: 'Dopamine – Berry Pop',
     price: 32,
     currency: '$',
-    image: 'rect bag/Dopamine – Berry Mango-Angle 2.jpeg',
-        images: [
-     'rect bag/Dopamine – Berry Mango-Angle 2.jpeg',
-     'rect bag/Dopamine – Berry Pop.jpeg'
-    ],
+    image: 'rect bag/Dopamine – Berry Pop.jpeg',
+
     parentLabel: 'Dopamine Bags',
     parentUrl: 'bags.html',
     categoryLabel: 'Dopamine Bag',
@@ -4925,27 +5000,6 @@ const PRODUCTS = {
     price: 32,
     currency: '$',
     image: 'rect bag/Dopamine – Blue Pop.jpeg',
-    parentLabel: 'Dopamine Bags',
-    parentUrl: 'bags.html',
-    categoryLabel: 'Dopamine Bag',
-    categoryUrl: 'bags.html',
-    description: [
-      'Made from 100% cotton – soft, durable, and eco-friendly',
-      'Size: 18 cm length × 27 cm width',
-      'Magnetic closure included',
-      'Comfortable handle for easy carrying',
-      'Lightweight – add pop to your outfit',
-    ],
-  },
-
-  'dopamine-brown': {
-    id: 'dopamine-brown',
-    swatchColors: ['#b01c66 ', '#f5c842'],
-    name: 'Dopamine – Berry Mango',
-        price: 32,
-    currency: '$',
-    currency: '$',
-    image: 'rect bag/Dopamine – Berry Mango.jpeg',
     parentLabel: 'Dopamine Bags',
     parentUrl: 'bags.html',
     categoryLabel: 'Dopamine Bag',
