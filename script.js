@@ -1068,7 +1068,11 @@ const PRODUCTS = {
     name: 'Dantella Bandana - Pink',
     price: 27,
     currency: '$',
-    image: 'banadana/Dantella Bandana - Pink.png',
+    image: 'banadana/dant-lightpink.jpg',
+                                    images: [
+      'banadana/dant-lightpink.jpg',
+       'banadana/Dantella Bandana - Pink.png'
+    ],
     parentLabel: 'Accessories',
     parentUrl: 'accessories.html',
     categoryLabel: 'Dantella Bandana',
@@ -1138,7 +1142,7 @@ const PRODUCTS = {
     name: 'Dantella Bandana - White',
     price: 27,
     currency: '$',
-    image: 'banadana/Dantella Bandana - White.png',
+    image: 'banadana/dant-white.jpg',
                                 images: [
       'banadana/dant-white.jpg',
        'banadana/Dantella Bandana - White.png'
@@ -1619,7 +1623,7 @@ const PRODUCTS = {
     name: 'Phone Crossbody – Blues',
     price: 11,
     currency: '$',
-    image: 'Phone Straps/Phone Wristlet/Crossbody – Blues.jpeg',
+    image: 'Phone Straps/Phone Wristlet/Crossbody – Blues.jpg',
     parentLabel: 'Phone Straps',
     parentUrl: 'phonestraps.html',
     categoryLabel: 'Phone Crossbody',
@@ -1634,11 +1638,11 @@ const PRODUCTS = {
   },
   'crossbody-pinkred': {
     id: 'crossbody-pinkred',
-    swatchColors: ['#f8aab0', '#c0392b'],
-    name: 'Phone Crossbody – Pink & Red',
+    swatchColors: ['#f8aab0', '#FF69B4'],
+    name: 'Phone Crossbody – Pink & Fuchsia',
     price: 11,
     currency: '$',
-    image: 'Phone Straps/Phone Wristlet/Crossbody – Pink & Red.jpeg',
+    image: 'Phone Straps/Phone Wristlet/Crossbody – Pink & Red.jpg',
     parentLabel: 'Phone Straps',
     parentUrl: 'phonestraps.html',
     categoryLabel: 'Phone Crossbody',
@@ -1658,7 +1662,7 @@ const PRODUCTS = {
     name: 'Phone Crossbody – Pink & White',
     price: 11,
     currency: '$',
-    image: 'Phone Straps/Phone Wristlet/Crossbody – Pink & White.jpeg',
+    image: 'Phone Straps/Phone Wristlet/Crossbody – Pink & White.jpg',
     parentLabel: 'Phone Straps',
     parentUrl: 'phonestraps.html',
     categoryLabel: 'Phone Crossbody',
@@ -1678,7 +1682,7 @@ const PRODUCTS = {
     name: 'Phone Crossbody – Purple & White',
     price: 11,
     currency: '$',
-    image: 'Phone Straps/Phone Wristlet/Crossbody – Purple& White.jpeg',
+    image: 'Phone Straps/Phone Wristlet/Crossbody – Purple& White.jpg',
     parentLabel: 'Phone Straps',
     parentUrl: 'phonestraps.html',
     categoryLabel: 'Phone Crossbody',
@@ -1698,7 +1702,7 @@ const PRODUCTS = {
     name: 'Phone Crossbody – Yellow',
     price: 11,
     currency: '$',
-    image: 'Phone Straps/Phone Wristlet/Crossbody – Yellow.jpeg',
+    image: 'Phone Straps/Phone Wristlet/Crossbody – Yellow.jpg',
     parentLabel: 'Phone Straps',
     parentUrl: 'phonestraps.html',
     categoryLabel: 'Phone Crossbody',
@@ -4788,7 +4792,7 @@ const PRODUCTS = {
     image: 'bags/donut/donut2.jpeg',
             images: [
      'bags/donut/donut2.jpeg',
-     'bags/donut/Donut – Raspberry.jpeg'
+     'bags/donut/Donut – Raspberry.jpg'
     ],
     parentLabel: 'Bags',
     parentUrl: 'bags.html',
@@ -4862,7 +4866,7 @@ const PRODUCTS = {
     name: 'Donut – Navy Blue',
     price: 34,
     currency: '$',
-    image: 'bags/donut/Donut – Navy Blue.jpeg',
+    image: 'bags/donut/Donut – Navy Blue.jpg',
     parentLabel: 'Bags',
     parentUrl: 'bags.html',
     categoryLabel: 'Donut Collection',
@@ -5144,10 +5148,22 @@ function renderCartDrawer() {
     cartTotalEl.textContent = `$${getCartTotal()}`;
   }
 
-  // ── CHECKOUT BUTTON: redirect to checkout page ──
+// ── CHECKOUT BUTTON: only allow checkout when the cart has items ──
   const checkoutBtn = document.querySelector('.checkout-btn');
   if (checkoutBtn) {
-    checkoutBtn.onclick = () => { window.location.href = 'checkout.html'; };
+    if (cart.length === 0) {
+      checkoutBtn.classList.add('disabled');
+      checkoutBtn.setAttribute('aria-disabled', 'true');
+      checkoutBtn.onclick = (e) => {
+        e.preventDefault();
+        checkoutBtn.classList.add('shake');
+        setTimeout(() => checkoutBtn.classList.remove('shake'), 450);
+      };
+    } else {
+      checkoutBtn.classList.remove('disabled');
+      checkoutBtn.removeAttribute('aria-disabled');
+      checkoutBtn.onclick = () => { window.location.href = 'checkout.html'; };
+    }
   }
 }
 

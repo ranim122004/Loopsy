@@ -2144,7 +2144,19 @@ img {
   background: var(--pink);
   transform: translateY(-2px);
 }
+.checkout-btn.disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
 
+.checkout-btn.disabled:hover {
+  background: #ccc;
+  transform: none;
+}
+
+.checkout-btn.shake {
+  animation: shake 0.42s ease;
+}
 /* =========================== CLUTCHES / PRODUCT GRID =========================== */
 
 /* Ensure 2 products per row on ALL screen sizes */
