@@ -1239,7 +1239,7 @@ const PRODUCTS = {
     name: 'Shell Bandana - Off White',
     price: 27,
     currency: '$',
-    image: 'banadana/Shell-white.jpg',
+    image: 'banadana/shell-white.jpg',
         images: [
           'banadana/shell-white.jpg',
       'banadana/Shell Bandana - Off white.jpeg'
