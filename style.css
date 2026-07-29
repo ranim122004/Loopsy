@@ -634,7 +634,7 @@ img {
     background-position: center;
     background-repeat: no-repeat;
 }
-.home-slide:nth-child(1) { background-image: url('HOME.jpeg'); }
+.home-slide:nth-child(1) { background-image: url('home.jpeg'); }
 
 .home-shop-btn {
     position: relative;
