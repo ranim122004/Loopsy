@@ -3996,6 +3996,26 @@ const PRODUCTS = {
       'Handmade with unique stitch and shade variations.',
     ],
   },
+'kai-soleil': {
+  id: 'kai-soleil',
+  name: 'Kai Soleil',
+  price: 27,
+  currency: '$',
+  image: 'bags/kai/kai-soleil2.jpeg',
+  images: [
+    'bags/kai/kai-soleil2.jpeg',
+    'bags/kai/kai-soleil1.png'
+  ],
+  parentLabel: 'Bags',
+  parentUrl: 'bags.html',
+  categoryLabel: 'Kai Soleil Collection',
+  categoryUrl: 'bags.html',
+  description: [
+    'Made from 100% cotton yarn — soft, durable, and handmade.',
+    'Fan-inspired shape for a playful, statement look.',
+    'Handmade with unique stitch and shade variations.',
+  ],
+},
     // ── COCOÉ ──
   'cocoe-beige': {
     id: 'cocoe-beige',
