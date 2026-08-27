@@ -3996,6 +3996,139 @@ const PRODUCTS = {
       'Handmade with unique stitch and shade variations.',
     ],
   },
+    // ── CLEO ──
+  'cleo-blues': {
+    id: 'cleo-blues',
+    swatchColor: '#5b8fc9',
+    name: 'Cleo – Blues',
+    price: 42,
+    currency: '$',
+    image: 'bags/cleo/cleo-blue1.jpeg',
+    images: [
+      'bags/cleo/cleo-blue1.jpeg',
+      'bags/cleo/cleo-blue.png'
+    ],
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Cleo Collection',
+    categoryUrl: 'bags.html',
+    description: [
+      'Made from 100% cotton yarn — soft, durable, and handmade.',
+      'Size: 30 cm width × 21 cm height (without handle).',
+      'Finished with a gold stainless chain and magnetic closure button.',
+      'Handmade with unique stitch and shade variations.',
+    ],
+  },
+
+  'cleo-raspberry': {
+    id: 'cleo-raspberry',
+    swatchColor: '#c9184a',
+    name: 'Cleo – Raspberry',
+    price: 42,
+    currency: '$',
+    image: 'bags/cleo/cleo-raspberry.jpeg',
+    images: [
+      'bags/cleo/cleo-raspberry.jpeg'
+    ],
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Cleo Collection',
+    categoryUrl: 'bags.html',
+    description: [
+      'Made from 100% cotton yarn — soft, durable, and handmade.',
+      'Size: 30 cm width × 21 cm height (without handle).',
+      'Finished with a gold stainless chain and magnetic closure button.',
+      'Handmade with unique stitch and shade variations.',
+    ],
+  },
+
+  'cleo-brownies': {
+    id: 'cleo-brownies',
+    swatchColor: '#6b4635',
+    name: 'Cleo – Brownies',
+    price: 42,
+    currency: '$',
+    image: 'bags/cleo/cleo-brownies.jpeg',
+    images: [
+      'bags/cleo/cleo-brownies.jpeg'
+    ],
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Cleo Collection',
+    categoryUrl: 'bags.html',
+    description: [
+      'Made from 100% cotton yarn — soft, durable, and handmade.',
+      'Size: 30 cm width × 21 cm height (without handle).',
+      'Finished with a gold stainless chain and magnetic closure button.',
+      'Handmade with unique stitch and shade variations.',
+    ],
+  },
+
+  'cleo-burgundy': {
+    id: 'cleo-burgundy',
+    swatchColor: '#6d071a',
+    name: 'Cleo – Burgundy',
+    price: 42,
+    currency: '$',
+    image: 'bags/cleo/cleo-burgendy.jpeg',
+    images: [
+      'bags/cleo/cleo-burgendy.jpeg'
+    ],
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Cleo Collection',
+    categoryUrl: 'bags.html',
+    description: [
+      'Made from 100% cotton yarn — soft, durable, and handmade.',
+      'Size: 30 cm width × 21 cm height (without handle).',
+      'Finished with a gold stainless chain and magnetic closure button.',
+      'Handmade with unique stitch and shade variations.',
+    ],
+  },
+
+  'cleo-purple': {
+    id: 'cleo-purple',
+    swatchColor: '#6a3b8f',
+    name: 'Cleo – Purple',
+    price: 42,
+    currency: '$',
+    image: 'bags/cleo/cleo-purple.jpeg',
+    images: [
+      'bags/cleo/cleo-purple.jpeg'
+    ],
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Cleo Collection',
+    categoryUrl: 'bags.html',
+    description: [
+      'Made from 100% cotton yarn — soft, durable, and handmade.',
+      'Size: 30 cm width × 21 cm height (without handle).',
+      'Finished with a gold stainless chain and magnetic closure button.',
+      'Handmade with unique stitch and shade variations.',
+    ],
+  },
+
+  'cleo-black': {
+    id: 'cleo-black',
+    swatchColor: '#1a1a1a',
+    name: 'Cleo – Black',
+    price: 42,
+    currency: '$',
+    image: 'bags/cleo/cleo-black.png',
+    images: [
+      'bags/cleo/cleo-black.png'
+    ],
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Cleo Collection',
+    categoryUrl: 'bags.html',
+    description: [
+      'Made from 100% cotton yarn — soft, durable, and handmade.',
+      'Size: 30 cm width × 21 cm height (without handle).',
+      'Finished with a gold stainless chain and magnetic closure button.',
+      'Handmade with unique stitch and shade variations.',
+    ],
+  },
 'kai-soleil': {
   id: 'kai-soleil',
   name: 'Kai Soleil',
