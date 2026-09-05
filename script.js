@@ -4498,6 +4498,31 @@ const PRODUCTS = {
   },
 
   // Clutches
+    // ── MOCHA ──
+  'mocha-clutch': {
+    id: 'mocha-clutch',
+    name: 'Mocha Clutch',
+    price: 32,
+    currency: '$',
+    image: 'Clutch/mocha/mocha2.jpeg',
+    images: [
+      'Clutch/mocha/mocha2.jpeg',
+      'Clutch/mocha/mocha1.png'
+      
+    ],
+    parentLabel: 'Clutches',
+    parentUrl: 'clutches.html',
+    categoryLabel: 'Mocha Collection',
+    categoryUrl: 'clutches.html',
+    description: [
+      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
+      'Size: 14 cm length × 27 cm width',
+      'Two-tone shades of brown for a rich, textured look.',
+      'Metal frame for a comfortable, structured hold.',
+      'Handmade, with unique stitch and shade variations.',
+    ],
+    
+  },
   // ── DUOÉ ──
   'duoe-sunset': {
     id: 'duoe-sunset',
