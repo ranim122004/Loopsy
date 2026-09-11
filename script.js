@@ -4920,6 +4920,29 @@ const PRODUCTS = {
       ],
     },
   // ── PHONE BAGS ──
+    'phonebags-tide': {
+    id: 'phonebags-tide',
+    name: 'Pocket - Tide',
+    price: 20,
+    currency: '$',
+    image: 'bags/phone bag/tide1.jpeg',
+    images: [
+      'bags/phone bag/tide1.jpeg', 
+      'bags/phone bag/tide2.png'
+    ],
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Tide Collection',
+    categoryUrl: 'phonebag.html',
+    swatchColors: ['#a8d8f0', '#f5f0c0', '#4a3428'],
+    description: [
+      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
+      'Size: 19 cm length × 14 cm width with a 100cm crossbody strap',
+      'Lightweight and compact – perfect for carrying your phone, keys, and small essentials',
+      'Comfortable crossbody design for everyday wear',
+      'Handmade, with unique stitch and shade variations.',
+    ],
+  },
 
     'phonebags-yellow': {
     id: 'phonebags-yellow',
