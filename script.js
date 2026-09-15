@@ -4820,6 +4820,29 @@ const PRODUCTS = {
     ],
   },
   // ── SHOULDER BAGS ──
+    'sholderbags-cherryblush': {
+    id: 'sholderbags-cherryblush',
+    name: 'Cherry Blush',
+    price: 22,
+    currency: '$',
+    image: 'bags/sholder bag/cherry-blush1.png',
+    images: [
+      'bags/sholder bag/cherry-blush1.png',
+      'bags/sholder bag/cherry-blush2.jpeg'
+    ],
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Cherry Blush Collection',
+    categoryUrl: 'bags.html',
+    swatchColor: '#e91e8c',
+    description: [
+      '  Made from 100% cotton yarn – soft, durable, and eco-friendly',
+      'Size: 15 cm length × 25 cm width with a 44 cm sholder strap',
+      'Magnetic closure included',
+      'Features a comfortable handle and statement fringe details',
+      'Handmade, with unique stitch and shade variations.',
+    ],
+  },
   'sholderbags-beige': {
     id: 'sholderbags-beige',
     name: 'Braidé – Beige',
