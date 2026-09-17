@@ -5649,7 +5649,8 @@ function initProductPage() {
     colorRequestInput.id = 'pdColorRequest';
     colorRequestInput.placeholder = 'Request your color — type any color you want this bag in';
     colorRequestInput.style.cssText = 'display:none; width:100%; margin:10px 0; padding:8px 10px; font-size:13px; border:1px solid #ddd; border-radius:6px; box-sizing:border-box;';
-    qtySelector?.parentNode.insertBefore(colorRequestInput, qtySelector);
+    const qtyRow = qtySelector?.closest('.pd-qty-row');
+    qtyRow?.parentNode.insertBefore(colorRequestInput, qtyRow);
   }
 
   // ── Mutable "currently shown product" state ──
