@@ -120,16 +120,47 @@
     </a>
 
     <div class="products-grid">
+        <div class="detail-card product-card-interactive" id="hobo-card">
+    <a href="product.html?id=hobo-red" id="hobo-link" class="detail-card-link">
+        <img id="hobo-img" src="bags/hobo/hobo1.png" alt="Hobo – Red" loading="lazy">
+        <h3 id="hobo-title">Hobo – Red</h3>
+        <p id="hobo-price">$32</p>
+    </a>
+    <div class="swatch-carousel">
+        <button type="button" class="swatch-arrow prev-swatch hidden" onclick="scrollSwatches('hobo-swatches', -1)">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <div class="swatch-viewport">
+            <div class="swatch-container" id="hobo-swatches">
+
+                <button type="button" class="color-swatch active"
+                    style="background:#C81D25;"
+                    onclick="swapSleeveColor('hobo','Hobo – Red','bags/hobp/hobo1.png','$32','hobo-red',this)"
+                    title="Red"></button>
+
+                <button type="button" class="color-swatch"
+                    style="background:#BCDE3F;"
+                    onclick="swapSleeveColor('hobo','Hobo – Olive','bags/hobo/hobo1.png','$32','hobo-olive',this)"
+                    title="Olive"></button>
+
+            </div>
+        </div>
+        <button type="button" class="swatch-arrow next-swatch hidden" onclick="scrollSwatches('hobo-swatches', 1)">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+    </div>
+</div>
+
 <div class="detail-card product-card-interactive" id="tide-card">
     <a href="product.html?id=phonebags-tide" id="tide-link" class="detail-card-link">
-        <img id="tide-img" src="bags/phone bag/tide1.jpeg" alt="Tide">
+        <img id="tide-img" src="bags/phone bag/tide1.jpeg" alt="Tide" loading="lazy">
         <h3 id="tide-title">Pocket - Tide</h3>
         <p id="tide-price">$20</p>
     </a>
 </div>
 <div class="detail-card product-card-interactive" id="cherryblush-card">
     <a href="product.html?id=sholderbags-cherryblush" id="cherryblush-link" class="detail-card-link">
-        <img id="cherryblush-img" src="bags/sholder bag/cherry-blush1.png" alt="Cherry Blush">
+        <img id="cherryblush-img" src="bags/sholder bag/cherry-blush1.png" alt="Cherry Blush" loading="lazy">
         <h3 id="cherryblush-title">Cherry Blush</h3>
         <p id="cherryblush-price">$22</p>
     </a>
@@ -141,7 +172,7 @@
 <div class="detail-card product-card-interactive" id="cleo-card">
     <a href="product.html?id=cleo-blues" id="cleo-link" class="detail-card-link">
         <div class="card-image-wrap">
-            <img id="cleo-img" src="bags/cleo/cleo-blue1.jpeg" alt="Cleo – Blues">
+            <img id="cleo-img" src="bags/cleo/cleo-blue1.jpeg" alt="Cleo – Blues" loading="lazy">
             
         </div>
         <h3 id="cleo-title">Cleo – Blues</h3>
@@ -197,7 +228,7 @@
 <div class="detail-card product-card-interactive" id="kai-soleil-card">
     <a href="product.html?id=kai-soleil" id="kai-soleil-link" class="detail-card-link">
         <div class="card-image-wrap">
-            <img id="kai-soleil-img" src="bags/kai/kai-soleil2.jpeg" alt="Kai Soleil">
+            <img id="kai-soleil-img" src="bags/kai/kai-soleil2.jpeg" alt="Kai Soleil" loading="lazy">
         </div>
         <h3 id="kai-soleil-title">Kai Soleil</h3>
         <p id="kai-soleil-price">$27</p>
@@ -207,7 +238,7 @@
         <div class="detail-card product-card-interactive" id="moon-card">
             <a href="product.html?id=moon-beige" id="moon-link" class="detail-card-link">
                 <div class="card-image-wrap">
-                    <img id="moon-img" src="bags/moon/moon1.jpeg" alt="Moon – Beige">
+                    <img id="moon-img" src="bags/moon/moon1.jpeg" alt="Moon – Beige" loading="lazy">
                     <span class="collection-badge">Shell Collection</span>
                 </div>
                 <h3 id="moon-title">Moon – Beige</h3>
@@ -252,7 +283,7 @@
         <div class="detail-card product-card-interactive" id="spiro-card">
             <a href="product.html?id=spiro-beige" id="spiro-link" class="detail-card-link">
                 <div class="card-image-wrap">
-                    <img id="spiro-img" src="bags/spiro/spiro1.jpeg" alt="Spiro – Beige">
+                    <img id="spiro-img" src="bags/spiro/spiro1.jpeg" alt="Spiro – Beige" loading="lazy">
                     <span class="collection-badge">Shell Collection</span>
                 </div>
                 <h3 id="spiro-title">Spiro – Beige</h3>
@@ -299,7 +330,7 @@
         <div class="detail-card product-card-interactive" id="cocoe-card">
             <a href="product.html?id=cocoe-beige" id="cocoe-link" class="detail-card-link">
                 <div class="card-image-wrap">
-                    <img id="cocoe-img" src="bags/cocoe/cocoe1.jpeg" alt="Cocoé – Beige">
+                    <img id="cocoe-img" src="bags/cocoe/cocoe1.jpeg" alt="Cocoé – Beige" loading="lazy">
                     <span class="collection-badge">Shell Collection</span>
                 </div>
                 <h3 id="cocoe-title">Cocoé – Beige</h3>
@@ -349,7 +380,7 @@
         <div class="detail-card product-card-interactive" id="kai-card">
             <a href="product.html?id=kai-brown" id="kai-link" class="detail-card-link">
                 <div class="card-image-wrap">
-                    <img id="kai-img" src="bags/kai/kai1.jpeg" alt="Kai – Brown">
+                    <img id="kai-img" src="bags/kai/kai1.jpeg" alt="Kai – Brown" loading="lazy">
                     <span class="collection-badge">Shell Collection</span>
                 </div>
                 <h3 id="kai-title">Kai – Brown</h3>
@@ -406,7 +437,7 @@
              ══════════════════════════════════════════════ -->
         <div class="detail-card product-card-interactive" id="mini-card">
             <a href="product.html?id=minibags-redpink" id="mini-link" class="detail-card-link">
-                <img id="mini-img" src="bags/mini bag/Mini – Red & Pink - Angle 2.jpeg" alt="Mini – Red & Pink">
+                <img id="mini-img" src="bags/mini bag/Mini – Red & Pink - Angle 2.jpeg" alt="Mini – Red & Pink" loading="lazy">
                 <h3 id="mini-title">Mini – Red & Pink</h3>
                 <p id="mini-price">$19</p>
             </a>
@@ -450,7 +481,7 @@
              ══════════════════════════════════════════════ -->
         <div class="detail-card product-card-interactive" id="dusk-card">
             <a href="product.html?id=duskbags-olive" id="dusk-link" class="detail-card-link">
-                <img id="dusk-img" src="bags/DUSK/olive2.jpeg" alt="Duska - Olive">
+                <img id="dusk-img" src="bags/DUSK/olive2.jpeg" alt="Duska - Olive" loading="lazy">
                 <h3 id="dusk-title">Duska - Olive</h3>
                 <p id="dusk-price">$32</p>
             </a>
@@ -498,7 +529,7 @@
              ══════════════════════════════════════════════ -->
         <div class="detail-card product-card-interactive" id="fringe-card">
             <a href="product.html?id=duskbags-deepblue" id="fringe-link" class="detail-card-link">
-                <img id="fringe-img" src="bags/DUSK/Deep Blue Fringe2.jpeg" alt="Duska - Blue Fringe">
+                <img id="fringe-img" src="bags/DUSK/Deep Blue Fringe2.jpeg" alt="Duska - Blue Fringe" loading="lazy">
                 <h3 id="fringe-title">Duska – Deep Blue Fringe</h3>
                 <p id="fringe-price">$32</p>
             </a>
@@ -543,7 +574,7 @@
              ══════════════════════════════════════════════ -->
         <div class="detail-card product-card-interactive" id="donut-card">
             <a href="product.html?id=donutbags-rasp" id="donut-link" class="detail-card-link">
-                <img id="donut-img" src="bags/donut/donut2.jpeg" alt="Donut – Rasp">
+                <img id="donut-img" src="bags/donut/donut2.jpeg" alt="Donut – Rasp" loading="lazy">
                 <h3 id="donut-title">Donut – Raspberry</h3>
                 <p id="donut-price">$34</p>
             </a>
@@ -607,7 +638,7 @@
              ══════════════════════════════════════════════ -->
         <div class="detail-card product-card-interactive" id="dopa-card">
             <a href="product.html?id=dopamine-brown" id="dopa-link" class="detail-card-link">
-                <img id="dopa-img" src="rect bag/Dopamine – Berry Mango-Angle 2.jpeg" alt="Dopamine – Berry Pop">
+                <img id="dopa-img" src="rect bag/Dopamine – Berry Mango-Angle 2.jpeg" alt="Dopamine – Berry Pop" loading="lazy">
                 <h3 id="dopa-title">Dopamine – Berry Mango</h3>
                 <p id="dopa-price">$32</p>
             </a>
@@ -651,7 +682,7 @@
              ══════════════════════════════════════════════ -->
 <div class="detail-card product-card-interactive" id="fire-card">
             <a href="product.html?id=special-red" id="fire-link" class="detail-card-link">
-                <img id="fire-img" src="bags/Loopsy - Fire - Angle 2.jpeg" alt="Fire - Red">
+                <img id="fire-img" src="bags/Loopsy - Fire - Angle 2.jpeg" alt="Fire - Red" loading="lazy">
                 <h3 id="fire-title">Fire - Red</h3>
                 <p id="fire-price">$34</p>
             </a>
@@ -686,7 +717,7 @@
              ══════════════════════════════════════════════ -->
         <div class="detail-card product-card-interactive" id="pocket-card">
             <a href="product.html?id=phonebags-yellow" id="pocket-link" class="detail-card-link">
-                <img id="pocket-img" src="bags/phone bag/yellow2.jpeg" alt="Pocket – Yellow">
+                <img id="pocket-img" src="bags/phone bag/yellow2.jpeg" alt="Pocket – Yellow" loading="lazy">
                 <h3 id="pocket-title">Pocket – Yellow</h3>
                 <p id="pocket-price">$17</p>
             </a>
@@ -737,7 +768,7 @@
              ══════════════════════════════════════════════ -->
         <div class="detail-card product-card-interactive" id="pocket2-card">
             <a href="product.html?id=phonebags-beigebrown" id="pocket2-link" class="detail-card-link">
-                <img id="pocket2-img" src="bags/phone bag/beige+brown_model 2.jpeg" alt="Pocket – Beige & Brown">
+                <img id="pocket2-img" src="bags/phone bag/beige+brown_model 2.jpeg" alt="Pocket – Beige & Brown" loading="lazy">
                 <h3 id="pocket2-title">Pocket – Beige & Brown</h3>
                 <p id="pocket2-price">$19</p>
             </a>
@@ -784,7 +815,7 @@
         <!-- CARD 8 — BRAIDÉ COLLECTION -->
         <div class="detail-card product-card-interactive" id="braide-card">
             <a href="product.html?id=sholderbags-nele" id="braide-link" class="detail-card-link">
-                <img id="braide-img" src="bags/sholder bag/nele-2.jpeg" alt="Braidé – Beige">
+                <img id="braide-img" src="bags/sholder bag/nele-2.jpeg" alt="Braidé – Beige" loading="lazy">
                 <h3 id="braide-title">Braidé – Dark Blue</h3>
                 <p id="braide-price">$29</p>
             </a>
@@ -829,7 +860,7 @@
 <footer class="site-footer">
     <div class="footer-container">
         <div class="footer-brand">
-            <img src="loopsy white1.png" alt="Loopsy Logo" class="footer-logo" />
+            <img src="loopsy white1.png" alt="Loopsy Logo" class="footer-logo" loading="lazy" />
             <p>Handmade crochet pieces designed with color, care, and creativity. Keep it looped.</p>
             <div class="footer-socials">
                 <a href="https://www.instagram.com/loopsy.lb?igsh=c2x5aGhlcHRjbmJ0&utm_source=qr" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
@@ -889,6 +920,6 @@
         } catch { btn.textContent = 'Try again'; btn.disabled = false; }
     });
 </script>
-<script src="script.js"></script>
+<script src="script.js" defer></script>
 </body>
 </html>

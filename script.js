@@ -4149,6 +4149,56 @@ const PRODUCTS = {
     'Handmade with unique stitch and shade variations.',
   ],
 },
+  // ── HOBO ──
+  'hobo-red': {
+    id: 'hobo-red',
+    swatchColor: '#C81D25',
+    name: 'Hobo – Red',
+    price: 32,
+    currency: '$',
+    requestColor: true,
+    image: 'bags/hobo/hobo2.png',
+    images: [
+      'bags/hobo/hobo1.png',
+      'bags/hobo/hobo2.png',
+      'bags/hobo/hobo3.png',
+    ],
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Hobo Collection',
+    categoryUrl: 'bags.html',
+    description: [
+      'One bag, three ways – wear it handheld, on the shoulder, or crossbody',
+      'Size: 26 cm length × 26 cm height',
+      'Finished with statement fringe and gold-tone bead details',
+      'Handmade from T-shirt yarn – because your everyday bag shouldn’t look everyday',
+    ],
+  },
+
+  'hobo-olive': {
+    id: 'hobo-olive',
+    swatchColor: '#BCDE3F',
+    name: 'Hobo – Olive',
+    price: 32,
+    currency: '$',
+    requestColor: true,
+    image: 'bags/hobo/hobo1.png',
+    images: [
+      'bags/hobo/hobo1.png',
+      'bags/hobo/hobo2.png',
+      'bags/hobo/hobo3.png',
+    ],
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Hobo Collection',
+    categoryUrl: 'bags.html',
+    description: [
+      'One bag, three ways – wear it handheld, on the shoulder, or crossbody',
+      'Size: 26 cm length × 26 cm height',
+      'Finished with statement fringe and gold-tone bead details',
+      'Handmade from T-shirt yarn – because your everyday bag shouldn’t look everyday',
+    ],
+  },
     // ── COCOÉ ──
   'cocoe-beige': {
     id: 'cocoe-beige',
@@ -5592,6 +5642,16 @@ function initProductPage() {
   const variantGroupsEl = document.getElementById('pdVariantGroups');
   const otherInput = document.getElementById('pdVariantOther');
 
+  let colorRequestInput = document.getElementById('pdColorRequest');
+  if (!colorRequestInput) {
+    colorRequestInput = document.createElement('input');
+    colorRequestInput.type = 'text';
+    colorRequestInput.id = 'pdColorRequest';
+    colorRequestInput.placeholder = 'Request your color — type any color you want this bag in';
+    colorRequestInput.style.cssText = 'display:none; width:100%; margin:10px 0; padding:8px 10px; font-size:13px; border:1px solid #ddd; border-radius:6px; box-sizing:border-box;';
+    qtySelector?.parentNode.insertBefore(colorRequestInput, qtySelector);
+  }
+
   // ── Mutable "currently shown product" state ──
   // Re-assigned every time loadProduct() runs (initial load AND color swaps),
   // so every closure below always sees the up-to-date product/id/qty.
@@ -5803,6 +5863,9 @@ function initProductPage() {
       variantGroupsEl.innerHTML = '';
     }
 
+    colorRequestInput.value = '';
+    colorRequestInput.style.display = product.requestColor ? 'block' : 'none';
+
     // ── Reset quantity & Add-to-Cart button UI ──
     qtyNum.textContent = qty;
     addBtn.innerHTML = '<i class="fa-solid fa-bag-shopping"></i> Add to Cart';
@@ -5954,7 +6017,12 @@ function initProductPage() {
     const variantParts = Object.values(selectedVariants).map(v => v.label).filter(Boolean);
     if (_useOtherAsVariant) variantParts.push(_otherFinal);
     const variantLabel = variantParts.join(', ');
-    const note = _useOtherAsVariant ? '' : _otherFinal;
+    let note = _useOtherAsVariant ? '' : _otherFinal;
+
+    const _colorRequestVal = colorRequestInput?.value.trim() || '';
+    if (_colorRequestVal) {
+      note = note ? `${note} | Requested color: ${_colorRequestVal}` : `Requested color: ${_colorRequestVal}`;
+    }
 
     const originalPrice = product.price;
     product.price = livePrice;
