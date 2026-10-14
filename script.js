@@ -3576,6 +3576,28 @@ const PRODUCTS = {
       'Need a different size? Contact us for custom sizing options. ',
     ],
   },
+    // ── CARAMEL ──
+  'caramel-clutch': {
+    id: 'caramel-clutch',
+    name: 'Caramel Clutch',
+    price: 34,
+    currency: '$',
+    image: 'Clutch/caramel/caramel1.jpeg',
+    images: [
+      'Clutch/caramel/caramel1.jpeg',
+      'Clutch/caramel/caramel2.jpg'
+    ],
+    parentLabel: 'Clutches',
+    parentUrl: 'clutches.html',
+    categoryLabel: 'Caramel Collection',
+    categoryUrl: 'clutches.html',
+    description: [
+      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
+      'Metal frame for a comfortable, structured hold.',
+      'Handmade, with unique stitch and shade variations.',
+    ],
+  },
+
 
       // ── Shellie ──
 
