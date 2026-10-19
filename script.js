@@ -3680,6 +3680,146 @@ const PRODUCTS = {
       'Finished with a signature charm detail, adding a personal touch to every Shellie.',
     ],
   },
+
+    // ── POCHETTE ──
+  'pochette-black': {
+    id: 'pochette-black',
+    swatchColor: '#1a1a1a',
+    name: 'Pochette – Black',
+    price: 32,
+    currency: '$',
+    image: 'bags/pochette/pochette_black1.png',
+    images: [
+       'bags/pochette/pochette_black1.png',
+      'bags/pochette/pochette_black.jpeg'
+    ],
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Pochette Collection',
+    categoryUrl: 'bags.html',
+    description: [
+      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
+      'Size: 25 cm length × 25 cm height',
+      'Comes with both a shoulder strap and a metallic crossbody chain',
+      'Signature pull-close with metallic beads for a secure, statement finish',
+      'Handmade, with unique stitch and shade variations.',
+    ],
+  },
+
+  'pochette-burgundy': {
+    id: 'pochette-burgundy',
+    swatchColor: '#6d071a',
+    name: 'Pochette – Burgundy',
+    price: 32,
+    currency: '$',
+    image: 'bags/pochette/pochette_burgendy.jpeg',
+    images: [
+      'bags/pochette/pochette_burgendy.jpeg'
+    ],
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Pochette Collection',
+    categoryUrl: 'bags.html',
+    description: [
+      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
+      'Size: 25 cm length × 25 cm height',
+      'Comes with both a shoulder strap and a metallic crossbody chain',
+      'Signature pull-close with metallic beads for a secure, statement finish',
+      'Handmade, with unique stitch and shade variations.',
+    ],
+  },
+
+  'pochette-brown': {
+    id: 'pochette-brown',
+    swatchColor: '#6B4635',
+    name: 'Pochette – Brown',
+    price: 32,
+    currency: '$',
+    image: 'bags/pochette/pochette_brown.png',
+    images: [
+      'bags/pochette/pochette_brown.png'
+    ],
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Pochette Collection',
+    categoryUrl: 'bags.html',
+    description: [
+      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
+      'Size: 25 cm length × 25 cm height',
+      'Comes with both a shoulder strap and a metallic crossbody chain',
+      'Signature pull-close with metallic beads for a secure, statement finish',
+      'Handmade, with unique stitch and shade variations.',
+    ],
+  },
+
+  'pochette-beige': {
+    id: 'pochette-beige',
+    swatchColor: '#e8d5b0',
+    name: 'Pochette – Beige',
+    price: 32,
+    currency: '$',
+    image: 'bags/pochette/pochette_beige.png',
+    images: [
+      'bags/pochette/pochette_beige.png'
+    ],
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Pochette Collection',
+    categoryUrl: 'bags.html',
+    description: [
+      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
+      'Size: 25 cm length × 25 cm height',
+      'Comes with both a shoulder strap and a metallic crossbody chain',
+      'Signature pull-close with metallic beads for a secure, statement finish',
+      'Handmade, with unique stitch and shade variations.',
+    ],
+  },
+
+  'pochette-royalblue': {
+    id: 'pochette-royalblue',
+    swatchColor: '#1a3fa0',
+    name: 'Pochette – Royal Blue',
+    price: 32,
+    currency: '$',
+    image: 'bags/pochette/pochette_royalblue.png',
+    images: [
+      'bags/pochette/pochette_royalblue.png'
+    ],
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Pochette Collection',
+    categoryUrl: 'bags.html',
+    description: [
+      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
+      'Size: 25 cm length × 25 cm height',
+      'Comes with both a shoulder strap and a metallic crossbody chain',
+      'Signature pull-close with metallic beads for a secure, statement finish',
+      'Handmade, with unique stitch and shade variations.',
+    ],
+  },
+
+  'pochette-darkblue': {
+    id: 'pochette-darkblue',
+    swatchColor: '#1a2d5a',
+    name: 'Pochette – Dark Blue',
+    price: 32,
+    currency: '$',
+    image: 'bags/pochette/pochette_darkblue.png',
+    images: [
+      'bags/pochette/pochette_darkblue.png'
+    ],
+    parentLabel: 'Bags',
+    parentUrl: 'bags.html',
+    categoryLabel: 'Pochette Collection',
+    categoryUrl: 'bags.html',
+    description: [
+      'Made from 100% cotton yarn – soft, durable, and eco-friendly',
+      'Size: 25 cm length × 25 cm height',
+      'Comes with both a shoulder strap and a metallic crossbody chain',
+      'Signature pull-close with metallic beads for a secure, statement finish',
+      'Handmade, with unique stitch and shade variations.',
+    ],
+  },
     // ── MOON ──
 
   'moon-beige': {

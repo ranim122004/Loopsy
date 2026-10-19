@@ -118,7 +118,56 @@
     <a href="index.html" class="accesosries" style="pointer-events:auto; cursor:pointer;">
         <h2>Bags Collection</h2>
     </a>
+    <div class="detail-card product-card-interactive" id="pochette-card">
+        <a href="product.html?id=pochette-black" id="pochette-link" class="detail-card-link">
+            <img id="pochette-img" src="bags/pochette/pochette_black1.png" alt="Pochette – Black">
+            <h3 id="pochette-title">Pochette – Black</h3>
+            <p id="pochette-price">$32</p>
+        </a>
+        <div class="swatch-carousel">
+            <button type="button" class="swatch-arrow prev-swatch hidden" onclick="scrollSwatches('pochette-swatches', -1)">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <div class="swatch-viewport">
+                <div class="swatch-container" id="pochette-swatches">
 
+                    <button type="button" class="color-swatch active"
+                        style="background:#1a1a1a;"
+                        onclick="swapSleeveColor('pochette','Pochette – Black','bags/pochette/pochette_black1.png','$32','pochette-black',this)"
+                        title="Black"></button>
+
+                    <button type="button" class="color-swatch"
+                        style="background:#6d071a;"
+                        onclick="swapSleeveColor('pochette','Pochette – Burgundy','bags/pochette/pochette_burgendy.jpeg','$32','pochette-burgundy',this)"
+                        title="Burgundy"></button>
+
+                    <button type="button" class="color-swatch"
+                        style="background:#6B4635;"
+                        onclick="swapSleeveColor('pochette','Pochette – Brown','bags/pochette/pochette_brown.png','$32','pochette-brown',this)"
+                        title="Brown"></button>
+
+                    <button type="button" class="color-swatch"
+                        style="background:#e8d5b0;"
+                        onclick="swapSleeveColor('pochette','Pochette – Beige','bags/pochette/pochette_beige.png','$32','pochette-beige',this)"
+                        title="Beige"></button>
+
+                    <button type="button" class="color-swatch"
+                        style="background:#1a3fa0;"
+                        onclick="swapSleeveColor('pochette','Pochette – Royal Blue','bags/pochette/pochette_royalblue.png','$32','pochette-royalblue',this)"
+                        title="Royal Blue"></button>
+
+                    <button type="button" class="color-swatch"
+                        style="background:#1a2d5a;"
+                        onclick="swapSleeveColor('pochette','Pochette – Dark Blue','bags/pochette/pochette_darkblue.png','$32','pochette-darkblue',this)"
+                        title="Dark Blue"></button>
+
+                </div>
+            </div>
+            <button type="button" class="swatch-arrow next-swatch" onclick="scrollSwatches('pochette-swatches', 1)">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
     <div class="products-grid">
         <div class="detail-card product-card-interactive" id="hobo-card">
     <a href="product.html?id=hobo-red" id="hobo-link" class="detail-card-link">
